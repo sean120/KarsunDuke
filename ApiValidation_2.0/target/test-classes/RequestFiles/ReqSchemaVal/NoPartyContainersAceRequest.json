@@ -1,0 +1,16 @@
+{
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "2000 bagby st apt 7441",
+        "cityName": "houston",
+        "postalCode": "77002",
+        "stateCode": "TX"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 300000.00
+      }
+    }
+  ]
+}

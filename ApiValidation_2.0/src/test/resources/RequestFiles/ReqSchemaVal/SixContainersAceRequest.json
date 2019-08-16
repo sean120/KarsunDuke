@@ -1,0 +1,68 @@
+[
+  {
+    "addressLineText": "123 Main Street",
+    "cityName": "LalaLand",
+    "stateCode": "VA",
+    "postalCode": "20843",
+    "partyRoleIdentifier": "121898",
+    "partyRoleType": "LoanSeller",
+    "loanPurposeType": "Refinance",
+    "propertyEstimatedValueAmount": "200999000.00",
+    "salesContractAmount": "100000.00"
+  },
+    {
+    "addressLineText": "123 Main Street",
+    "cityName": "LalaLand",
+    "stateCode": "VA",
+    "postalCode": "20843",
+    "partyRoleIdentifier": "121898",
+    "partyRoleType": "LoanSeller",
+    "loanPurposeType": "Refinance",
+    "propertyEstimatedValueAmount": "200999000.00",
+    "salesContractAmount": "100000.00"
+  },
+    {
+    "addressLineText": "123 Main Street",
+    "cityName": "LalaLand",
+    "stateCode": "VA",
+    "postalCode": "20843",
+    "partyRoleIdentifier": "121898",
+    "partyRoleType": "LoanSeller",
+    "loanPurposeType": "Refinance",
+    "propertyEstimatedValueAmount": "200999000.00",
+    "salesContractAmount": "100000.00"
+  },
+    {
+    "addressLineText": "123 Main Street",
+    "cityName": "LalaLand",
+    "stateCode": "VA",
+    "postalCode": "20843",
+    "partyRoleIdentifier": "121898",
+    "partyRoleType": "LoanSeller",
+    "loanPurposeType": "Refinance",
+    "propertyEstimatedValueAmount": "200999000.00",
+    "salesContractAmount": "100000.00"
+  },
+    {
+    "addressLineText": "123 Main Street",
+    "cityName": "LalaLand",
+    "stateCode": "VA",
+    "postalCode": "20843",
+    "partyRoleIdentifier": "121898",
+    "partyRoleType": "LoanSeller",
+    "loanPurposeType": "Refinance",
+    "propertyEstimatedValueAmount": "200999000.00",
+    "salesContractAmount": "100000.00"
+  },
+    {
+    "addressLineText": "123 Main Street",
+    "cityName": "LalaLand",
+    "stateCode": "VA",
+    "postalCode": "20843",
+    "partyRoleIdentifier": "121898",
+    "partyRoleType": "LoanSeller",
+    "loanPurposeType": "Refinance",
+    "propertyEstimatedValueAmount": "200999000.00",
+    "salesContractAmount": "100000.00"
+  }
+]

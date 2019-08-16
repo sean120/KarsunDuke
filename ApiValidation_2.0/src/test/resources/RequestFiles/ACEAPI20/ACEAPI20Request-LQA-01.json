@@ -1,0 +1,201 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "1200.00",
+						"miPremiumFinancedIndicator": "true"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "No",
+					"loanPurposeType": "Purchase",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "INC_VER_TST_007"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"loanApplicationBaseLoanAmount": 142000.0,
+						"borrowerPropertyPurchasePriceAmount": 325010.0
+					}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"investorCollateralProgramType": "PropertyInspectionWaiver",
+						"loanPropertyUsageType": "PrimaryResidence",
+						"noteAmount": 143200.0
+					},
+					"loanUnderwritingDecision": {
+						"automatedUnderwritingSystemType": "DesktopUnderwriter",
+						"loanUnderwritingCaseIdentifier": "B0012685",
+						"loanUnderwritingDecisionDefaultProbabilityRate": "0.0030204290"
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"loanQualityAdvisorResultType": "HighLikelihoodofAccept",
+								"messageCode": "RA0001",
+								"messageText": "High Likelihood of Accept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 50.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "438628",
+						"loanIdentifierType": "LoanQualityAdvisor"
+					},
+					{
+						"loanIdentifier": "1234",
+						"loanIdentifierType": "SubmissionLinkService"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"FIPSCountyThreeDigitCode": "113",
+							"FIPSStateNumericCode": "48",
+							"addressLineText": "14576 BERKLEE DR",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"addressUnitDesignatorType": null,
+							"addressUnitIdentifier": null,
+							"carrierRouteType": "CityRoute",
+							"censusTractBaseIdentifier": "13726",
+							"cityName": "ADDISON",
+							"coreBasedStatisticalAreaCode": "19100",
+							"geocodingIndicator": "true",
+							"highwayContractIdentifier": null,
+							"latitudeNumber": "32.944363",
+							"longitudeNumber": "-96.841969",
+							"postOfficeBoxIdentifier": null,
+							"postalCode": "75001",
+							"ruralRouteIdentifier": null,
+							"stateCode": "TX",
+							"streetName": "BERKLEE",
+							"streetPostDirectionalText": null,
+							"streetPreDirectionalText": null,
+							"streetPrimaryNumberText": "14576",
+							"streetSuffixText": "DR",
+							"zipPlusFourCode": "3532"
+						},
+						{
+							"addressLineText": "14576 BERKLEE DR",
+							"addressSourceType": "LoanQualityAdvisor",
+							"cityName": "ADDISON",
+							"postalCode": "75001",
+							"stateCode": "TX",
+							"zipPlusFourCode": "3532",
+							"geocodingIndicator": "false"
+						}
+					]
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+							"propertyValuation": [
+								{
+									"propertyAssessmentSourceType": null,
+									"propertyIdentifier": 1,
+									"propertyValuationAmount": 287671.0,
+									"propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+									"propertyValuationMethodType": "PropertyPresentValuation",
+									"propertyValuationSequenceNumber": "5",
+									"propertyValuationType": "Original"
+								}
+							]
+						}
+					},
+				"realEstateProject": {
+					"projectAttachmentType": "Attached",
+					"projectClassificationType": "string",
+					"projectLegalStructureType": null
+				},
+				"propertyValuationAssessment" : {
+					"homeValueExplorerOptionType":"HVEFeedback"
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "string"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LQAACE",
+		"subscriberRequestCorrelationIdentifier": "438628"
+	}
+}

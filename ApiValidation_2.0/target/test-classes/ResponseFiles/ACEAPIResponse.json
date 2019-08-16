@@ -1,0 +1,27 @@
+{
+    "deals": [
+        {
+            "address": {
+                "addressLineText": "2300 GRAND CYPRESS DR",
+                "cityName": "DALLAS",
+                "stateCode": "CO",
+                "postalCode": "33559"
+            },
+            "messages": [
+                {
+                    "messageCode": "AWP0001",
+                    "messageText": "Based on the submitted data, the subject property is conditionally approved for an appraisal waiver. This approval is contingent upon the maximum loan amount, the expiration date, a complete assessment of the loan by Loan Product Advisor, and compliance with the eligibility requirements in the Freddie Mac Seller/Servicer Guide for the appraisal waiver."
+                }
+            ],
+            "loanInformation": {
+                "appraisalWaiverPrescreenEligibilityType": "Eligible",
+                "appraisalWaiverPrescreenExpirationDate": null,
+                "maximumAuthorizedLoanAmount": "$69477.79"
+            }
+        }
+    ],
+    "party": {
+        "partyRoleType": "LoanSeller",
+        "partyRoleIdentifier": "123456"
+    }
+}

@@ -1,0 +1,224 @@
+{
+	 "loanDeliveryStructure": {
+		 "loanDetails": {
+			 "loanDetailInfo": {
+				 "insurancePolicyDetails": {
+					 "loanMI": {
+						 "miPremiumFinancedAmount": 1200.00,
+						 "miPremiumFinancedIndicator": true
+					}
+				},
+				 "loan": {
+					 "constructionLoanIndicator": "constructionLoanIndicator",
+					 "grandfatheringIndicator": "yes",
+					 "loanProcessingStageType": "ApplicationProcessing",
+					 "loanPurposeType": "Purchase",
+					 "loanRefinanceCashOutDeterminationType": "NoCashOut",
+					 "mortgageType": "Conventional"
+				},
+				 "loanAcquisitionDetails": {
+					 "loanAcquisition": {
+						 "loanConformityType": "ConformingMortgage",
+						 "sellerAccountIdentifier": "000601",
+						 "sellerLoanIdentifier": "INC_VER_TST_007"
+					}
+				},
+				 "loanApplicationDetails": {
+					 "loanApplication": {
+						 "borrowerPropertyPurchasePriceAmount": 325010.0,
+						 "loanApplicationBaseLoanAmount": 142000.0,
+						 "miAndFundingFeeFinancedAmount": 1200.0
+					}
+				},
+				 "loanConversionRuleDetails": {
+					 "loanConversionRule": {
+						 "constructionLoanType": null
+					}
+				},
+				 "loanOriginationDetails": {
+					 "loanOrigination": {
+						 "loanOriginationSystemVersionIdentifier": "WW4.8.00",
+						 "loanPropertyUsageType": "PrimaryResidence",
+						 "noteAmount": 143200.0
+					},
+					 "loanUnderwritingDecision": {
+						 "loanUnderwritingCaseIdentifier": "B0012685",
+						 "loanUnderwritingDecisionDefaultProbabilityRate": 0.0030204290
+					}
+				},
+				 "loanRiskAssessments": {
+					 "loanRiskAssessmentDetails": {
+						 "creditRiskDerivation": [
+							{
+								 "derivationRiskClassType": "FinalCreditRiskClass",
+								 "derivedCalculationSourceType": "HP",
+								 "strategicOfferingCreditRiskType": "Accept"
+							}
+						],
+						 "loanCollateralRiskAssessments": {
+							 "loanCollateralRiskAssessmentDetails": [
+								{
+									 "loanCollateralRiskAssessment": {
+										 "loanScopeType": "Combined",
+										 "ltvRatioPercent": 50.0,
+										 "ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				 "programs": [
+					{
+						 "program": {
+							 "programType": "AffordableMerit",
+							 "refinanceProgramType": "NoCashOut"
+						}
+					}
+				]
+			},
+			 "loanIdentifications": {
+				 "loanIdentification": [
+					{
+						 "loanIdentifier": "B0012685",
+						 "loanIdentifierType": "LoanProspectorKey"
+					},
+					{
+						 "loanIdentifier": 57524,
+						 "loanIdentifierType": "LoanProspectorUniqueLoan"
+					},
+					{
+						 "loanIdentifier": 50109018,
+						 "loanIdentifierType": "LoanProspectorTransaction"
+					},
+					{
+						 "loanIdentifier": 512420,
+						 "loanIdentifierType": "HewlettPackardLoanProspectorTransaction"
+					},
+					{
+						 "loanIdentifier": 512420,
+						 "loanIdentifierType": "LoanQualityAdvisor"
+					},
+					{
+						 "loanIdentifier": 512420,
+						 "loanIdentifierType": "SubmissionLinkService"
+					}
+				]
+			},
+			 "loanPropertyCollaterals": {
+				 "loanPropertyCollateralDetails": {
+					 "loanPropertyCollateral": {
+						 "financedUnitCount": 1
+					}
+				}
+			},
+			 "partyRoles": {
+				 "partyRole": [
+					{
+						 "partyRoleIdentifier": "000601",
+						 "partyRoleType": "SELLER"
+					}
+				]
+			},
+			 
+			 "propertyDetails": {
+				 "addressDetails": {
+					 "address": [
+						{
+							 "FIPSCountyThreeDigitCode": 113,
+							 "FIPSStateNumericCode": 48,
+							 "addressLineText": "11931 BENTON LAKE RD",
+							 "addressMatchLevelType": "ExactMatch",
+							 "addressSourceType": "GeocodingService",
+							 "addressUnitDesignatorType": null,
+							 "addressUnitIdentifier": "addressUnitIdentifier",
+							 "carrierRouteType": "CityRoute",
+							 "censusTractBaseIdentifier": 13726,
+							 "cityName": "BRISTOW",
+							 "coreBasedStatisticalAreaCode": 19100,
+							 "geocodingIndicator": true,
+							 "highwayContractIdentifier": "highwayContractIdentifier",
+							 "latitudeNumber": 32.944363,
+							 "longitudeNumber": -96.841969,
+							 "postOfficeBoxIdentifier": "postOfficeBoxIdentifier",
+							 "postalCode": 20136,
+							 "ruralRouteIdentifier": "ruralRouteIdentifier",
+							 "stateCode": "VA",
+							 "streetName": "BENTON LAKE",
+							 "streetPostDirectionalText": "streetPostDirectionalText",
+							 "streetPreDirectionalText": "streetPreDirectionalText",
+							 "streetPrimaryNumberText": 14576,
+							 "streetSuffixText": "DR",
+							 "zipPlusFourCode": 3532
+						}
+					]
+				},
+				 "property": {
+					 "propertyCategoryType": "Attached"
+				},
+				 "propertyRights": {
+					 "propertyRightsType": "string"
+				},
+				 "propertyTitles": {
+					 "propertyEstateType": "FeeSimple"
+				},
+				 "propertyValuations": {
+					 "appraisal": {
+						 "appraisalIdentifier": "appraisalIdentifier"
+					},
+					 "propertyValuationDetails": {
+						 "propertyValuation": [
+							{
+								 "propertyIdentifier": 1,
+								 "propertyValuationAmount": 287671.0,
+								 "propertyValuationMethodType": "PropertyPresentValuation",
+								 "propertyValuationSequenceNumber": 1,
+								 "propertyValuationType": "Original"
+							},
+							{
+								 "propertyIdentifier": 1,
+								 "propertyValuationAmount": 287671.0,
+								 "propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+								 "propertyValuationMethodType": "Estimation",
+								 "propertyValuationSequenceNumber": 2,
+								 "propertyValuationType": "Original"
+							},
+							{
+								 "propertyIdentifier": 1,
+								 "propertyValuationAmount": 287671.0,
+								 "propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+								 "propertyValuationMethodType": "Estimation",
+								 "propertyValuationSequenceNumber": 3,
+								 "propertyValuationType": "Subsequent"
+							}
+						]
+					}
+				},
+				 "realEstateProject": {
+					 "projectAttachmentType": "Attached",
+					 "projectClassificationType": "string",
+					 "projectLegalStructureType": null
+				},
+				 "structureDetails": {
+					 "structure": {
+						 "constructionMethodType": "Other"
+					}
+				}
+			},
+			 "singleFamilyLoanBorrower": [
+				{
+					 "borrowerClassificationType": "borrowerClassificationType",
+					 "borrowerIdentifier": "borrowerIdentifier",
+					 "intentToOccupyType": "intentToOccupyType",
+					 "partyRoleType": "string"
+				}
+			]
+		}
+	},
+	 "serviceRequestDetails": {
+		 "serviceName": "ACEAPIRequest",
+		 "serviceRequestOperationName": "evaluateAppraisalAlternative",
+		 "subscriberIdentifier": "LPAv2",
+		 "subscriberRequestCorrelationIdentifier": 50109112
+	}
+}

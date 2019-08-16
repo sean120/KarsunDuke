@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:HVSRequest xmlns="http://www.freddiemac.com/cdm"
+	xmlns:ns2="http://las.hvs.freddiemac.com/HVSWebService">
+	<ns2:ServiceRequestContainer>
+		<ServiceRequest>
+			<ClientSchemaVersionIdentifier>1.0</ClientSchemaVersionIdentifier>
+			<SchemaVersionIdentifier>1.0</SchemaVersionIdentifier>
+			<RequestorIdentifier>ACEAPI</RequestorIdentifier>
+			<ServiceName>HVSWS</ServiceName>
+			<ServiceRequestDateTime>2018-09-19T14:41:56.182-04:00
+			</ServiceRequestDateTime>
+			<ServiceRequestOperationName>GetHVSData</ServiceRequestOperationName>
+			<SubscriberRequestCorrelationIdentifier>rrt-009049d0ec8b7cf56-b-ea-27711-3421039-4
+			</SubscriberRequestCorrelationIdentifier>
+		</ServiceRequest>
+	</ns2:ServiceRequestContainer>
+	<ns2:AccountIdentifier>lasaceapi</ns2:AccountIdentifier>
+	<ns2:HVSRequestContainers>
+		<ns2:HVSRequestContainer>
+			<ns2:AlternativeLoanIdentifications />
+			<ns2:RequestType>03</ns2:RequestType>
+			<ns2:ADDRESS>
+				<ns2:AddressLineText>123 Abcdefg</ns2:AddressLineText>
+				<ns2:CityName>ENDERLIN</ns2:CityName>
+				<ns2:FIPSStateAlphaCode>VA</ns2:FIPSStateAlphaCode>
+				<ns2:PostalCode>12345</ns2:PostalCode>
+			</ns2:ADDRESS>
+		</ns2:HVSRequestContainer>
+	</ns2:HVSRequestContainers>
+</ns2:HVSRequest>

@@ -1,0 +1,23 @@
+{
+  "requestBatchIdentifier": "%SDF&*^*&^*&DSFSDFSLKJLKJSDFSDFLJLKJSDLKFJKSJD",
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+    "requestTransactionIdentifier": "%SDF&*^*&^*&DSFSDFSLKJLKJSDFSDFLJLKJSDLKFJKSJD",
+      "address": {
+        "addressLineText": "2668 bruton SPRINGS Drive",
+        "cityName": "Dallas",
+        "postalCode": "75227",
+        "stateCode": "TX"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 5533.00,
+        "salesContractAmount": 100000.12
+      }
+    }
+  ]
+}

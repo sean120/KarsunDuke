@@ -1,0 +1,21 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121898"
+  },
+  "deals": [
+    {
+      "address": {
+      "addressLineText": "420 cleveland street",
+        "cityName": "VIRGINIA",
+        "postalCode": "58027",
+        "stateCode": "VA"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 200000.00,
+        "salesContractAmount": 100000.00
+      }
+    }
+  ]
+}

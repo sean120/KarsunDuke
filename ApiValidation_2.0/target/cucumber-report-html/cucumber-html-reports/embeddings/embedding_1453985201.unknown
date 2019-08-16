@@ -1,0 +1,53 @@
+{
+  "_id" : {
+    "$oid" : "5cf9767724790e045e5a23cd"
+  },
+  "createdDate" : {
+    "$date" : 1559852663165
+  },
+  "lpKey" : "1559852657-1001",
+  "sourceApplicationName" : "LPAv2",
+  "transactionContext" : {
+    "_id" : {
+      "$oid" : "5cf9767724790e045e5a23cd"
+    },
+    "sourceType" : "LPAv2",
+    "syntheticTransaction" : "false"
+  },
+  "presentValueData" : {
+    "propertyValuationData" : {
+      "loanProcessingStageType" : "ApplicationProcessing",
+      "propertyValuationAmount" : 395000.0,
+      "propertyValuationMethodType" : "PropertyPresentValuation",
+      "propertyValuationType" : "Subsequent"
+    }
+  },
+  "loanData" : {
+    "loanIdentifications" : {
+      "loanIdentification" : [ {
+        "loanIdentifier" : "1559852657-1001",
+        "loanIdentifierType" : "LoanProspectorKey"
+      }, {
+        "loanIdentifier" : "5752306",
+        "loanIdentifierType" : "LoanProspectorUniqueLoan"
+      }, {
+        "loanIdentifier" : "5010901706",
+        "loanIdentifierType" : "LoanProspectorTransaction"
+      } ]
+    },
+    "parties" : {
+      "party" : [ {
+        "partyIdentifier" : "000601",
+        "partyRoleType" : "SELLER"
+      } ]
+    },
+    "address" : {
+      "addressLineText" : "3365 MORONEY DR",
+      "addressSourceType" : "GeocodingService",
+      "addressMatchLevelType" : "ExactMatch",
+      "cityName" : "RICHARDSON",
+      "postalCode" : "75082",
+      "stateCode" : "TX"
+    }
+  }
+}

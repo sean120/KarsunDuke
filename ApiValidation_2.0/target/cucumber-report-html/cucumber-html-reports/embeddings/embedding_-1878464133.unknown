@@ -1,0 +1,29 @@
+{
+  "_id" : {
+    "$oid" : "5cf97676f5e0f604f5739f18"
+  },
+  "level" : "TRACE",
+  "loggerName" : "AsyncMongoLogger",
+  "message" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:HVSResponse xmlns=\"http://www.freddiemac.com/cdm\" xmlns:ns2=\"http://las.hvs.freddiemac.com/HVSWebService\"><ns2:ResponseDateTime>2019-06-06T16:24:22.634-04:00</ns2:ResponseDateTime><ns2:ServiceRequestContainer><ServiceRequest><ClientSchemaVersionIdentifier>2.0</ClientSchemaVersionIdentifier><SchemaVersionIdentifier>1.0</SchemaVersionIdentifier><RequestorIdentifier>ACEAPI_FA</RequestorIdentifier><ServiceName>HVSWS</ServiceName><ServiceRequestDateTime>2019-06-06T16:24:22.348-04:00</ServiceRequestDateTime><ServiceRequestOperationName>GetHVSData</ServiceRequestOperationName><SubscriberRequestCorrelationIdentifier>5010901810</SubscriberRequestCorrelationIdentifier></ServiceRequest></ns2:ServiceRequestContainer><ns2:HVSResponseContainers><ns2:HVSResponseContainer><ns2:AlternativeLoanIdentifications><AlternativeLoanIdentification><AlternateLoanIdentifier>5752410</AlternateLoanIdentifier><LoanIdentifierType>LoanProspectorUniqueLoan</LoanIdentifierType></AlternativeLoanIdentification><AlternativeLoanIdentification><AlternateLoanIdentifier>5010901810</AlternateLoanIdentifier><LoanIdentifierType>LoanProspectorTransaction</LoanIdentifierType></AlternativeLoanIdentification></ns2:AlternativeLoanIdentifications><ns2:HVSTransactionIdentifier>165560188</ns2:HVSTransactionIdentifier><ns2:BillingType>NotApplicable</ns2:BillingType><ns2:FDRVersion>2018.11</ns2:FDRVersion><ns2:HVSValuation><ns2:Address><ns2:AddressLineText>14576 BERKLEE DR</ns2:AddressLineText><ns2:CityName>ADDISON</ns2:CityName><ns2:FIPSStateAlphaCode>TX</ns2:FIPSStateAlphaCode><ns2:PostalCode>75001</ns2:PostalCode><ns2:ZIPPlusFourCode></ns2:ZIPPlusFourCode></ns2:Address><ns2:AVMValuations><ns2:AVMValuation><ns2:AVMConfidenceScoreValue>H</ns2:AVMConfidenceScoreValue><ns2:AVMHighValueRangeAmount>312585</ns2:AVMHighValueRangeAmount><ns2:AVMIndexType>Other</ns2:AVMIndexType><ns2:AVMLowValueRangeAmount>273931</ns2:AVMLowValueRangeAmount><ns2:AVMModelNameType>HomeValueExplorer</ns2:AVMModelNameType><ns2:AVMMethodType>Hybrid</ns2:AVMMethodType><ns2:AVMValueAmount>292620</ns2:AVMValueAmount><ns2:HVEStandardDeviationNumber>0.07</ns2:HVEStandardDeviationNumber></ns2:AVMValuation><ns2:AVMValuation><ns2:AVMIndexType>WeightedRepeatSalesIndex</ns2:AVMIndexType><ns2:AVMModelNameType>HomeValueExplorer</ns2:AVMModelNameType><ns2:AVMMethodType>RepeatSalesModel</ns2:AVMMethodType><ns2:AVMValueAmount>290716</ns2:AVMValueAmount></ns2:AVMValuation></ns2:AVMValuations><ns2:PropertyInspectionWaiverContainer><ns2:PropertyInspectionWaiverResult><ns2:ActiveMLSListingIndicator>false</ns2:ActiveMLSListingIndicator><ns2:AppraisalCompletionAsIsIndicator>true</ns2:AppraisalCompletionAsIsIndicator><ns2:AppraisalExistenceIndicator>true</ns2:AppraisalExistenceIndicator><ns2:ARMsLengthContractIndicator>true</ns2:ARMsLengthContractIndicator><ns2:DaysOnMarketIndicator>true</ns2:DaysOnMarketIndicator><ns2:DistressedIndicator>true</ns2:DistressedIndicator><ns2:HighestBestUseIndicator>true</ns2:HighestBestUseIndicator><ns2:LegalityIndicator>true</ns2:LegalityIndicator><ns2:MissingDataIndicator>false</ns2:MissingDataIndicator><ns2:MultipleListingIndicator>true</ns2:MultipleListingIndicator><ns2:NeighborhoodConformityIndicator>true</ns2:NeighborhoodConformityIndicator><ns2:PhysicalDeficiencyIndicator>true</ns2:PhysicalDeficiencyIndicator><ns2:PriceGrowthThresholdAmount>227228</ns2:PriceGrowthThresholdAmount><ns2:PropertyAgeCount>20</ns2:PropertyAgeCount><ns2:PropertyConditionIndicator>true</ns2:PropertyConditionIndicator><ns2:PublicRecordExistenceIndicator>true</ns2:PublicRecordExistenceIndicator><ns2:QualityAgeIndicator>true</ns2:QualityAgeIndicator><ns2:QualityIndicator>true</ns2:QualityIndicator><ns2:PropertyLandUseIndicator>true</ns2:PropertyLandUseIndicator><ns2:PropertyPurchaseLotSizeOneAcreIndicator>true</ns2:PropertyPurchaseLotSizeOneAcreIndicator><ns2:PropertyRefinanceLotSizeTwoAcreIndicator>true</ns2:PropertyRefinanceLotSizeTwoAcreIndicator><ns2:PropertyUnitIndicator>true</ns2:PropertyUnitIndicator></ns2:PropertyInspectionWaiverResult><ns2:PropertyStructureAnalysisContainer><PropertyStructureAnalysis/><PropertyStructureAnalysisDerivation/></ns2:PropertyStructureAnalysisContainer></ns2:PropertyInspectionWaiverContainer></ns2:HVSValuation></ns2:HVSResponseContainer></ns2:HVSResponseContainers></ns2:HVSResponse>",
+  "source" : null,
+  "marker" : null,
+  "threadId" : {
+    "$numberLong" : "267"
+  },
+  "threadName" : "GFServiceAsyncThread-3",
+  "threadPriority" : 5,
+  "millis" : {
+    "$numberLong" : "1559852662645"
+  },
+  "date" : {
+    "$date" : 1559852662645
+  },
+  "thrown" : null,
+  "contextMap" : {
+    "_id" : "46460303461",
+    "requestType" : "RESPONSE",
+    "serviceName" : "HVS_2_0",
+    "syntheticTransaction" : "false"
+  },
+  "contextStack" : [ ]
+}

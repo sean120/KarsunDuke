@@ -1,0 +1,204 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "0",
+						"miPremiumFinancedIndicator": "true"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "false",
+					"loanPurposeType": "Refinance",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "B_16394_LPR_JW_"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"borrowerPropertyPurchasePriceAmount": null
+				}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"investorCollateralProgramType": null,
+						"loanPropertyUsageType": "SecondHome",
+						"noteAmount": 90000.00
+					},
+					"loanUnderwritingDecision": {
+						"automatedUnderwritingSystemType": "DesktopUnderwriter",
+						"loanUnderwritingCaseIdentifier": "A0052791",
+						"loanUnderwritingDecisionDefaultProbabilityRate": 0.0011466796
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"loanQualityAdvisorResultType": null,
+								"messageCode": null,
+								"messageText": null
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 60.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+									
+									
+									
+									
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "4633",
+						"loanIdentifierType": "LoanQualityAdvisor"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"productDetails": {
+				"productDefinition": {
+					"productDescription":null,
+					"productIdentifier": null,
+					"productType": null
+				}
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address":[
+						{
+							 "FIPSCountyThreeDigitCode": "285",
+							 "FIPSStateNumericCode": "13",
+							 "addressLineText": "141 DENNIS SMITH RD",
+							 "addressMatchLevelType": "ExactMatch",
+							 "addressSourceType": "GeocodingService",
+							 "addressUnitDesignatorType":null,
+							 "addressUnitIdentifier": null,
+							 "carrierRouteType": "CityRoute",
+							 "censusTractBaseIdentifier": 961100,
+							 "cityName": "PINE MOUNTAIN",
+							 "coreBasedStatisticalAreaCode": 29300,
+							 "geocodingIndicator": true,
+							 "highwayContractIdentifier":"123",
+							 "latitudeNumber": "32.873598",
+							 "longitudeNumber": "-84.956977",
+							 "postOfficeBoxIdentifier":null,
+							 "postalCode": "31822",
+							 "ruralRouteIdentifier": null,
+							 "stateCode": "GA",
+							 "streetName": "DENNIS SMITH",
+							 "streetPostDirectionalText": null,
+							 "streetPreDirectionalText": null,
+							 "streetPrimaryNumberText": "141",
+							 "streetSuffixText": "DR",
+							 "zipPlusFourCode": "4403"
+						}
+					]
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 150000.0,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Original"
+							},
+							
+							
+							{
+								"propertyAssessmentSourceType": null,
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 150000.0,
+								"propertyValuationEffectiveDateTime": "2019-03-08T08:34:37.989-05:00",
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "6",
+								"propertyValuationType": "Subsequent"
+							}
+						]
+					}
+				},
+				"realEstateProject": {
+					"projectAttachmentType": "Attached",
+					"projectClassificationType": null,
+					"projectLegalStructureType": null
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "string"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LQAACE",
+		"subscriberRequestCorrelationIdentifier": "205552"
+	}
+}

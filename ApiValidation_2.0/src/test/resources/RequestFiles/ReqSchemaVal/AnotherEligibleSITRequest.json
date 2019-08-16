@@ -1,0 +1,22 @@
+{
+    "requestBatchIdentifier":"1234",
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "109561"
+  },
+  "deals": [
+    {
+       "requestTransactionIdentifier":"1234",
+      "address": {
+      "addressLineText": "8720 TESSARA LN",
+        "cityName": "temp",
+        "postalCode": "33647",
+        "stateCode": "CO"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "salesContractAmount": 1000000.00
+      }
+    }
+  ]
+}

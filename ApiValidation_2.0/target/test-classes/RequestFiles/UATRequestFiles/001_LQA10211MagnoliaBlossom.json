@@ -1,0 +1,211 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "1200.00",
+						"miPremiumFinancedIndicator": "false"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "No",
+					"loanPurposeType": "Purchase",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "B_16394_LPR_JW_"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"loanApplicationBaseLoanAmount": 110000.0,
+						"borrowerPropertyPurchasePriceAmount": 310000.0
+					}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"investorCollateralProgramType": "PropertyInspectionWaiver",
+						"loanPropertyUsageType": "SecondHome",
+						"noteAmount": 110000
+					},
+					"loanUnderwritingDecision": {
+						"automatedUnderwritingSystemType": "LoanProspector",
+						"loanUnderwritingCaseIdentifier": "A0052609",
+						"loanUnderwritingDecisionDefaultProbabilityRate": "0.0007744979"
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"loanQualityAdvisorResultType": "HighLikelihoodofAccept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 37.00,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								},
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "SubjectLoan",
+										"ltvRatioPercent": 37.00,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "438628",
+						"loanIdentifierType": "LoanQualityAdvisor"
+					},
+					{
+						"loanIdentifier": "300438628",
+						"loanIdentifierType": "SubmissionLinkService"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"FIPSCountyThreeDigitCode": "113",
+							"FIPSStateNumericCode": "48",
+							"addressLineText": "10211 MAGNOLIA BLOSSOM AVE",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"addressUnitDesignatorType": null,
+							"addressUnitIdentifier": null,
+							"carrierRouteType": "CityRoute",
+							"censusTractBaseIdentifier": "13726",
+							"cityName": "GREENWELL SPRINGS",
+							"coreBasedStatisticalAreaCode": "12940",
+							"geocodingIndicator": "true",
+							"highwayContractIdentifier": null,
+							"latitudeNumber": "32.944363",
+							"longitudeNumber": "-96.841969",
+							"postOfficeBoxIdentifier": null,
+							"postalCode": "70739",
+							"ruralRouteIdentifier": null,
+							"stateCode": "LA",
+							"streetName": "MAGNOLIA BLOSSOM",
+							"streetPostDirectionalText": null,
+							"streetPreDirectionalText": null,
+							"streetPrimaryNumberText": "14576",
+							"streetSuffixText": "AVE",
+							"zipPlusFourCode": "3532"
+						},
+						{
+							"addressLineText": "10211 MAGNOLIA BLOSSOM AVE",
+							"addressSourceType": "LoanQualityAdvisor",
+							"cityName": "GREENWELL SPRINGS",
+							"postalCode": "70739",
+							"stateCode": "LA",
+							"zipPlusFourCode": "3532",
+							"geocodingIndicator": "false"
+						}
+					]
+				},
+				"property": {
+					"propertyCategoryType": "Attached"
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 287671.0,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Subsequent"
+							},
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 287672.0,
+								"propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+								"propertyValuationMethodType": "None",
+								"propertyValuationSequenceNumber": "7"
+							}
+						]
+					}
+				},
+				"realEstateProject": {
+					"projectAttachmentType": "Attached",
+					"projectClassificationType": "string",
+					"projectLegalStructureType": null
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "Borrower"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LQAACE",
+		"subscriberRequestCorrelationIdentifier": "438628"
+	}
+}

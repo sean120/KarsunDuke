@@ -1,0 +1,53 @@
+{
+  "_id" : {
+    "$oid" : "5cf9767724790e045e5a23f2"
+  },
+  "createdDate" : {
+    "$date" : 1559852663809
+  },
+  "lpKey" : "1559852657-1001",
+  "sourceApplicationName" : "LPAv2",
+  "transactionContext" : {
+    "_id" : {
+      "$oid" : "5cf9767724790e045e5a23f2"
+    },
+    "sourceType" : "LPAv2",
+    "syntheticTransaction" : "false"
+  },
+  "presentValueData" : {
+    "propertyValuationData" : {
+      "loanProcessingStageType" : "ApplicationProcessing",
+      "propertyValuationAmount" : 447246.0,
+      "propertyValuationMethodType" : "PropertyPresentValuation",
+      "propertyValuationType" : "Subsequent"
+    }
+  },
+  "loanData" : {
+    "loanIdentifications" : {
+      "loanIdentification" : [ {
+        "loanIdentifier" : "1559852657-1001",
+        "loanIdentifierType" : "LoanProspectorKey"
+      }, {
+        "loanIdentifier" : "5752312",
+        "loanIdentifierType" : "LoanProspectorUniqueLoan"
+      }, {
+        "loanIdentifier" : "5010901712",
+        "loanIdentifierType" : "LoanProspectorTransaction"
+      } ]
+    },
+    "parties" : {
+      "party" : [ {
+        "partyIdentifier" : "000601",
+        "partyRoleType" : "SELLER"
+      } ]
+    },
+    "address" : {
+      "addressLineText" : "25264 WINDY BLUFF LN",
+      "addressSourceType" : "GeocodingService",
+      "addressMatchLevelType" : "ExactMatch",
+      "cityName" : "ARLINGTON",
+      "postalCode" : "68002",
+      "stateCode" : "NE"
+    }
+  }
+}

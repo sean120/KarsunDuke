@@ -1,0 +1,112 @@
+{
+  "propertyValuationData" : {
+    "loanProcessingStageType" : "ApplicationProcessing",
+    "propertyValuationAmount" : 146027.0,
+    "propertyValuationMethodType" : "PropertyPresentValuation",
+    "propertyValuationType" : "Subsequent"
+  },
+  "address" : {
+    "addressLineText" : "9204 MARSH MOUNTAIN RD",
+    "addressSourceType" : "GeocodingService",
+    "addressMatchLevelType" : "ExactMatch",
+    "cityName" : "PINSON",
+    "postalCode" : "35126",
+    "stateCode" : "AL"
+  },
+  "alternateAppraisalDecisionData" : {
+    "alternateAppraisalDecisionStatusType" : "Current",
+    "alternateAppraisalEligibilityDecision" : "Eligible",
+    "alternateAppraisalDecisionEffectiveDatetime" : "2019-06-06T16:24:24.826",
+    "alternateAppraisalDecisionExpirationDatetime" : "2019-10-04 11:59:59 PM"
+  },
+  "parties" : {
+    "party" : [ {
+      "partyIdentifier" : "000601",
+      "partyRoleType" : "SELLER"
+    } ]
+  },
+  "homeValueExplorerDataContainer" : {
+    "homeValueExplorerData" : [ {
+      "propertyAppraiserValuationContainer" : {
+        "homeValueExplorerAssessmentDateTime" : "2019-06-06T16:24:24.770-04:00",
+        "homeValueExplorerConfidenceLevelType" : "H",
+        "homeValueExplorerForecastStandardDeviationRate" : 0.07,
+        "homeValueExplorerMaximumValueAmount" : 157243.0,
+        "homeValueExplorerMidPointValueEstimateAmount" : 146027.0,
+        "homeValueExplorerMinimumValueAmount" : 135611.0,
+        "propertyValuationEffectiveDateTime" : "2019-06-06T16:24:24.770-04:00"
+      },
+      "propertyInspectionWaiverResult" : {
+        "activeMLSListingIndicator" : false,
+        "appraisalCompletionAsIsIndicator" : true,
+        "appraisalExistenceIndicator" : true,
+        "armsLengthContractIndicator" : true,
+        "daysOnMarketIndicator" : true,
+        "distressedIndicator" : true,
+        "highestBestUseIndicator" : true,
+        "legalityIndicator" : true,
+        "missingDataIndicator" : false,
+        "multipleListingIndicator" : true,
+        "neighborhoodConformityIndicator" : true,
+        "physicalDeficiencyIndicator" : true,
+        "priceGrowthThresholdAmount" : 112956.0,
+        "propertyAgeCount" : 46.0,
+        "propertyConditionIndicator" : true,
+        "propertyLandUseIndicator" : true,
+        "propertyPurchaseLotSizeOneAcreIndicator" : true,
+        "propertyRefinanceLotSizeTwoAcreIndicator" : true,
+        "propertyUnitIndicator" : true,
+        "publicRecordExistenceIndicator" : true,
+        "qualityAgeIndicator" : true,
+        "qualityIndicator" : true
+      }
+    }, {
+      "propertyAppraiserValuationContainer" : {
+        "homeValueExplorerAssessmentDateTime" : "2019-06-06T16:24:24.770-04:00",
+        "homeValueExplorerConfidenceLevelType" : "H",
+        "homeValueExplorerForecastStandardDeviationRate" : 0.07,
+        "homeValueExplorerMaximumValueAmount" : 157243.0,
+        "homeValueExplorerMidPointValueEstimateAmount" : 146027.0,
+        "homeValueExplorerMinimumValueAmount" : 135611.0,
+        "propertyValuationEffectiveDateTime" : "2019-06-06T16:24:24.770-04:00"
+      },
+      "propertyInspectionWaiverResult" : {
+        "activeMLSListingIndicator" : false,
+        "appraisalCompletionAsIsIndicator" : true,
+        "appraisalExistenceIndicator" : true,
+        "armsLengthContractIndicator" : true,
+        "daysOnMarketIndicator" : true,
+        "distressedIndicator" : true,
+        "highestBestUseIndicator" : true,
+        "legalityIndicator" : true,
+        "missingDataIndicator" : false,
+        "multipleListingIndicator" : true,
+        "neighborhoodConformityIndicator" : true,
+        "physicalDeficiencyIndicator" : true,
+        "priceGrowthThresholdAmount" : 112956.0,
+        "propertyAgeCount" : 46.0,
+        "propertyConditionIndicator" : true,
+        "propertyLandUseIndicator" : true,
+        "propertyPurchaseLotSizeOneAcreIndicator" : true,
+        "propertyRefinanceLotSizeTwoAcreIndicator" : true,
+        "propertyUnitIndicator" : true,
+        "publicRecordExistenceIndicator" : true,
+        "qualityAgeIndicator" : true,
+        "qualityIndicator" : true
+      }
+    } ]
+  },
+  "sourceApplicationName" : "LPAv2",
+  "loanIdentifications" : {
+    "loanIdentification" : [ {
+      "loanIdentifier" : "1559852657-1001",
+      "loanIdentifierType" : "LoanProspectorKey"
+    }, {
+      "loanIdentifier" : "5752307",
+      "loanIdentifierType" : "LoanProspectorUniqueLoan"
+    }, {
+      "loanIdentifier" : "5010901707",
+      "loanIdentifierType" : "LoanProspectorTransaction"
+    } ]
+  }
+}

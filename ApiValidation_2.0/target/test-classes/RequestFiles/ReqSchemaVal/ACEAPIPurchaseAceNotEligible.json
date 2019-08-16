@@ -1,0 +1,23 @@
+{
+    "requestBatchIdentifier":"1234",
+    "party": {
+        "partyRoleType": "LoanSeller",
+        "partyRoleIdentifier": "121898"
+    },
+    "deals": [
+        {
+             "requestTransactionIdentifier":"1234",
+            "address": {
+                "addressLineText": "9204 marsh mountain road",
+                "cityName": "pinson",
+                "postalCode": "35126",
+                "stateCode": "AL"
+            },
+            "loanInformation": {
+                "loanPurposeType": "Purchase",
+                "propertyEstimatedValueAmount": 302364.00,
+                "salesContractAmount": 86000
+            }
+        }
+    ]
+}

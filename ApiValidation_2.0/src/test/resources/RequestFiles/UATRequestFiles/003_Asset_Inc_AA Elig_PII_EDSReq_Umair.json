@@ -1,0 +1,215 @@
+{
+  "loanDeliveryStructure": {
+    "loanDetails": {
+      "communicationFailureDerivedDetails": {
+        "craCommunicationFailureDerivation": {
+          "craCommunicationFailureType": "string"
+        },
+        "rdsCommunicationFailureDerivation": {
+          "rdsCommunicationFailureType": "string"
+        }
+      },
+      "loanDetailInfo": {
+        "insurancePolicyDetails": {
+          "loanMI": {
+            "miPremiumFinancedAmount": "string",
+            "miPremiumFinancedIndicator": "false"
+          }
+        },
+        "loan": {
+          "constructionLoanIndicator": "string",
+          "grandfatheringIndicator": "string",
+          "loanProcessingStageType": "PreQualification",
+          "loanPurposeType": "Refinance",
+          "loanRefinanceCashOutDeterminationType": "NoCashOut",
+          "mortgageType": "string" 
+        },
+        "loanAcquisitionDetails": {
+          "loanAcquisition": {
+            "loanConformityType": "ConformingMortgage",
+            "sellerAccountIdentifier": "000601",
+            "sellerLoanIdentifier": "FRE_LST_008"
+          }
+        },
+        "loanApplicationDetails": {
+          "loanApplication": {
+            "borrowerPropertyPurchasePriceAmount": 111,
+            "loanApplicationBaseLoanAmount": 85000.0,
+            "miAndFundingFeeFinancedAmount": string  
+          }
+        },
+        "loanConversionRuleDetails": {
+          "loanConversionRule": {
+            "constructionLoanType": "string"
+          }
+        },
+        "loanOriginationDetails": {
+          "loanOrigination": {
+            "investorCollateralProgramType": "string",
+            "loanOriginationSystemVersionIdentifier": "string",
+            "loanPropertyUsageType": "PrimaryResidence",
+            "noteAmount": 85000
+          },
+          "loanUnderwritingDecision": {
+            "automatedUnderwritingSystemType": "LoanProspector",
+            "loanUnderwritingCaseIdentifier": "A0052781",
+            "loanUnderwritingDecisionDefaultProbabilityRate": "string"
+          }
+        },
+        "loanRiskAssessments": {
+          "loanRiskAssessmentDetails": {
+            "creditRiskDerivation": [
+              {
+                "derivationRiskClassType": "PreOverrideRiskClass",
+                "derivedCalculationSourceType": "HP",
+                "loanQualityAdvisorResultType": "string",
+                "messageCode": "string",
+                "messageText": "string",
+                "strategicOfferingCreditRiskType": "Accept"
+              }
+            ],
+            "loanCollateralRiskAssessments": {
+              "loanCollateralRiskAssessmentDetails": [
+                {
+                  "loanCollateralRiskAssessment": {
+                    "loanScopeType": "Combined",
+                    "ltvRatioPercent": 63.00,
+                    "ltvSourceType": "FreddieMacCalculated"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "programs": [
+          {
+            "program": {
+              "programType": "string",
+              "refinanceProgramType": "string"
+            }
+          }
+        ]
+      },
+      "loanIdentifications": {
+        "loanIdentification": [
+          {
+            "loanIdentifier": "4623",
+            "loanIdentifierType": "LoanProspectorTransaction"
+          }
+        ]
+      },
+      "loanPropertyCollaterals": {
+        "loanPropertyCollateralDetails": {
+          "loanPropertyCollateral": {
+            "financedUnitCount": 1
+          }
+        }
+      },
+      "partyRoles": {
+        "partyRole": [
+          {
+            "partyRoleIdentifier": "string",
+            "partyRoleType": "Borrower"
+          }
+        ]
+      },
+      "productDetails": {
+        "productDefinition": {
+          "productDescription": "string",
+          "productIdentifier": "string",
+          "productType": "string"
+        }
+      },
+      "propertyDetails": {
+        "addressDetails": [
+          {
+            "address": [
+              {
+                "FIPSCountyThreeDigitCode": "string",
+                "FIPSStateNumericCode": "string",
+                "addressLineText": "1009 CIRCLE DR",
+                "addressMatchLevelType": "Tight Match(T)",
+                "addressSourceType": "GeocodingService",
+                "addressUnitDesignatorType": "string",
+                "addressUnitIdentifier": "string",
+                "carrierRouteType": "string",
+                "censusTractBaseIdentifier": "string",
+                "cityName": "ADAIR",
+                "coreBasedStatisticalAreaCode": "string",
+                "geocodingIndicator": "string",
+                "highwayContractIdentifier": "string",
+                "latitudeNumber": "string",
+                "longitudeNumber": "string",
+                "postOfficeBoxIdentifier": "string",
+                "postalCode": 50002,
+                "ruralRouteIdentifier": "string",
+                "stateCode": "IA",
+                "streetName": "string",
+                "streetPostDirectionalText": "string",
+                "streetPreDirectionalText": "string",
+                "streetPrimaryNumberText": "string",
+                "streetSuffixText": "string",
+                "zipPlusFourCode": "1010"
+              }
+            ]
+          }
+        ],
+        "property": {
+          "propertyCategoryType": "string"
+        },
+        "propertyAssessment": {
+          "propertyAssessmentSourceType": "string"
+        },
+        "propertyRights": {
+          "propertyRightsType": "string"
+        },
+        "propertyTitles": {
+          "propertyEstateType": "FeeSimple"
+        },
+        "propertyValuations": {
+          "appraisal": {
+            "appraisalIdentifier": "string"
+          },
+          "propertyValuationDetails": [
+            {
+              "propertyValuation": [
+                {
+                  "propertyIdentifier": 0,
+                  "propertyValuationAmount": 0,
+                  "propertyValuationEffectiveDateTime": "string",
+                  "propertyValuationMethodType": "string",
+                  "propertyValuationSequenceNumber": "string",
+                  "propertyValuationType": "string"
+                }
+              ]
+            }
+          ]
+        },
+        "realEstateProject": {
+          "projectAttachmentType": "string",
+          "projectClassificationType": "string",
+          "projectLegalStructureType": "string"
+        },
+        "structureDetails": {
+          "structure": {
+            "constructionMethodType": "Other"
+          }
+        }
+      },
+      "singleFamilyLoanBorrower": [
+        {
+          "borrowerClassificationType": "Primary",
+          "borrowerIdentifier": "1",
+          "intentToOccupyType": "Yes",
+          "partyRoleType": "Borrower"
+        }
+      ]
+    }
+  },
+  "serviceRequestDetails": {
+    "serviceName": "HVSWS",
+    "serviceRequestOperationName": "GetHVSData",
+    "subscriberIdentifier": "1",
+    "subscriberRequestCorrelationIdentifier": "205542"
+  }
+}

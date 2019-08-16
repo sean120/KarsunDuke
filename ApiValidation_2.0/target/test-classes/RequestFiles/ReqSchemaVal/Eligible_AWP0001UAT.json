@@ -1,0 +1,23 @@
+{
+   "requestBatchIdentifier":"1234",
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "requestTransactionIdentifier":"1234",
+      "address": {
+        "addressLineText": "14576 BERKLEE DR",
+        "cityName": "ADDISON",
+        "postalCode": "75001",
+        "stateCode": "TX"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 302364.00,
+        "salesContractAmount": 100000.12
+      }
+    }
+  ]
+}

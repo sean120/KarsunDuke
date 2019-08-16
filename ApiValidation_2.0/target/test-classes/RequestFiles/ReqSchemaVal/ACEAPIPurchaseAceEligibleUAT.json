@@ -1,0 +1,22 @@
+{
+  "requestBatchIdentifier":"1234",
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "requestTransactionIdentifier":"1234",
+      "address": {
+        "addressLineText": "10211 magnolia blossom ave",
+        "cityName": "greenwell springs",
+        "postalCode": "70739",
+        "stateCode": "LA"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "salesContractAmount": 310000
+      }
+    }
+  ]
+}

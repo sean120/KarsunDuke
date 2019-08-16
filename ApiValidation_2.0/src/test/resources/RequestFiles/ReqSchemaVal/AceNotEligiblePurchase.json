@@ -1,0 +1,22 @@
+{
+  "requestBatchIdentifier":"1234",
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121898"
+  },
+  "deals": [
+    {
+    "requestTransactionIdentifier":"1234",
+      "address": {
+      "addressLineText": "420 CLEVELAND ST",
+        "cityName": "ENDERLIN",
+        "postalCode": "58027",
+        "stateCode": "ND"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "salesContractAmount": 100000.00
+      }
+    }
+  ]
+}

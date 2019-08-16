@@ -1,0 +1,86 @@
+Parent Node: ns2:HVSRequest
+//ns2:HVSRequest
+
+	
+//ns2:HVSRequest/ns2:ServiceRequestContainer
+//ns2:HVSRequest/ns2:AccountIdentifier
+//ns2:HVSRequest/ns2:HVSRequestContainers
+Parent Node: ns2:ServiceRequestContainer
+//ns2:HVSRequest/ns2:ServiceRequestContainer
+
+		
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest
+Parent Node: ServiceRequest
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest
+
+			
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ClientSchemaVersionIdentifier
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/SchemaVersionIdentifier
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/RequestorIdentifier
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ServiceName
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestDateTime
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestOperationName
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/SubscriberRequestCorrelationIdentifier
+Parent Node: ClientSchemaVersionIdentifier
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ClientSchemaVersionIdentifier
+1.0
+Parent Node: SchemaVersionIdentifier
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/SchemaVersionIdentifier
+1.0
+Parent Node: RequestorIdentifier
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/RequestorIdentifier
+ACEAPI
+Parent Node: ServiceName
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ServiceName
+HVSWS
+Parent Node: ServiceRequestDateTime
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestDateTime
+2018-09-19T14:41:56.182-04:00
+			
+Parent Node: ServiceRequestOperationName
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestOperationName
+GetHVSData
+Parent Node: SubscriberRequestCorrelationIdentifier
+//ns2:HVSRequest/ns2:ServiceRequestContainer/ServiceRequest/SubscriberRequestCorrelationIdentifier
+rrt-009049d0ec8b7cf56-b-ea-27711-3421039-4
+			
+Parent Node: ns2:AccountIdentifier
+//ns2:HVSRequest/ns2:AccountIdentifier
+lasaceapi
+Parent Node: ns2:HVSRequestContainers
+//ns2:HVSRequest/ns2:HVSRequestContainers
+
+		
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer
+Parent Node: ns2:HVSRequestContainer
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer
+
+			
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:RequestType
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS
+Parent Node: ns2:AlternativeLoanIdentifications
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:AlternativeLoanIdentifications
+null
+Parent Node: ns2:RequestType
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:RequestType
+03
+Parent Node: ns2:ADDRESS
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS
+
+				
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:AddressLineText
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:CityName
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:FIPSStateAlphaCode
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:PostalCode
+Parent Node: ns2:AddressLineText
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:AddressLineText
+123 Abcdefg
+Parent Node: ns2:CityName
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:CityName
+ENDERLIN
+Parent Node: ns2:FIPSStateAlphaCode
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:FIPSStateAlphaCode
+VA
+Parent Node: ns2:PostalCode
+//ns2:HVSRequest/ns2:HVSRequestContainers/ns2:HVSRequestContainer/ns2:ADDRESS/ns2:PostalCode
+12345

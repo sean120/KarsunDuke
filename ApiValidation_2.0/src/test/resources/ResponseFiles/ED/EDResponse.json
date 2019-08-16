@@ -1,0 +1,29 @@
+{
+	"cookie": "null",
+	"count": 2,
+	"resources": [
+		{
+			"attributes": {
+				"CompanyName": "Bank of America, N.A..",
+				"CompanyIdentifier": "44005",
+				"PolicyDirectorIdentifier": "baofam_lasapisys2sys4",
+				"FirstName": "TESTACE",
+				"LastName": "INT1",
+				"Email": "hanirutha_kannan@freddiemac.com",
+				"Phone": "4257627262",
+				"IndividualStatus": "Active"
+			},
+			"dn": "cn=baofam_lasapisys2sys4,ou=accounts,ou=LASAPI,dc=authorization"
+		},
+		{
+			"attributes": {
+				"LegacyAccountIdentifier": "121898",
+				"UserRoleName": "Appraisal Waiver Pre-screen Customer",
+				"OrganizationRoleType": "SELLER",
+				"OrganizationInfo": "73209::Bank of America,N.A.(121898,153552, 161026,9000004::COMPLETE"
+			},
+			"dn": "cn=Appraisal Waiver Pre-screen Customer::121898,ou=groups,ou=LASAPI,dc=authorization"
+		}
+	],
+	"totalResults": 2
+}

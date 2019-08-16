@@ -1,0 +1,23 @@
+{
+  "requestBatchIdentifier":"1234",
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121898"
+  },
+  "deals": [
+    {
+      "requestTransactionIdentifier":"1234",
+      "address": {
+      "addressLineText": "2300 GRAND CYPRESS DR",
+        "cityName": "DALLAS",
+        "postalCode": "",
+        "stateCode": "CO"	
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 200000.00,
+        "salesContractAmount": 100000.00
+      }
+    }
+  ]
+}

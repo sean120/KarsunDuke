@@ -1,0 +1,226 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "1200.00",
+						"miPremiumFinancedIndicator": "false"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "Yes",
+					"loanProcessingStageType": "ApplicationProcessing",
+					"loanPurposeType": "Refinance",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "FRE_LST_008"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"borrowerPropertyPurchasePriceAmount": 135160.00,
+						"loanApplicationBaseLoanAmount": 85000.0,
+						"miAndFundingFeeFinancedAmount": 1200.0
+					}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"loanOriginationSystemVersionIdentifier": "WW4.8.00",
+						"loanPropertyUsageType": "PrimaryResidence",
+						"noteAmount": 85000.00
+					},
+					"loanUnderwritingDecision": {
+						"loanUnderwritingCaseIdentifier": "A0052799",
+						"loanUnderwritingDecisionDefaultProbabilityRate": "0.0039816375"
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"derivationRiskClassType": "FinalCreditRiskClass",
+								"derivedCalculationSourceType": "HP",
+								"strategicOfferingCreditRiskType": "Accept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 63.00,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								},
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "SubjectLoan",
+										"ltvRatioPercent": 63.00,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "DIMA",
+						"loanIdentifierType": "LoanProspectorKey"
+					},
+					{
+						"loanIdentifier": "57524",
+						"loanIdentifierType": "LoanProspectorUniqueLoan"
+					},
+					{
+						"loanIdentifier": "50109018",
+						"loanIdentifierType": "LoanProspectorTransaction"
+					},
+					{
+						"loanIdentifier": "300512420",
+						"loanIdentifierType": "HewlettPackardGeneratedTransaction"
+					},
+					{
+						"loanIdentifier": "512420",
+						"loanIdentifierType": "HewlettPackardLoanProspectorTransaction"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"productDetails": {
+				"productDefinition": {
+					"productDescription": null,
+					"productIdentifier": null,
+					"productType": null
+				}
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"FIPSCountyThreeDigitCode": "001",
+							"FIPSStateNumericCode": "19",
+							"addressLineText": "1009 CIRCLE DR",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"addressUnitDesignatorType": null,
+							"addressUnitIdentifier": null,
+							"carrierRouteType": "CityRoute",
+							"censusTractBaseIdentifier": "960100",
+							"cityName": "ADAIR",
+							"coreBasedStatisticalAreaCode": "19100",
+							"geocodingIndicator": "true",
+							"highwayContractIdentifier": null,
+							"latitudeNumber": "41.500148",
+							"longitudeNumber": "-94.652712",
+							"postOfficeBoxIdentifier": null,
+							"postalCode": "50002",
+							"ruralRouteIdentifier": null,
+							"stateCode": "IA",
+							"streetName": "CIRCLE",
+							"streetPostDirectionalText": null,
+							"streetPreDirectionalText": null,
+							"streetPrimaryNumberText": "1009",
+							"streetSuffixText": "DR",
+							"zipPlusFourCode": "1010"
+						},
+						{
+							"addressLineText": "1009 CIRCLE DR",
+							"addressSourceType": "LoanProductAdvisor",
+							"cityName": "ADAIR",
+							"postalCode": "50002",
+							"stateCode": "IA",
+							"zipPlusFourCode": "1010",
+							"geocodingIndicator": "false"
+						}
+					]
+				},
+				"property": {
+					"propertyCategoryType": "Detached"
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 135160.00,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Subsequent"
+							}
+						]
+					}
+				},
+				"realEstateProject": {
+					"projectAttachmentType": "Detached",
+					"projectClassificationType": "string",
+					"projectLegalStructureType": null
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "string"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LPAv2",
+		"subscriberRequestCorrelationIdentifier": "50109018"
+	}
+}

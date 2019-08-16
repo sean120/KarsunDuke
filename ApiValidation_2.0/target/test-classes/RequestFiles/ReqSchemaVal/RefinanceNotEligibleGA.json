@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "141 dennis smith rd",
+        "cityName": "pine mountain",
+        "postalCode": "31822",
+        "stateCode": "GA"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 150000.00
+      }
+    }
+  ]
+}

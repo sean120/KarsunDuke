@@ -1,0 +1,226 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "1200.00",
+						"miPremiumFinancedIndicator": "false"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "Yes",
+					"loanProcessingStageType": "ApplicationProcessing",
+					"loanPurposeType": "Refinance",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "B_16394_LPR_JW_"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"borrowerPropertyPurchasePriceAmount": 135160.00,
+						"loanApplicationBaseLoanAmount": 50000.0,
+						"miAndFundingFeeFinancedAmount": 1200.0
+					}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"loanOriginationSystemVersionIdentifier": "WW4.3.00",
+						"loanPropertyUsageType": "SecondHome",
+						"noteAmount": 50000.0
+					},
+					"loanUnderwritingDecision": {
+						"loanUnderwritingCaseIdentifier": "A0052795",
+						"loanUnderwritingDecisionDefaultProbabilityRate": "0.0007834900"
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"derivationRiskClassType": "FinalCreditRiskClass",
+								"derivedCalculationSourceType": "HP",
+								"strategicOfferingCreditRiskType": "Accept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 47.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								},
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "SubjectLoan",
+										"ltvRatioPercent": 47.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "DIMA",
+						"loanIdentifierType": "LoanProspectorKey"
+					},
+					{
+						"loanIdentifier": "57524",
+						"loanIdentifierType": "LoanProspectorUniqueLoan"
+					},
+					{
+						"loanIdentifier": "50109018",
+						"loanIdentifierType": "LoanProspectorTransaction"
+					},
+					{
+						"loanIdentifier": "300512420",
+						"loanIdentifierType": "HewlettPackardGeneratedTransaction"
+					},
+					{
+						"loanIdentifier": "512420",
+						"loanIdentifierType": "HewlettPackardLoanProspectorTransaction"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"productDetails": {
+				"productDefinition": {
+					"productDescription": null,
+					"productIdentifier": null,
+					"productType": null
+				}
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"FIPSCountyThreeDigitCode": "001",
+							"FIPSStateNumericCode": "19",
+							"addressLineText": "1 COLUMBUS SQUARE DR",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"addressUnitDesignatorType": null,
+							"addressUnitIdentifier": null,
+							"carrierRouteType": "CityRoute",
+							"censusTractBaseIdentifier": "960100",
+							"cityName": "SAINT LOUIS",
+							"coreBasedStatisticalAreaCode": "19100",
+							"geocodingIndicator": "true",
+							"highwayContractIdentifier": null,
+							"latitudeNumber": "41.500148",
+							"longitudeNumber": "-94.652712",
+							"postOfficeBoxIdentifier": null,
+							"postalCode": "63101",
+							"ruralRouteIdentifier": null,
+							"stateCode": "MO",
+							"streetName": "COLUMBUS SQUARE",
+							"streetPostDirectionalText": null,
+							"streetPreDirectionalText": null,
+							"streetPrimaryNumberText": "1",
+							"streetSuffixText": "DR",
+							"zipPlusFourCode": "2739"
+						},
+						{
+							"addressLineText": "1 COLUMBUS SQUARE DR",
+							"addressSourceType": "LoanProspector",
+							"cityName": "SAINT LOUIS",
+							"postalCode": "63101",
+							"stateCode": "MO",
+							"zipPlusFourCode": "2739",
+							"geocodingIndicator": "false"
+						}
+					]
+				},
+				"property": {
+					"propertyCategoryType": "Attached"
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 108614.0,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Subsequent"
+							}
+						]
+					}
+				},
+				"realEstateProject": {
+					"projectAttachmentType": "Attached",
+					"projectClassificationType": "string",
+					"projectLegalStructureType": null
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "string"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LPAv2",
+		"subscriberRequestCorrelationIdentifier": "205555"
+	}
+}

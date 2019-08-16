@@ -1,0 +1,21 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "10211 MAGNOLIA BLOSSOM AVE",
+        "cityName": "GREENWELL SPRINGS",
+        "postalCode": "70739",
+        "stateCode": "LA"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 302364.00,
+        "salesContractAmount": 310000
+      }
+    }
+  ]
+}

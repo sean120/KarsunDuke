@@ -1,0 +1,219 @@
+    {
+  "loanDeliveryStructure": {
+    "loanDetails": {
+      "communicationFailureDerivedDetails": {
+        "craCommunicationFailureDerivation": {
+          "craCommunicationFailureType": "craCommunicationFailureType"
+        },
+        "rdsCommunicationFailureDerivation": {
+          "rdsCommunicationFailureType": "rdsCommunicationFailureType"
+        }
+      },
+      "loanDetailInfo": {
+        "insurancePolicyDetails": {
+          "loanMI": {
+            "miPremiumFinancedAmount": "miPremiumFinancedAmount",
+            "miPremiumFinancedIndicator": "miPremiumFinancedIndicator"
+          }
+        },
+        "loan": {
+          "constructionLoanIndicator": "constructionLoanIndicator",
+          "grandfatheringIndicator": "grandfatheringIndicator",
+          "loanProcessingStageType": "PreQualification",
+          "loanPurposeType": "Refinance",
+          "loanRefinanceCashOutDeterminationType": "NoCashOut",
+          "mortgageType": "Conventional"
+        },
+        "loanAcquisitionDetails": {
+          "loanAcquisition": {
+            "loanConformityType": "ConformingMortgage",
+            "sellerAccountIdentifier": "000601",
+            "sellerLoanIdentifier": "B_16394_LPR_JW_"
+          }
+        },
+        "loanApplicationDetails": {
+          "loanApplication": {
+            "borrowerPropertyPurchasePriceAmount": 0,
+            "loanApplicationBaseLoanAmount": 50000.0,
+            "miAndFundingFeeFinancedAmount": 0
+          }
+        },
+        "loanConversionRuleDetails": {
+          "loanConversionRule": {
+            "constructionLoanType": "constructionLoanType"
+          }
+        },
+        "loanOriginationDetails": {
+          "loanOrigination": {
+            "investorCollateralProgramType": "investorCollateralProgramType",
+            "loanOriginationSystemVersionIdentifier": "loanOriginationSystemVersionIdentifier",
+            "loanPropertyUsageType": "SecondHome",
+            "noteAmount": 50000
+          },
+          "loanUnderwritingDecision": {
+            "automatedUnderwritingSystemType": "LoanProspector",
+            "loanUnderwritingCaseIdentifier": "A0052795",
+            "loanUnderwritingDecisionDefaultProbabilityRate": "0.0007834900"}
+        },
+        "loanRiskAssessments": {
+          "loanRiskAssessmentDetails": {
+            "creditRiskDerivation": [
+              {
+                "derivationRiskClassType": "PreOverrideRiskClass",
+                "derivedCalculationSourceType": "HP",
+                "loanQualityAdvisorResultType": "String",
+                "messageCode": "messageCode",
+                "messageText": "messageText",
+                "strategicOfferingCreditRiskType": "Accept"
+              }
+            ],
+            "loanCollateralRiskAssessments": {
+  "loanCollateralRiskAssessmentDetails": [
+  {
+                  "loanCollateralRiskAssessment": {
+                    "loanScopeType": "SubjectLoan",
+                    "ltvRatioPercent": 47.00,
+                    "ltvSourceType": "FreddieMacCalculated"
+                  }
+                }
+             
+              
+              ]
+            }
+          }
+      
+        },
+
+        "programs": [
+          {
+            "program": {
+              "programType": "programType",
+              "refinanceProgramType": "refinanceProgramType"
+            }
+          }
+        ]
+      },
+      "loanIdentifications": {
+        "loanIdentification": [
+          
+           {
+            "loanIdentifier": "205555",
+            "loanIdentifierType": "LoanProspectorTransaction"
+          }  
+          
+        ]
+      },
+      "loanPropertyCollaterals": {
+        "loanPropertyCollateralDetails": {
+          "loanPropertyCollateral": {
+            "financedUnitCount": 1
+          }
+        }
+      },
+      "partyRoles": {
+        "partyRole": [
+          {
+            "partyRoleIdentifier": "1",
+            "partyRoleType": "Borrower"
+          }
+        ]
+      },
+      "productDetails": {
+        "productDefinition": {
+          "productDescription": "productDescription",
+          "productIdentifier": "productIdentifier",
+          "productType": "productType"
+        }
+      },
+      "propertyDetails": {
+        "addressDetails": 
+          {
+            "address": [
+              {
+                "FIPSCountyThreeDigitCode": "510",
+                "FIPSStateNumericCode": "29",
+                "addressLineText": "1 COLUMBUS SQUARE DR",
+                "addressMatchLevelType": "Tight Match(T)",
+                "addressSourceType": "GeocodingService",
+                "addressUnitDesignatorType": "addressUnitDesignatorType",
+                "addressUnitIdentifier": "addressUnitIdentifier",
+                "carrierRouteType": "carrierRouteType",
+                "censusTractBaseIdentifier": "125700",
+                "cityName": "SAINT LOUIS",
+                "coreBasedStatisticalAreaCode": "41180",
+                "geocodingIndicator": "true",
+                "highwayContractIdentifier": "highwayContractIdentifier",
+                "latitudeNumber": "38.636620",
+                "longitudeNumber": "-90.192081",
+                "postOfficeBoxIdentifier": "postOfficeBoxIdentifier",
+                "postalCode": 63101,
+                "ruralRouteIdentifier": "ruralRouteIdentifier",
+                "stateCode": "MO",
+                "streetName": "streetName",
+                "streetPostDirectionalText": "streetPostDirectionalText",
+                "streetPreDirectionalText": "streetPreDirectionalText",
+                "streetPrimaryNumberText": "streetPrimaryNumberText",
+                "streetSuffixText": "streetSuffixText",
+                "zipPlusFourCode": "2739"
+             }
+            ]
+	},
+            "property": {
+          "propertyCategoryType": "propertyCategoryType"
+        },
+        "propertyAssessment": {
+          "propertyAssessmentSourceType": "propertyAssessmentSourceType"
+        },
+        "propertyRights": {
+          "propertyRightsType": "propertyRightsType"
+        },
+        "propertyTitles": {
+          "propertyEstateType": "propertyEstateType"
+        },
+        "propertyValuations": {
+          "appraisal": {
+            "appraisalIdentifier": "appraisalIdentifier"
+          },
+          "propertyValuationDetails": [
+            {
+              "propertyValuation": [
+                {
+                  "propertyIdentifier": 124,
+                  "propertyValuationAmount": 1223,
+                  "propertyValuationEffectiveDateTime": "propertyValuationEffectiveDateTime",
+                  "propertyValuationMethodType": "propertyValuationMethodType",
+                  "propertyValuationSequenceNumber": "propertyValuationSequenceNumber",
+                  "propertyValuationType": "propertyValuationType"
+                }
+              ]
+            }
+          ]
+        },
+        "realEstateProject": {
+          "projectAttachmentType": "projectAttachmentType",
+          "projectClassificationType": "projectClassificationType",
+          "projectLegalStructureType": "projectLegalStructureType"
+        },
+        "structureDetails": {
+          "structure": {
+            "constructionMethodType": "constructionMethodType"
+          }
+        }
+      },
+      "singleFamilyLoanBorrower": [
+        {
+          "borrowerClassificationType": "Primary",
+          "borrowerIdentifier": "1",
+          "intentToOccupyType": "NO",
+          "partyRoleType": "Borrower"
+        }
+      ]
+    }
+  },
+  "serviceRequestDetails": {
+    "serviceName": "HVSWS",
+    "serviceRequestOperationName":  "GetHVSData",
+    "subscriberIdentifier": "1",
+    "subscriberRequestCorrelationIdentifier": "205555"
+  }
+}

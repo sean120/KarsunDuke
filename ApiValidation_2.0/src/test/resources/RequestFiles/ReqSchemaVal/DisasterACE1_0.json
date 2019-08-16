@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "000601"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "5906 Tahoe Dr",
+        "cityName": "Durham",
+        "postalCode": "27713",
+        "stateCode": "NC"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "salesContractAmount": 380000.00
+      }
+    }
+  ]
+}

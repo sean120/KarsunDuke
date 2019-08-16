@@ -1,0 +1,44 @@
+{
+	"Review Technical References and Guides Section": {
+		"pageTitle": "Selenium - Web Browser Automation"
+	},
+	"Validating login with negative credentials": {
+		"pageTitle1": "Ultimate QA",
+		"username": "john.doe@gmail.com",
+		"password": "12345"
+	},
+	"Validating login with positive credentials": {
+		"actiTitle": "actiTIME - Login",
+		"username": "trainee",
+		"password": "trainee"
+	},
+	"Entering valid data set to TimeTrack Page": {
+	"actiTrackTitle": "actiTIME - Enter Time-Track",
+		"taskname": "Team meetings",
+		"lvtime": "5"
+	},
+	
+	"Validating View Time-Track Page": {
+	"actiViewTitle": "actiTIME - View Time-Track",
+	"MonthType": "Current Month",
+	"Month": "Previous month",
+	"Time": "Total Time"
+	},
+	
+	"Validating login with positive credentials": {
+		"facebookTitle": "facebook",
+		"user1": "smiddleton393@gmail.com",
+		"pass1": ""
+	},
+	
+	"yahooHomepage" :{
+		"HomepageTitle1": "Yahoo!",
+		"fiancePageTitle": "Yahoo! FINANCE"
+		"sportsPageTitle": "Sports"
+		"newsPageTitle": "News"
+		"email": "email"
+
+	}
+	
+	
+}

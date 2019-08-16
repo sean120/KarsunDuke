@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "356 1st ave",
+        "cityName": "Deer trail",
+        "postalCode": "80105",
+        "stateCode": "CO"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 480000.00
+      }
+    }
+  ]
+}

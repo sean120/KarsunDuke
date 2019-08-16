@@ -1,0 +1,104 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "Yes",
+					"loanProcessingStageType": "ApplicationProcessing",
+					"loanPurposeType": "Purchase",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"sellerAccountIdentifier": "000601"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"borrowerPropertyPurchasePriceAmount": 325010.0
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"derivationRiskClassType": "FinalCreditRiskClass",
+								"derivedCalculationSourceType": "HP",
+								"strategicOfferingCreditRiskType": "Accept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 50.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				}
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "B0012685-p06",
+						"loanIdentifierType": "LoanProspectorKey"
+					},
+					{
+						"loanIdentifier": "57524",
+						"loanIdentifierType": "LoanProspectorUniqueLoan"
+					},
+					{
+						"loanIdentifier": "50109018-p06-03",
+						"loanIdentifierType": "LoanProspectorTransaction"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"addressLineText": "14576 BERKLEE DR",
+							"addressMatchLevelType": "ExactMatch",
+							"cityName": "ADDISON",
+							"geocodingIndicator": "true",
+							"postalCode": "75001",
+							"stateCode": "TX"
+						}
+					]
+				},
+				"propertyValuations": {
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 287671.0,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Subsequent"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LPAv2",
+		"subscriberRequestCorrelationIdentifier": "50109018"
+	}
+}

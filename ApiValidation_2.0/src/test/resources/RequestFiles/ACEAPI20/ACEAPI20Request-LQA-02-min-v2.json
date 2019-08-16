@@ -1,0 +1,100 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "No",
+					"loanPurposeType": "Purchase",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"sellerAccountIdentifier": "000601"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"borrowerPropertyPurchasePriceAmount": 325010.0
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"derivationRiskClassType": "FinalCreditRiskClass",
+								"derivedCalculationSourceType": "HP",
+								"loanQualityAdvisorResultType": "HighLikelihoodofAccept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 50.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				}
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "438628",
+						"loanIdentifierType": "LoanQualityAdvisor"
+					},
+					{
+						"loanIdentifier": "b9f8dec4-7b1a-40a8-baf1-0b69d12af09b",
+						"loanIdentifierType": "SubmissionLinkService"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"addressLineText": "14576 BERKLEE DR",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"cityName": "ADDISON",
+							"geocodingIndicator": "true",
+							"postalCode": "75001",
+							"stateCode": "TX"
+						}
+					]
+				},
+				"propertyValuations": {
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 287671.0,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Subsequent"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LQAACE",
+		"subscriberRequestCorrelationIdentifier": "438628"
+	}
+}

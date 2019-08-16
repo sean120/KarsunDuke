@@ -1,0 +1,53 @@
+{
+  "_id" : {
+    "$oid" : "5cf9767f24790e045e5a5016"
+  },
+  "createdDate" : {
+    "$date" : 1559852671408
+  },
+  "lpKey" : "1559852657-1002",
+  "sourceApplicationName" : "LPAv2",
+  "transactionContext" : {
+    "_id" : {
+      "$oid" : "5cf9767f24790e045e5a5016"
+    },
+    "sourceType" : "LPAv2",
+    "syntheticTransaction" : "false"
+  },
+  "presentValueData" : {
+    "propertyValuationData" : {
+      "loanProcessingStageType" : "ApplicationProcessing",
+      "propertyValuationAmount" : 550000.0,
+      "propertyValuationMethodType" : "PropertyPresentValuation",
+      "propertyValuationType" : "Subsequent"
+    }
+  },
+  "loanData" : {
+    "loanIdentifications" : {
+      "loanIdentification" : [ {
+        "loanIdentifier" : "1559852657-1002",
+        "loanIdentifierType" : "LoanProspectorKey"
+      }, {
+        "loanIdentifier" : "5752313",
+        "loanIdentifierType" : "LoanProspectorUniqueLoan"
+      }, {
+        "loanIdentifier" : "5010901713",
+        "loanIdentifierType" : "LoanProspectorTransaction"
+      } ]
+    },
+    "parties" : {
+      "party" : [ {
+        "partyIdentifier" : "000601",
+        "partyRoleType" : "SELLER"
+      } ]
+    },
+    "address" : {
+      "addressLineText" : "5901 COVINGTON CT",
+      "addressSourceType" : "GeocodingService",
+      "addressMatchLevelType" : "ExactMatch",
+      "cityName" : "MINNETONKA",
+      "postalCode" : "55345",
+      "stateCode" : "MN"
+    }
+  }
+}

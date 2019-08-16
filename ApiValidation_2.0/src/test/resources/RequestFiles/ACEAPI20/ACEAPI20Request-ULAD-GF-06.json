@@ -1,0 +1,247 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "1200.00",
+						"miPremiumFinancedIndicator": "true"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "Yes",
+					"loanProcessingStageType": "ApplicationProcessing",
+					"loanPurposeType": "Refinance",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "INC_VER_TST_007"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"borrowerPropertyPurchasePriceAmount": 325010.0,
+						"loanApplicationBaseLoanAmount": 142000.0,
+						"miAndFundingFeeFinancedAmount": 1200.0
+					}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"loanOriginationSystemVersionIdentifier": "WW4.8.00",
+						"loanPropertyUsageType": "PrimaryResidence",
+						"noteAmount": 143200.0
+					},
+					"loanUnderwritingDecision": {
+						"loanUnderwritingCaseIdentifier": "B0012697",
+						"loanUnderwritingDecisionDefaultProbabilityRate": "0.0027864444"
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"derivationRiskClassType": "FinalCreditRiskClass",
+								"derivedCalculationSourceType": "HP",
+								"strategicOfferingCreditRiskType": "Accept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 45.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								},
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "SubjectLoan",
+										"ltvRatioPercent": 45.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "B0012697",
+						"loanIdentifierType": "LoanProspectorKey"
+					},
+					{
+						"loanIdentifier": "57533",
+						"loanIdentifierType": "LoanProspectorUniqueLoan"
+					},
+					{
+						"loanIdentifier": "50109027",
+						"loanIdentifierType": "LoanProspectorTransaction"
+					},
+					{
+						"loanIdentifier": "300512432",
+						"loanIdentifierType": "HewlettPackardGeneratedTransaction"
+					},
+					{
+						"loanIdentifier": "512432",
+						"loanIdentifierType": "HewlettPackardLoanProspectorTransaction"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"productDetails": {
+				"productDefinition": {
+					"productDescription": null,
+					"productIdentifier": null,
+					"productType": null
+				}
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"FIPSCountyThreeDigitCode": "061",
+							"FIPSStateNumericCode": "06",
+							"addressLineText": "2140 DEMETRIUS WAY",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"addressUnitDesignatorType": null,
+							"addressUnitIdentifier": null,
+							"carrierRouteType": "CityRoute",
+							"censusTractBaseIdentifier": "22400",
+							"cityName": "ROSEVILLE",
+							"coreBasedStatisticalAreaCode": "40900",
+							"geocodingIndicator": "true",
+							"highwayContractIdentifier": null,
+							"latitudeNumber": "38.768199",
+							"longitudeNumber": "-121.239477",
+							"postOfficeBoxIdentifier": null,
+							"postalCode": "95661",
+							"ruralRouteIdentifier": null,
+							"stateCode": "CA",
+							"streetName": "DEMETRIUS",
+							"streetPostDirectionalText": null,
+							"streetPreDirectionalText": null,
+							"streetPrimaryNumberText": "2140",
+							"streetSuffixText": "WAY",
+							"zipPlusFourCode": "3226"
+						},
+						{
+							"addressLineText": "2140 Demetrius way",
+							"addressSourceType": "LoanProductAdvisor",
+							"cityName": "Roseville",
+							"postalCode": "95661",
+							"stateCode": "CA",
+							"zipPlusFourCode": "3226",
+							"geocodingIndicator": "false"
+						}
+					]
+				},
+				"property": {
+					"propertyCategoryType": "Attached"
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 561410.0,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Subsequent"
+							},
+							{
+								"propertyAssessmentSourceType": "LoanSeller",
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 324261.0,
+								"propertyValuationEffectiveDateTime": "2019-02-28T17:19:53.189-05:00",
+								"propertyValuationMethodType": "Estimation",
+								"propertyValuationSequenceNumber": "3",
+								"propertyValuationType": "Original"
+							},
+							{
+								"propertyAssessmentSourceType": "LoanSeller",
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 324260.0,
+								"propertyValuationEffectiveDateTime": "2019-02-28T17:19:53.189-05:00",
+								"propertyValuationMethodType": "Estimation",
+								"propertyValuationSequenceNumber": "4",
+								"propertyValuationType": "Subsequent"
+							}
+						]
+					}
+				},
+				"realEstateProject": {
+					"projectAttachmentType": "Attached",
+					"projectClassificationType": "string",
+					"projectLegalStructureType": null
+				},
+				"propertyValuationAssessment" : {
+					"homeValueExplorerOptionType":"HVEFeedback"
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "string"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LPAv2",
+		"subscriberRequestCorrelationIdentifier": "50109027"
+	}
+}

@@ -1,0 +1,211 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "1200.00",
+						"miPremiumFinancedIndicator": "false"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "No",
+					"loanPurposeType": "Refinance",
+					"loanRefinanceCashOutDeterminationType": "CashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "FRE_LST_008"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"loanApplicationBaseLoanAmount": 85000.0,
+						"borrowerPropertyPurchasePriceAmount": 310000.0
+					}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"investorCollateralProgramType": "PropertyInspectionWaiver",
+						"loanPropertyUsageType": "PrimaryResidence",
+						"noteAmount": 85000
+					},
+					"loanUnderwritingDecision": {
+						"automatedUnderwritingSystemType": "LoanProspector",
+						"loanUnderwritingCaseIdentifier": "A0052781",
+						"loanUnderwritingDecisionDefaultProbabilityRate": "0.0039816375"
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"loanQualityAdvisorResultType": "HighLikelihoodofAccept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 63.00,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								},
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "SubjectLoan",
+										"ltvRatioPercent": 63.00,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "438628",
+						"loanIdentifierType": "LoanQualityAdvisor"
+					},
+					{
+						"loanIdentifier": "300438628",
+						"loanIdentifierType": "SubmissionLinkService"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"FIPSCountyThreeDigitCode": "113",
+							"FIPSStateNumericCode": "48",
+							"addressLineText": "1009 CIRCLE DR",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"addressUnitDesignatorType": null,
+							"addressUnitIdentifier": null,
+							"carrierRouteType": "CityRoute",
+							"censusTractBaseIdentifier": "13726",
+							"cityName": "ADAIR",
+							"coreBasedStatisticalAreaCode": "12940",
+							"geocodingIndicator": "true",
+							"highwayContractIdentifier": null,
+							"latitudeNumber": "32.944363",
+							"longitudeNumber": "-96.841969",
+							"postOfficeBoxIdentifier": null,
+							"postalCode": "50002",
+							"ruralRouteIdentifier": null,
+							"stateCode": "IA",
+							"streetName": "CIRCLE",
+							"streetPostDirectionalText": null,
+							"streetPreDirectionalText": null,
+							"streetPrimaryNumberText": "1009",
+							"streetSuffixText": "DR",
+							"zipPlusFourCode": "1010"
+						},
+						{
+							"addressLineText": "1009 CIRCLE DR",
+							"addressSourceType": "LoanQualityAdvisor",
+							"cityName": "GREENWELL SPRINGS",
+							"postalCode": "50002",
+							"stateCode": "IA",
+							"zipPlusFourCode": "1010",
+							"geocodingIndicator": "false"
+						}
+					]
+				},
+				"property": {
+					"propertyCategoryType": "Detached"
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 135160.00,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "6",
+								"propertyValuationType": "Subsequent"
+							},
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 287672.0,
+								"propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+								"propertyValuationMethodType": "None",
+								"propertyValuationSequenceNumber": "7"
+							}
+						]
+					}
+				},
+				"realEstateProject": {
+					"projectAttachmentType": "Detached",
+					"projectClassificationType": "string",
+					"projectLegalStructureType": null
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "Borrower"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LQAACE",
+		"subscriberRequestCorrelationIdentifier": "438628"
+	}
+}

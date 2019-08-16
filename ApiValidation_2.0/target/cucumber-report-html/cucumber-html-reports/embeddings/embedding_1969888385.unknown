@@ -1,0 +1,53 @@
+{
+  "_id" : {
+    "$oid" : "5cf9767724790e045e5a23d1"
+  },
+  "createdDate" : {
+    "$date" : 1559852663302
+  },
+  "lpKey" : "1559852657-1001",
+  "sourceApplicationName" : "LPAv2",
+  "transactionContext" : {
+    "_id" : {
+      "$oid" : "5cf9767724790e045e5a23d1"
+    },
+    "sourceType" : "LPAv2",
+    "syntheticTransaction" : "false"
+  },
+  "presentValueData" : {
+    "propertyValuationData" : {
+      "loanProcessingStageType" : "ApplicationProcessing",
+      "propertyValuationAmount" : 324260.0,
+      "propertyValuationMethodType" : "PropertyPresentValuation",
+      "propertyValuationType" : "Subsequent"
+    }
+  },
+  "loanData" : {
+    "loanIdentifications" : {
+      "loanIdentification" : [ {
+        "loanIdentifier" : "1559852657-1001",
+        "loanIdentifierType" : "LoanProspectorKey"
+      }, {
+        "loanIdentifier" : "5752309",
+        "loanIdentifierType" : "LoanProspectorUniqueLoan"
+      }, {
+        "loanIdentifier" : "5010901709",
+        "loanIdentifierType" : "LoanProspectorTransaction"
+      } ]
+    },
+    "parties" : {
+      "party" : [ {
+        "partyIdentifier" : "000601",
+        "partyRoleType" : "SELLER"
+      } ]
+    },
+    "address" : {
+      "addressLineText" : "11931 BENTON LAKE RD",
+      "addressSourceType" : "GeocodingService",
+      "addressMatchLevelType" : "ExactMatch",
+      "cityName" : "BRISTOW",
+      "postalCode" : "20136",
+      "stateCode" : "VA"
+    }
+  }
+}

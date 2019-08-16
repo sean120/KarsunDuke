@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "2668 bruton SPRINGS Drive",
+        "cityName": "Dallas",
+        "postalCode": "28938",
+        "stateCode": "TX"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 480000.00
+      }
+    }
+  ]
+}

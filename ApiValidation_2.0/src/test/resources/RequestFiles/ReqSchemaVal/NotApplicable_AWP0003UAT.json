@@ -1,0 +1,23 @@
+{
+  "requestBatchIdentifier":"1234",
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "requestTransactionIdentifier":"1234",
+      "address": {
+        "addressLineText": "1938 tinnind Road",
+        "cityName": "GOODLETTSVLLE",
+        "postalCode": "20874",
+        "stateCode": "TN"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 5533.00,
+        "salesContractAmount": 100000.12
+      }
+    }
+  ]
+}

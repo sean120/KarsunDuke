@@ -1,0 +1,230 @@
+{
+  "loanDeliveryStructure": {
+    "loanDetails": {
+      "communicationFailureDerivedDetails": {
+        "rdsCommunicationFailureDerivation": {
+          "rdsCommunicationFailureType": "string"
+        }
+      },
+      "loanIdentifications": {
+        "loanIdentification": [
+          {
+            "loanIdentifier": "205559",
+            "loanIdentifierType": "LoanProspectorTransaction"
+          },
+                    {
+            "loanIdentifier": "583596",
+            "loanIdentifierType": "HewlettPackardLoanProspectorTransaction"
+          },
+                    {
+            "loanIdentifier": "4640",
+            "loanIdentifierType": "LoanProspectorUniqueLoan"
+          },
+                    {
+            "loanIdentifier": "300583596",
+            "loanIdentifierType": "ExtendedHewlettPackardLoanProspectorTransaction"
+          },
+                    {
+            "loanIdentifier": "00000000-0000-0000-0000-000000000000",
+            "loanIdentifierType": "SubmissionLinkServicen"
+          },
+                    {
+            "loanIdentifier": "A0052799",
+            "loanIdentifierType": "LoanProspectorKey"
+          }
+        ]
+      },
+      "loanPropertyCollaterals": {
+        "loanPropertyCollateralDetails": {
+          "loanPropertyCollateral": {
+            "financedUnitCount": 1
+          }
+        }
+      },
+      "loanStates": {
+        "loanStateDetails": [
+          {
+            "loanDetailInfo": {
+              "insurancePolicyDetails": {
+                "loanMI": {
+                  "miPremiumFinancedIndicator": "false"
+                }
+              },
+              "loan": {
+                "constructionLoanIndicator": "string",
+                "grandfatheringIndicator": "string",
+                "loanProcessingStageType": "PreQualification",
+                "loanPurposeType": "Refinance",
+                "loanRefinanceCashOutDeterminationType": "NoCashOut",
+                "mortgageType": "Conventional"
+              },
+              "loanAcquisitionDetails": {
+                "loanAcquisition": {
+                  "loanConformityType": "ConformingMortgage",
+                  "sellerAccountIdentifier": "000601",
+                  "sellerLoanIdentifier": "FRE_LST_008"
+                }
+              },
+              "loanApplicationDetails": {
+                "loanApplication": {
+                  "borrowerPropertyPurchasePriceAmount": 0,
+                  "loanApplicationBaseLoanAmount": 85000.0,
+                  "loanApplicationIdentifier": "string",
+                  "miAndFundingFeeFinancedAmount": 0
+                }
+              },
+              "loanConversionRuleDetails": {
+                "loanConversionRule": {
+                  "constructionLoanType": "string"
+                }
+              },
+              "loanOriginationDetails": {
+                "loanOrigination": {
+                  "investorCollateralProgramType": "string",
+                  "loanOriginationSystemVersionIdentifier": "string",
+                  "loanPropertyUsageType": "PrimaryResidence",
+                  "noteAmount": 85000
+                },
+                "loanUnderwritingDecision": {
+                  "automatedUnderwritingSystemType": "LoanProspector",
+                  "loanUnderwritingCaseIdentifier": "A0052799",
+                  "loanUnderwritingDecisionDefaultProbabilityRate": "0.0039816375"
+                }
+              },
+              "loanRiskAssessments": {
+                "loanRiskAssessmentDetails": {
+                  "creditRiskDerivation": [
+                    {
+                      "derivationRiskClassType": "PreOverrideRiskClass",
+                      "derivedCalculationSourceType": "HP",
+                      "strategicOfferingCreditRiskType": "DefaultRisk"
+                    }
+                  ],
+                  "loanCollateralRiskAssessments": {
+                    "loanCollateralRiskAssessmentDetails": [
+                      {
+                        "loanCollateralRiskAssessment": {
+                          "loanScopeType": "SubjectLoan",
+                          "ltvRatioPercent": 63,
+                          "ltvSourceType": "FreddieMacCalculated"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "programs": [
+                {
+                  "program": {
+                    "programType": "string",
+                    "refinanceProgramType": "string"
+                  }
+                }
+              ]
+            },
+            "loanState": {
+              "loanStateDate": "2019-03-08-05:00",
+              "loanStateType": "Current"
+            }
+          }
+        ]
+      },
+      "partyRoles": {
+        "partyRole": [
+          {
+            "partyRoleIdentifier": "1",
+            "partyRoleType": "Borrower"
+          }
+        ]
+      },
+      "productDetails": {
+        "productDefinition": {
+          "productDescription": "string",
+          "productIdentifier": "string",
+          "productType": "string"
+        }
+      },
+      "propertyDetails": {
+        "addressDetails": [
+          {
+            "address": {
+              "FIPSCountyThreeDigitCode": "001",
+              "FIPSStateNumericCode": "IA",
+              "addressLineText": "1009 CIRCLE DR",
+              "addressMatchLevelType": "string",
+              "addressSourceType": "string",
+              "addressUnitDesignatorType": "string",
+              "addressUnitIdentifier": "string",
+              "carrierRouteType": "string",
+              "censusTractBaseIdentifier": "960100",
+              "cityName": "ADAIR",
+              "coreBasedStatisticalAreaCode": "string",
+              "highwayContractIdentifier": "string",
+              "latitudeNumber": "41.500148",
+              "longitudeNumber": "-94.652712",
+              "postOfficeBoxIdentifier": "string",
+              "postalCode": 50002,
+              "ruralRouteIdentifier": "string",
+              "stateCode": "IA",
+              "streetName": "string",
+              "streetPostDirectionalText": "string",
+              "streetPreDirectionalText": "string",
+              "streetPrimaryNumberText": "string",
+              "streetSuffixText": "string",
+              "zipPlusFourCode": "1010"
+            }
+          }
+        ],
+        "property": {
+          "propertyCategoryType": "string",
+          "propertyOccupancyType": "string"
+        },
+        "propertyAssessment": {
+          "propertyAssessmentSourceType": "string"
+        },
+        "propertyRights": {
+          "propertyRightsType": "string"
+        },
+        "propertyTitles": {
+          "propertyEstateType": "string"
+        },
+        "propertyValuations": {
+          "appraisal": {
+            "appraisalIdentifier": "string"
+          },
+          "propertyValuationDetails": [
+            {
+              "propertyValuation": [
+                {
+                  "propertyIdentifier": 0,
+                  "propertyValuationAmount": 0,
+                  "propertyValuationEffectiveDateTime": "string",
+                  "propertyValuationMethodType": "string",
+                  "propertyValuationSequenceNumber": "string",
+                  "propertyValuationType": "string"
+                }
+              ]
+            }
+          ]
+        },
+        "realEstateProject": {
+        	
+          "projectAttachmentType": "string",
+          "projectClassificationType": "string",
+          "projectLegalStructureType": "string"
+        },
+        "structureDetails": {
+          "structure": {
+            "constructionMethodType": "Other"
+          }
+        }
+      }
+    }
+  },
+  "serviceRequestDetails": {
+    "serviceName": "HVSWS",
+    "serviceRequestOperationName": "GetHVSData",
+    "subscriberIdentifier": "1",
+    "subscriberRequestCorrelationIdentifier": "205559"
+  }
+}

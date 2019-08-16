@@ -1,0 +1,224 @@
+{
+  "loanDeliveryStructure": {
+    "loanDetails": {
+      "communicationFailureDerivedDetails": {
+        "craCommunicationFailureDerivation": {
+          "craCommunicationFailureType": "craCommunicationFailureType"
+        },
+        "rdsCommunicationFailureDerivation": {
+          "rdsCommunicationFailureType": "rdsCommunicationFailureType"
+        }
+      },
+      "loanDetailInfo": {
+        "insurancePolicyDetails": {
+          "loanMI": {
+            "miPremiumFinancedAmount": "miPremiumFinancedAmount",
+            "miPremiumFinancedIndicator": "miPremiumFinancedIndicator"
+          }
+        },
+        "loan": {
+          "constructionLoanIndicator": "constructionLoanIndicator",
+          "grandfatheringIndicator": "grandfatheringIndicator",
+          "loanProcessingStageType": "PreQualification",
+          "loanPurposeType": "Refinance",
+          "loanRefinanceCashOutDeterminationType": "NoCashOut",
+          "mortgageType": "Conventional"
+        },
+        "loanAcquisitionDetails": {
+          "loanAcquisition": {
+            "loanConformityType": "ConformingMortgage",
+            "sellerAccountIdentifier": "000601",
+            "sellerLoanIdentifier": "B_16394_LPR_JW_"
+          }
+        },
+        "loanApplicationDetails": {
+          "loanApplication": {
+            "borrowerPropertyPurchasePriceAmount": 0,
+            "loanApplicationBaseLoanAmount": 110000.0,
+            "miAndFundingFeeFinancedAmount": 0
+          }
+        },
+        "loanConversionRuleDetails": {
+          "loanConversionRule": {
+            "constructionLoanType": "constructionLoanType"
+          }
+        },
+        "loanOriginationDetails": {
+          "loanOrigination": {
+            "investorCollateralProgramType": "investorCollateralProgramType",
+            "loanOriginationSystemVersionIdentifier": "loanOriginationSystemVersionIdentifier",
+            "loanPropertyUsageType": "SecondHome",
+            "noteAmount": 0
+          },
+          "loanUnderwritingDecision": {
+            "automatedUnderwritingSystemType": "LoanProspector",
+            "loanUnderwritingCaseIdentifier": "A0052789",
+            "loanUnderwritingDecisionDefaultProbabilityRate": "0.0008692620"}
+        },
+        "loanRiskAssessments": {
+          "loanRiskAssessmentDetails": {
+            "creditRiskDerivation": [
+              {
+                "derivationRiskClassType": "PreOverrideRiskClass",
+                "derivedCalculationSourceType": "HP",
+                "loanQualityAdvisorResultType": "String",
+                "messageCode": "messageCode",
+                "messageText": "messageText",
+                "strategicOfferingCreditRiskType": "Accept"
+              }
+            ],
+            "loanCollateralRiskAssessments": {
+              "loanCollateralRiskAssessmentDetails": [
+                {
+                  "loanCollateralRiskAssessment": {
+                    "loanScopeType": "Combined",
+                    "ltvRatioPercent": 37.00,
+                    "ltvSourceType": "FreddieMacCalculated"
+                  }
+                },
+                 {
+                       "loanCollateralRiskAssessment": {
+                        "loanScopeType": "HomeEquityCombined",
+                         "ltvRatioPercent": 37.00,
+                         "ltvSourceType": "FreddieMacCalculated"}
+                       
+                        
+                       }
+             
+              
+              ]
+            }
+          }
+        },
+        "programs": [
+          {
+            "program": {
+              "programType": "programType",
+              "refinanceProgramType": "refinanceProgramType"
+            }
+          }
+        ]
+      },
+      "loanIdentifications": {
+        "loanIdentification": [
+          {
+            "loanIdentifier": "loanIdentifier",
+            "loanIdentifierType": "AGENCY_CASE"
+          }
+        ]
+      },
+      "loanPropertyCollaterals": {
+        "loanPropertyCollateralDetails": {
+          "loanPropertyCollateral": {
+            "financedUnitCount": 0
+          }
+        }
+      },
+      "partyRoles": {
+        "partyRole": [
+          {
+            "partyRoleIdentifier": "1",
+            "partyRoleType": "Borrower"
+          }
+        ]
+      },
+      "productDetails": {
+        "productDefinition": {
+          "productDescription": "productDescription",
+          "productIdentifier": "productIdentifier",
+          "productType": "productType"
+        }
+      },
+      "propertyDetails": {
+        "addressDetails": 
+          {
+            "address": [
+              {
+                "FIPSCountyThreeDigitCode": "113",
+                "FIPSStateNumericCode": "123",
+                "addressLineText": "14576 BERKLEE DR",
+                "addressMatchLevelType": "Tight Match(T)",
+                "addressSourceType": "GeocodingService",
+                "addressUnitDesignatorType": "addressUnitDesignatorType",
+                "addressUnitIdentifier": "addressUnitIdentifier",
+                "carrierRouteType": "carrierRouteType",
+                "censusTractBaseIdentifier": "12345678",
+                "cityName": "ADDISOn",
+                "coreBasedStatisticalAreaCode": "19100",
+                "geocodingIndicator": "geocodingIndicator",
+                "highwayContractIdentifier": "highwayContractIdentifier",
+                "latitudeNumber": "32.944363",
+                "longitudeNumber": "-96.841969",
+                "postOfficeBoxIdentifier": "postOfficeBoxIdentifier",
+                "postalCode": 75001,
+                "ruralRouteIdentifier": "ruralRouteIdentifier",
+                "stateCode": "TX",
+                "streetName": "streetName",
+                "streetPostDirectionalText": "streetPostDirectionalText",
+                "streetPreDirectionalText": "streetPreDirectionalText",
+                "streetPrimaryNumberText": "streetPrimaryNumberText",
+                "streetSuffixText": "streetSuffixText",
+                "zipPlusFourCode": "6156"
+              }
+            ]
+          },
+        
+        "property": {
+          "propertyCategoryType": "propertyCategoryType"
+        },
+        "propertyAssessment": {
+          "propertyAssessmentSourceType": "propertyAssessmentSourceType"
+        },
+        "propertyRights": {
+          "propertyRightsType": "propertyRightsType"
+        },
+        "propertyTitles": {
+          "propertyEstateType": "propertyEstateType"
+        },
+        "propertyValuations": {
+          "appraisal": {
+            "appraisalIdentifier": "appraisalIdentifier"
+          },
+          "propertyValuationDetails": [
+            {
+              "propertyValuation": [
+                {
+                  "propertyIdentifier": 124,
+                  "propertyValuationAmount": 1223,
+                  "propertyValuationEffectiveDateTime": "propertyValuationEffectiveDateTime",
+                  "propertyValuationMethodType": "propertyValuationMethodType",
+                  "propertyValuationSequenceNumber": "propertyValuationSequenceNumber",
+                  "propertyValuationType": "propertyValuationType"
+                }
+              ]
+            }
+          ]
+        },
+        "realEstateProject": {
+          "projectAttachmentType": "projectAttachmentType",
+          "projectClassificationType": "projectClassificationType",
+          "projectLegalStructureType": "projectLegalStructureType"
+        },
+        "structureDetails": {
+          "structure": {
+            "constructionMethodType": "constructionMethodType"
+          }
+        }
+      },
+      "singleFamilyLoanBorrower": [
+        {
+          "borrowerClassificationType": "Primary",
+          "borrowerIdentifier": "1",
+          "intentToOccupyType": "NO",
+          "partyRoleType": "Borrower"
+        }
+      ]
+    }
+  },
+  "serviceRequestDetails": {
+    "serviceName": "HVSWS",
+    "serviceRequestOperationName":  "GetHVSData",
+    "subscriberIdentifier": "1",
+    "subscriberRequestCorrelationIdentifier": "loanIdentifier"
+  }
+}

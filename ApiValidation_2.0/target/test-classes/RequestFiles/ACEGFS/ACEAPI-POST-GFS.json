@@ -1,0 +1,35 @@
+{
+	"sourceApplicationName": "ACEAPI",
+	"loanIdentifications": {
+		"loanIdentification": [
+			{
+				"loanIdentifier": "111",
+				"loanIdentifierType": "ACEAPI"
+			}
+		]
+	},
+	"parties": {
+		"party": [
+			{
+				"partyIdentifier": "123456",
+				"partyRoleType": "SELLER"
+			}
+		]
+	},
+	"address": {
+		"addressLineText": "1 FRED AVE",
+		"postalCode": "44444"
+	},
+	"alternateAppraisalDecisionData": {
+		"alternateAppraisalEligibilityDecision": "Eligible"
+	},
+	"homeValueExplorerDataContainer": {
+		"homeValueExplorerData": [
+			{
+				"propertyAppraiserValuationContainer": {
+					"homeValueExplorerMidPointValueEstimateAmount": 200
+				}
+			}
+		]
+	}
+}

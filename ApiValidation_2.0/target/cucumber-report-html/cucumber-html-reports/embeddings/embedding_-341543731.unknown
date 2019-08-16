@@ -1,0 +1,53 @@
+{
+  "_id" : {
+    "$oid" : "5cf9767824790e045e5a3965"
+  },
+  "createdDate" : {
+    "$date" : 1559852664972
+  },
+  "lpKey" : "1559852657-1001",
+  "sourceApplicationName" : "LPAv2",
+  "transactionContext" : {
+    "_id" : {
+      "$oid" : "5cf9767824790e045e5a3965"
+    },
+    "sourceType" : "LPAv2",
+    "syntheticTransaction" : "false"
+  },
+  "presentValueData" : {
+    "propertyValuationData" : {
+      "loanProcessingStageType" : "ApplicationProcessing",
+      "propertyValuationAmount" : 146027.0,
+      "propertyValuationMethodType" : "PropertyPresentValuation",
+      "propertyValuationType" : "Subsequent"
+    }
+  },
+  "loanData" : {
+    "loanIdentifications" : {
+      "loanIdentification" : [ {
+        "loanIdentifier" : "1559852657-1001",
+        "loanIdentifierType" : "LoanProspectorKey"
+      }, {
+        "loanIdentifier" : "5752307",
+        "loanIdentifierType" : "LoanProspectorUniqueLoan"
+      }, {
+        "loanIdentifier" : "5010901707",
+        "loanIdentifierType" : "LoanProspectorTransaction"
+      } ]
+    },
+    "parties" : {
+      "party" : [ {
+        "partyIdentifier" : "000601",
+        "partyRoleType" : "SELLER"
+      } ]
+    },
+    "address" : {
+      "addressLineText" : "9204 MARSH MOUNTAIN RD",
+      "addressSourceType" : "GeocodingService",
+      "addressMatchLevelType" : "ExactMatch",
+      "cityName" : "PINSON",
+      "postalCode" : "35126",
+      "stateCode" : "AL"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+    "propertyValuationData": {
+        "loanProcessingStageType": "ApplicationProcessing",
+        "propertyValuationAmount": 287672,
+        "propertyValuationMethodType": "PropertyPresentValuation",
+        "propertyValuationType": "Subsequent"
+    },
+    "address": {
+        "addressLineText": "14576 BERKLEE DR",
+        "addressSourceType": "GeocodingService",
+        "addressMatchLevelType": "ExactMatch",
+        "cityName": "ADDISON",
+        "postalCode": "75001",
+        "stateCode": "TX"
+    },
+    "alternateAppraisalDecisionData": {
+        "alternateAppraisalDecisionStatusType": "Current",
+        "alternateAppraisalEligibilityDecision": "Eligible",
+        "alternateAppraisalDecisionEffectiveDatetime": "2019-06-07T10:27:29.879",
+        "alternateAppraisalDecisionExpirationDatetime": "2019-10-05 11:59:59 PM"
+    },
+    "parties": {
+        "party": [
+            {
+                "partyIdentifier": "000601",
+                "partyRoleType": "SELLER"
+            }
+        ]
+    },
+    "homeValueExplorerDataContainer": {
+        "homeValueExplorerData": [
+            {
+                "propertyAppraiserValuationContainer": {
+                    "homeValueExplorerAssessmentDateTime": "2019-06-07T10:27:29.774-04:00",
+                    "homeValueExplorerConfidenceLevelType": "H",
+                    "homeValueExplorerForecastStandardDeviationRate": 0.07,
+                    "homeValueExplorerMaximumValueAmount": 312585,
+                    "homeValueExplorerMidPointValueEstimateAmount": 292620,
+                    "homeValueExplorerMinimumValueAmount": 273931,
+                    "propertyValuationEffectiveDateTime": "2019-06-07T10:27:29.774-04:00"
+                },
+                "propertyInspectionWaiverResult": {
+                    "activeMLSListingIndicator": false,
+                    "appraisalCompletionAsIsIndicator": true,
+                    "appraisalExistenceIndicator": true,
+                    "armsLengthContractIndicator": true,
+                    "daysOnMarketIndicator": true,
+                    "distressedIndicator": true,
+                    "highestBestUseIndicator": true,
+                    "legalityIndicator": true,
+                    "missingDataIndicator": false,
+                    "multipleListingIndicator": true,
+                    "neighborhoodConformityIndicator": true,
+                    "physicalDeficiencyIndicator": true,
+                    "priceGrowthThresholdAmount": 227228,
+                    "propertyAgeCount": 20,
+                    "propertyConditionIndicator": true,
+                    "propertyLandUseIndicator": true,
+                    "propertyPurchaseLotSizeOneAcreIndicator": true,
+                    "propertyRefinanceLotSizeTwoAcreIndicator": true,
+                    "propertyUnitIndicator": true,
+                    "publicRecordExistenceIndicator": true,
+                    "qualityAgeIndicator": true,
+                    "qualityIndicator": true
+                }
+            },
+            {
+                "propertyAppraiserValuationContainer": {
+                    "homeValueExplorerAssessmentDateTime": "2019-06-07T10:27:29.774-04:00",
+                    "homeValueExplorerConfidenceLevelType": "H",
+                    "homeValueExplorerForecastStandardDeviationRate": 0.07,
+                    "homeValueExplorerMaximumValueAmount": 312586,
+                    "homeValueExplorerMidPointValueEstimateAmount": 292621,
+                    "homeValueExplorerMinimumValueAmount": 273932,
+                    "propertyValuationEffectiveDateTime": "2019-06-07T10:27:29.774-04:00"
+                },
+                "propertyInspectionWaiverResult": {
+                    "activeMLSListingIndicator": false,
+                    "appraisalCompletionAsIsIndicator": true,
+                    "appraisalExistenceIndicator": true,
+                    "armsLengthContractIndicator": true,
+                    "daysOnMarketIndicator": true,
+                    "distressedIndicator": true,
+                    "highestBestUseIndicator": true,
+                    "legalityIndicator": true,
+                    "missingDataIndicator": false,
+                    "multipleListingIndicator": true,
+                    "neighborhoodConformityIndicator": true,
+                    "physicalDeficiencyIndicator": true,
+                    "priceGrowthThresholdAmount": 227228,
+                    "propertyAgeCount": 20,
+                    "propertyConditionIndicator": true,
+                    "propertyLandUseIndicator": true,
+                    "propertyPurchaseLotSizeOneAcreIndicator": true,
+                    "propertyRefinanceLotSizeTwoAcreIndicator": true,
+                    "propertyUnitIndicator": true,
+                    "publicRecordExistenceIndicator": true,
+                    "qualityAgeIndicator": true,
+                    "qualityIndicator": true
+                }
+            }
+        ]
+    },
+    "sourceApplicationName": "LPAv2",
+    "loanIdentifications": {
+        "loanIdentification": [
+            {
+                "loanIdentifier": "190607102726310",
+                "loanIdentifierType": "LoanProspectorKey"
+            },
+            {
+                "loanIdentifier": "57524",
+                "loanIdentifierType": "LoanProspectorUniqueLoan"
+            },
+            {
+                "loanIdentifier": "50109018-p06-03",
+                "loanIdentifierType": "LoanProspectorTransaction"
+            }
+        ]
+    }
+}

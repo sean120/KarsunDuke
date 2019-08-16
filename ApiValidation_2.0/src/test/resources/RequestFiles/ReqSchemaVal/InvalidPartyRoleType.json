@@ -1,0 +1,21 @@
+{
+  "party": {
+    "partyRoleType": "Loan Seller",
+    "partyRoleIdentifier": "121898"
+  },
+  "deals": [
+    {
+      "address": {
+      "addressLineText": "2300 GRAND CYPRESS DR",
+        "cityName": "LUTZ",
+        "postalCode": "33559",
+        "stateCode": "FL"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 200000.00,
+        "salesContractAmount": 100000.00
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+ <!DOCTYPE LOAN_APPLICATION SYSTEM "file:///E:/MS%26P/Borrower%20Middle%20Initial/Testing/Cycle6_test%20plan%20%26%20files/LOANPROSPECTOR_REQUEST_4.1.DTD">
+<LOAN_APPLICATION MISMOVersionID = "2.4">
+	<_DATA_INFORMATION>
+		<DATA_VERSION _Number = "WW4.3.00"/>
+	</_DATA_INFORMATION>
+	<ADDITIONAL_CASE_DATA>
+		<TRANSMITTAL_DATA CaseStateType = "Application" LenderBranchIdentifier = "LIAB" PropertyEstimatedValueAmount = "302364.00"/>
+	</ADDITIONAL_CASE_DATA>
+
+		<ASSET BorrowerID = "B1" _CashOrMarketValueAmount = "10000.00" _Type = "Automobile" _HolderName = "First National Bank" _HolderStreetAddress = "123 Maple Street" _HolderCity = "Austin" _HolderState = "TX" _HolderPostalCode = "30583"/>
+
+		<ASSET BorrowerID = "B1" _CashOrMarketValueAmount = "-5000.00" _Type = "NetWorthOfBusinessOwned" _HolderName = "Amos Realty"/>
+
+		<ASSET BorrowerID = "B1" _CashOrMarketValueAmount = "5000.00" _Type = "OtherNonLiquidAssets" AutomobileMakeDescription = "Volvo" AutomobileModelYear = "1996"/>
+
+	<ASSET BorrowerID = "B1" _CashOrMarketValueAmount = "10000.00" _Type = "CashOnHand" AutomobileMakeDescription = "Volvo" AutomobileModelYear = "1996"/>
+
+<ASSET BorrowerID = "B1" _CashOrMarketValueAmount = "-5000.00" _Type = "Automobile" AutomobileMakeDescription = "Volvo" AutomobileModelYear = "1996"/>
+
+		<ASSET BorrowerID = "B1" _CashOrMarketValueAmount = "20000.00" _Type = "GiftsTotal"/>
+
+	
+	<DOWN_PAYMENT _Amount = "38250.00" _SourceDescription = "Net Proceeds"/>
+	<DOWN_PAYMENT _Type="GiftFunds" _Amount="1200.00" _SourceDescription="03"/>
+
+	<GOVERNMENT_LOAN>
+		<FHA_LOAN BorrowerFinancedFHADiscountPointsAmount = "2500.00" _LenderIdentifier = "2299500056" _SponsorIdentifier = "2299500269"/>
+		<FHA_VA_LOAN BorrowerPaidFHA_VAClosingCostsAmount = "3456.78"/>
+		<VA_LOAN VAResidualIncomeAmount = "2500.00"/>
+	</GOVERNMENT_LOAN> 
+ 
+		<LIABILITY _ID = "L1" BorrowerID = "B1" _HolderStreetAddress = "567 Big Street" _HolderCity = "Fairfax" _HolderState = "VA" _HolderPostalCode = "22032" _ExclusionIndicator = "N" _HolderName = "Credit Giant" _MonthlyPaymentAmount = "100.00" _PayoffStatusIndicator = "N" _RemainingTermMonths = "9" _Type = "Installment" _UnpaidBalanceAmount = "1000.00"/>
+		<LOAN_PRODUCT_DATA>
+		<LOAN_FEATURES LienPriorityType = "FirstLien" FREOfferingIdentifier = ""/>
+	</LOAN_PRODUCT_DATA>
+	<LOAN_PURPOSE GSETitleMannerHeldDescription = "Tenants in Common" _Type = "Purchase" PropertyRightsType = "FeeSimple" PropertyUsageType = "SecondHome">
+<CONSTRUCTION_REFINANCE_DATA GSERefinancePurposeType="NoCashOutOther"  RefinanceProposedImprovementsDescription = " " SecondaryFinancingRefinanceIndicator = "Y" PropertyAcquiredYear = "1990" FRECashOutAmount = "" PropertyExistingLienAmount = "95000.00" PropertyOriginalCostAmount = "125000.00"/> 
+      </LOAN_PURPOSE>
+	<MORTGAGE_TERMS BaseLoanAmount = "110000.00" LenderCaseIdentifier = "B_16394_LPR_JW_001" LoanAmortizationTermMonths = "240" LoanAmortizationType = "Fixed" MortgageType = "Conventional" RequestedInterestRatePercent = "4.00"/>
+
+	<PROPERTY _StreetAddress = "10211 MAGNOLIA BLOSSOM AVE" _City = "GREENWELL SPRINGS" _State = "LA" _County = "EAST BATON ROUGE" _PostalCode = "70739" BuildingStatusType = "Existing" _FinancedNumberOfUnits = "1" _StructureBuiltYear = "1955" PlannedUnitDevelopmentIndicator = "N">
+
+		<_CATEGORY _Type = "Attached"/>
+	</PROPERTY>
+
+	<PROPOSED_HOUSING_EXPENSE HousingExpenseType = "FirstMortgagePrincipalAndInterest" _PaymentAmount = "200.00"/>
+	<PROPOSED_HOUSING_EXPENSE HousingExpenseType = "HazardInsurance" _PaymentAmount = "100.00"/>
+	<PROPOSED_HOUSING_EXPENSE HousingExpenseType = "RealEstateTax" _PaymentAmount = "100.00"/>
+	<PROPOSED_HOUSING_EXPENSE HousingExpenseType = "OtherHousingExpense" _PaymentAmount = "100.00"/>
+		<REO_PROPERTY BorrowerID = "B1" REO_ID = "R1" LiabilityID = "L1" _DispositionStatusType = "Sold" _GSEPropertyType = "SingleFamily" _StreetAddress = "B1 #1 14 SFD Prop Street    06G-030" _City = "B1 #1 SFD Prop City         06G-040" _State = "CA" _PostalCode = "910119816" _SubjectIndicator = "N" _CurrentResidenceIndicator = "Y" _LienInstallmentAmount = "371.11" _LienUPBAmount = "4501.11" _MaintenanceExpenseAmount = "56.11" _MarketValueAmount = "175001.11" _RentalIncomeGrossAmount = "150.01" _StreetAddress2 = "Street address 2" _RentalIncomeNetAmount = "4500.00"/>      
+			
+	<TITLE_HOLDER _Name = "Max"/>
+
+	<TRANSACTION_DETAIL EstimatedClosingCostsAmount = "4213.00" PrepaidItemsEstimatedAmount = "462.06" PurchasePriceAmount = "310000" SalesConcessionAmount = "0.00" FREReservesAmount = "27274.94" MIAndFundingFeeFinancedAmount = "" SubordinateLienAmount = "0" SubordinateLienHELOCAmount = "" >
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "3500.00"/>        
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "78.00"/>        
+			<PURCHASE_CREDIT _SourceType = "PropertySeller" _Amount = "100.01"/>        
+			<PURCHASE_CREDIT _SourceType = "Lender" _Amount = "120.00"/>        
+			<PURCHASE_CREDIT _Type = "RelocationFunds" _Amount = "130.00"/>        
+			<PURCHASE_CREDIT _Type = "EmployerAssistedHousing" _Amount = "150.00"/>        
+			<PURCHASE_CREDIT _Type = "LeasePurchaseFund" _Amount = "175.00"/>        
+			<PURCHASE_CREDIT _Type = "Other" _Amount = "201.00"/>        
+			<PURCHASE_CREDIT _SourceType = "BorrowerPaidOutsideClosing" _Amount = "250.00"/>        
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "3501.01"/>        
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "79.00"/>        
+			<PURCHASE_CREDIT _SourceType = "PropertySeller" _Amount = "101.00"/>        
+			<PURCHASE_CREDIT _SourceType = "Lender" _Amount = "121.00"/>        
+			<PURCHASE_CREDIT _Type = "RelocationFunds" _Amount = "131.00"/>        
+			<PURCHASE_CREDIT _Type = "EmployerAssistedHousing" _Amount = "151.00"/>        
+			<PURCHASE_CREDIT _Type = "LeasePurchaseFund" _Amount = "176.00"/>        
+			<PURCHASE_CREDIT _Type = "Other" _Amount = "201.00"/>        
+			<PURCHASE_CREDIT _SourceType = "BorrowerPaidOutsideClosing" _Amount = "251.00"/>      
+		</TRANSACTION_DETAIL>  
+
+	<BORROWER _FirstName = "State" _LastName = "Code" _SSN = "148212121" BorrowerID = "B1" _MiddleName = "LA" _HomeTelephoneNumber = "7032224444" _PrintPositionType = "Borrower" JointAssetLiabilityReportingType = "NotJointly" MaritalStatusType = "Married" SchoolingYears = "12" DependentCount = "12" _BirthDate = "19580101">
+	<_RESIDENCE _StreetAddress = "5717 SEACLIFF" _City = "FANTASY ISLAND" _State = "IL" _PostalCode = "60750" BorrowerResidencyBasisType = "Rent" BorrowerResidencyDurationYears = "1" BorrowerResidencyType = "Current"/>
+	<_RESIDENCE _StreetAddress = "8963 Meadfield Drive" _City = "Bealeton" _State = "Va" _PostalCode = "22712" _Country = "USA" BorrowerResidencyBasisType = "Rent" BorrowerResidencyDurationYears = "7" BorrowerResidencyType = "Prior"/>
+		<CURRENT_INCOME IncomeType = "Base" _MonthlyTotalAmount = "3500.00"/>
+		<CURRENT_INCOME IncomeType = "AlimonyChildSupport" _MonthlyTotalAmount = "500.00"/>       
+                <CURRENT_INCOME IncomeType = "Bonus" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "Overtime" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "Commissions" _MonthlyTotalAmount = "100.44"/>        
+                <CURRENT_INCOME IncomeType = "DividendsInterest" _MonthlyTotalAmount = "0"/>             
+                <CURRENT_INCOME IncomeType = "MortgageDifferential" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "NetRentalIncome" _MonthlyTotalAmount = "500.05"/>        
+                <CURRENT_INCOME IncomeType = "Pension" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "SocialSecurity" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "OtherTypesOfIncome" _MonthlyTotalAmount = "0"/>             
+                <CURRENT_INCOME IncomeType = "AlimonyChildSupport" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "NotesReceivableInstallment" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "Trust" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "Unemployment" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "AutomobileExpenseAccount" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "FosterCare" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "VABenefitsNonEducational" _MonthlyTotalAmount = "0"/>        
+                <CURRENT_INCOME IncomeType = "SubjectPropertyNetCashFlow" _MonthlyTotalAmount = "0"/>
+     
+		<DECLARATION AlimonyChildSupportObligationIndicator = "N" BankruptcyIndicator = "N" BorrowedDownPaymentIndicator = "N" CitizenshipResidencyType = "PermanentResidentAlien" CoMakerEndorserOfNoteIndicator = "N" HomeownerPastThreeYearsType = "No" IntentToOccupyType = "No" LoanForeclosureOrJudgementIndicator = "N" OutstandingJudgementsIndicator = "N" PartyToLawsuitIndicator = "N" PropertyForeclosedPastSevenYearsIndicator = "N" PresentlyDelinquentIndicator = "N" />
+		<EMPLOYER _Name = "The Big Company" _StreetAddress = "1000 Maple Avenue" _City = "Sterling" _State = "VA" _PostalCode = "20165" _TelephoneNumber = "7035553698" CurrentEmploymentMonthsOnJob = "6" CurrentEmploymentTimeInLineOfWorkYears = "5" CurrentEmploymentYearsOnJob = "1" EmploymentBorrowerSelfEmployedIndicator = "N" EmploymentCurrentIndicator = "Y" EmploymentPositionDescription = "Manager" EmploymentPrimaryIndicator = "Y"/>
+		<EMPLOYER _Name = "The Old Company" _StreetAddress = "2020 East Street" _City = "Ashburn" _State = "VA" _PostalCode = "20165" _TelephoneNumber = "7035554785" EmploymentBorrowerSelfEmployedIndicator = "Y" EmploymentCurrentIndicator = "Y" EmploymentPositionDescription = "Owner" EmploymentPrimaryIndicator = "N" IncomeEmploymentMonthlyAmount = "1500.00"/>
+		<FHA_VA_BORROWER VeteranStatusIndicator = "Y"/> 
+		<GOVERNMENT_MONITORING GenderType = "Female" HMDAEthnicityType = "HispanicOrLatino" RaceNationalOriginRefusalIndicator = "N">
+			<HMDA_RACE _Type = "White"/>
+		</GOVERNMENT_MONITORING>
+		<PRESENT_HOUSING_EXPENSE HousingExpenseType = "Rent" _PaymentAmount = "750.00"/>
+	</BORROWER>
+	<LOAN_ORIGINATION_SYSTEM _VendorIdentifier = "000606" _VersionIdentifier = "BMI"/>
+	<EXTENSION_LOAN_APPLICATION FRELoanProspectorVersionIdentifier = "4.0">
+		<FUNCTION_REQUEST _Type = "ServiceRequest"/>
+		<!-- <SERVICE_REQUEST _Description = "OrderMergedCredit"/> -->
+		<SERVICE_REQUEST _Description = "OrderAUS"/>
+		<FRE_REQUESTING_PARTY SellerServicerNumber = "000601" Password = "20R39H11" ThirdPartyOriginatorIdentifier = "" NonOriginatingThirdPartyIdentifier = "" UserIdentifier = ""/>
+		<MERGED_CREDIT_REQUEST>
+			<CREDIT_BUREAU _Name = "5"/>
+			<FRE_MERGED_CREDIT_SPECIFICATIONS _Description = "B1,B1"/>
+		</MERGED_CREDIT_REQUEST>
+	</EXTENSION_LOAN_APPLICATION>
+</LOAN_APPLICATION>

@@ -1,0 +1,22 @@
+{
+	"deals": [
+		{
+			"address": {
+				"addressLineText": "11931 BENTON LAKE RD",
+				"cityName": "BRISTOW",
+				"postalCode": "20136",
+				"stateCode": "VA"
+			},
+			"requestTransactionIdentifier": "1234",
+			"loanInformation": {
+				"salesContractAmount": 346585.00,
+				"loanPurposeType": "Purchase"
+			}
+		}
+	],
+	"requestBatchIdentifier": "1234",
+	"party": {
+		"partyRoleIdentifier": "121898",
+		"partyRoleType": "LoanSeller"
+	}
+}

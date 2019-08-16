@@ -1,0 +1,28 @@
+{
+	"requestType": "ALL",
+	"sourceApplicationName": "LPA",
+	"loanIdentifications": {
+		"loanIdentification": [
+			{
+				"loanIdentifier": "1234",
+				"loanIdentifierType": "LoanProspectorKey"
+			},
+			{
+				"loanIdentifier": "001",
+				"loanIdentifierType": "LoanProspectorTransaction"
+			}
+		]
+	},
+	"parties": {
+		"party": [
+			{
+				"partyIdentifier": "123456",
+				"partyRoleType": "SELLER"
+			}
+		]
+	},
+	"address": {
+		"addressLineText": "1 FRED AVE",
+		"postalCode": "44444"
+	}
+}

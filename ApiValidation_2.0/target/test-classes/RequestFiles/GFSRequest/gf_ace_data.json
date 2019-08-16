@@ -1,0 +1,258 @@
+{
+	 "$schema": "http://json-schema.org/draft-04/schema#",
+	 "description": "Grandfathering ACE DATA JSON Schema",
+	 "$ref": "#/definitions/GF_ACE_DATA",
+	 "definitions": {
+		 "GF_ACE_DATA": {
+			 "description": "Grandfathering ACE Data Root container",
+			 "type": "object",
+			 "properties": {
+			 "LoanIdentifications": {
+					"$ref": "#/definitions/LoanIdentifications"
+				},
+				"PARTIES": {
+					"$ref": "#/definitions/PARTIES"
+				},
+				"ADDRESS": {
+					"$ref": "#/definitions/ADDRESS"
+				},
+				"AlternateAppraisalDecisionData": {
+					"$ref": "#/definitions/AlternateAppraisalDecisionData"
+				},
+				"PropertyValuationData": {
+					"$ref": "#/definitions/PropertyValuationData"
+				},
+				"HomeValueExplorerData": {
+					"$ref": "#/definitions/HomeValueExplorerData"
+				}
+				 
+			},
+			 "additionalProperties": false
+		},
+		"LoanIdentifications": {
+					 "title": "LoanIdentifications",
+					 "type": "object",
+					 "properties": {
+						 "LoanIdentification": {
+							 "title": "LoanIdentification",
+							 "type": "array",
+							 "minItems": 1,
+							 "maxItems": 20,
+							 "items": {
+								 "type": "object",
+								 "properties": {
+									 "LoanIdentifier": {
+										 "type": "string"
+									},
+									 "LoanIdentifierType": {
+										 "type": "string"
+									}
+								},
+								 "additionalProperties": false
+							}
+						}
+					},
+					 "additionalProperties": false
+				},
+		 "PARTIES": {
+			 "title": "PARTIES",
+			 "type": "object",					 
+			 "properties": {
+				 "PARTY": {
+					 "title": "PARTY",
+					 "type": "array",
+					 "minItems": 1,
+					 "maxItems": 10,
+					 "items": {
+						 "type": "object",
+						 "properties": {
+							 "PartyIdentifier": {
+								 "type": "string"
+							},
+							 "PartyRoleType": {
+								 "type": "string"
+							}
+						},
+						 "additionalProperties": false
+					}
+				}
+			},
+			 "additionalProperties": false
+		},
+		 "ADDRESS": {
+			 "title": "ADDRESS",
+			 "type": "object",
+			 "properties": {
+				 "AddressLineText": {
+					 "type": "string"
+				},
+				 "AddressUnitDesignatorType": {
+					 "type": "string"
+				},
+				 "AddressUnitIdentifier": {
+					 "type": "string"
+				},
+				 "AddressSourceType": {
+					 "type": "string"
+				},
+				 "AddressMatchLevelType": {
+					 "type": "string"
+				},
+				 "CityName": {
+					 "type": "string"
+				},
+				 "PostalCode": {
+					 "type": "string"
+				},
+				 "Statecode": {
+					 "type": "string"
+				},
+				 "StreetName": {
+					 "type": "string"
+				},
+				 "StreetPrimaryNumberText": {
+					 "type": "string"
+				},
+				 "StreetSuffixText": {
+					 "type": "string"
+				},
+				 "ZipPlusFourCode": {
+					 "type": "string"
+				}
+			},
+			 "additionalProperties": false
+		},
+		 "AlternateAppraisalDecisionData": {
+			 "title": "AlternateAppraisalDecisionData",
+			 "type": "object",
+			 "properties": {
+				 "AlternateAppraisalDecisionStatusType": {
+					 "type": "string"
+				},
+				 "AlternateAppraisalEligibilityDecision": {
+					 "type": "string"
+				},
+				 "AlternateAppraisalDecisionEffectiveDatetime": {
+					 "type": "string"
+				},
+				 "AlternateAppraisalDecisionExpirationDatetime": {
+					 "type": "string"
+				},
+				 "MaximumAuthorizedLoanAmount": {
+					 "type": "number"
+				},
+				 "EstimatedPropertyValueAmount": {
+					 "type": "number"
+				},
+				 "SalesContractAmount": {
+					 "type": "number"
+				}
+			},
+			 "additionalProperties": false
+		},
+		 "PropertyValuationData": {
+			 "title": "PropertyValuationData",
+			 "type": "object",
+			 "properties": {
+				 "PropertyValuationAmount": {
+					 "type": "number"
+				},
+				 "PropertyValuationMethodType": {
+					 "type": "string"
+				},
+				 "PropertyValuationType": {
+					 "type": "string"
+				}
+			},
+			 "additionalProperties": false
+		},
+		 "HomeValueExplorerData": {
+			 "title": "HomeValueExplorerData",
+			 "type": "object",
+			 "properties": {
+				 "HomeValueExplorerMidPointValueEstimateAmount": {
+					 "type": "number"
+				},
+				 "HomeValueExplorerMaximumValueAmount": {
+					 "type": "number"
+				},
+				 "HomeValueExplorerMinimumValueAmount": {
+					 "type": "number"
+				},
+				 "HomeValueExplorerForecastStandardDeviationRate": {
+					 "type": "number"
+				},
+				 "HomeValueExplorerConfidenceLevelType": {
+					 "type": "string"
+				},
+				 "PropertyValuationEffectiveDateTime": {
+					 "type": "string"
+				},
+				 "HomeValueExplorerAssessmenntDateTime": {
+					 "type": "string"
+				},
+				 "StructureBuildingMaterialQualityRatingType": {
+					 "type": "string"
+				},
+				 "StructureBuildingMaterialQualityRatingIdentifier": {
+					 "type": "string"
+				},
+				 "AppraisalExistenceIndicator": {
+					 "type": "boolean"
+				},
+				 "PriceGrowthThresholdAmount": {
+					 "type": "number"
+				},
+				 "PropertyConditionIndicator": {
+					 "type": "boolean"
+				},
+				 "LegalityIndicator": {
+					 "type": "boolean"
+				},
+				 "QualityIndicator": {
+					 "type": "boolean"
+				},
+				 "PhysicalDeficiencyIndicator": {
+					 "type": "boolean"
+				},
+				 "HighestBestUseIndicator": {
+					 "type": "boolean"
+				},
+				 "AppraisalCompletionAsIsIndicator": {
+					 "type": "boolean"
+				},
+				 "NeighborhoodConformityIndicator": {
+					 "type": "boolean"
+				},
+				 "ARMsLengthContractIndicator": {
+					 "type": "boolean"
+				},
+				 "QualityAgeIndicator": {
+					 "type": "boolean"
+				},
+				 "DaysOnMarketIndicator": {
+					 "type": "boolean"
+				},
+				 "DistressedIndicator": {
+					 "type": "boolean"
+				},
+				 "PropertyAgeCount": {
+					 "type": "number"
+				},
+				 "PublicRecordExistenceIndicator": {
+					 "type": "boolean"
+				},
+				 "MissingDataIndicator": {
+					 "type": "boolean"
+				},
+				 "ActiveMLSListingIndicator": {
+					 "type": "boolean"
+				},
+				 "MultipleListingIndicator": {
+					 "type": "boolean"
+				}
+			},
+			 "additionalProperties": false
+		}
+	}
+}

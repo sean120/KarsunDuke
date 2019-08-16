@@ -1,0 +1,11 @@
+
+	{
+		"addressLineText": "123 Main Street",
+		"cityName": "LalaLand",
+		"loanPurposeType": "Purchase",
+		"postalCode": "12345",
+		"propertyEstimatedValueAmount": "200000.00",
+		"salesContractAmount": "2000",
+		"sellerId": "TEST123",
+		"stateCode": "VA"
+	}

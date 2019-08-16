@@ -1,0 +1,726 @@
+Parent Node: EnterpriseDecisionService
+//EnterpriseDecisionService
+
+	
+//EnterpriseDecisionService/ns3:ServiceRequestContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure
+Parent Node: ns3:ServiceRequestContainer
+//EnterpriseDecisionService/ns3:ServiceRequestContainer
+
+		
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest
+Parent Node: ns3:ServiceRequest
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest
+
+			
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ClientSchemaVersionIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:EDSSchemaVersionIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:RequestorIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceName
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestDateTime
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestOperationName
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestType
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:SubscriberRequestCorrelationIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:SubscriberIdentifier
+Parent Node: ns3:ServiceRequestIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestIdentifier
+EDS must generate UUID
+			
+Parent Node: ns3:ClientSchemaVersionIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ClientSchemaVersionIdentifier
+1.0
+			
+Parent Node: ns3:EDSSchemaVersionIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:EDSSchemaVersionIdentifier
+1.0
+Parent Node: ns3:RequestorIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:RequestorIdentifier
+ACEAPI
+Parent Node: ns3:ServiceName
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceName
+EDSAppraisalAlternativeAPP
+Parent Node: ns3:ServiceRequestDateTime
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestDateTime
+2018-09-19T14:26:16.281-04:00
+			
+Parent Node: ns3:ServiceRequestOperationName
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestOperationName
+evaluateAppraisalAlternative
+			
+Parent Node: ns3:ServiceRequestType
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:ServiceRequestType
+RuleServiceRequest
+Parent Node: ns3:SubscriberRequestCorrelationIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:SubscriberRequestCorrelationIdentifier
+rrt-0ab826674287c65c8-d-ea-20031-3335025-1
+			
+Parent Node: ns3:SubscriberIdentifier
+//EnterpriseDecisionService/ns3:ServiceRequestContainer/ns3:ServiceRequest/ns3:SubscriberIdentifier
+ACEAPI
+Parent Node: ns3:LoanDeliveryStructure
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure
+
+		
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer
+Parent Node: ns3:LoanContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer
+
+			
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions
+Parent Node: ns3:LoanPropertyCollaterals
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals
+
+				
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer
+Parent Node: ns3:LoanPropertyCollateralContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer
+
+					
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral
+Parent Node: ns3:LoanPropertyCollateral
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral/ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral/ns3:FinancedUnitCount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral/ns3:LoanIdentifier
+Parent Node: ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral/ns3:PropertyIdentifier
+1
+Parent Node: ns3:FinancedUnitCount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral/ns3:FinancedUnitCount
+1
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanPropertyCollaterals/ns3:LoanPropertyCollateralContainer/ns3:LoanPropertyCollateral/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:LoanStates
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates
+
+				
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer
+Parent Node: ns3:LoanStateContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer
+
+					
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState
+Parent Node: ns3:LoanDetailContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications
+Parent Node: ns3:Loan
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanPurposeType
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:LoanPurposeType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanPurposeType
+Purchase
+Parent Node: ns3:LoanAcquisitionContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition
+Parent Node: ns3:LoanAcquisition
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:SellerAccountIdentifier
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:SellerAccountIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:SellerAccountIdentifier
+123456
+								
+Parent Node: ns3:LoanOriginationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination
+Parent Node: ns3:LoanOrigination
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination/ns3:LoanIdentifier
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:LoanRelationships
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship
+Parent Node: ns3:LoanRelationship
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship/ns3:LoanRoleType
+Parent Node: ns3:LoanRoleType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship/ns3:LoanRoleType
+SubjectLoan
+Parent Node: ns3:LoanApplications
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer
+Parent Node: ns3:LoanApplicationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication
+Parent Node: ns3:LoanApplication
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication
+
+									
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:BorrowerPropertyPurchasePriceAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanApplicationIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanIdentifier
+Parent Node: ns3:BorrowerPropertyPurchasePriceAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:BorrowerPropertyPurchasePriceAmount
+100000.00
+									
+Parent Node: ns3:LoanApplicationIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanApplicationIdentifier
+288053386
+									
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:LoanState
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateDate
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateType
+Parent Node: ns3:LoanStateDate
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateDate
+2018-09-19-04:00
+Parent Node: ns3:LoanStateType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateType
+AtClosing
+Parent Node: ns3:LoanStateContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer
+
+					
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState
+Parent Node: ns3:LoanDetailContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications
+Parent Node: ns3:Loan
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanPurposeType
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:LoanPurposeType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:Loan/ns3:LoanPurposeType
+Purchase
+Parent Node: ns3:LoanAcquisitionContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition
+Parent Node: ns3:LoanAcquisition
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:SellerAccountIdentifier
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:SellerAccountIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanAcquisitionContainer/ns3:LoanAcquisition/ns3:SellerAccountIdentifier
+123456
+								
+Parent Node: ns3:LoanOriginationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination
+Parent Node: ns3:LoanOrigination
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination/ns3:LoanIdentifier
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanOriginationContainer/ns3:LoanOrigination/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:LoanRelationships
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship
+Parent Node: ns3:LoanRelationship
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship/ns3:LoanRoleType
+Parent Node: ns3:LoanRoleType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanRelationships/ns3:LoanRelationship/ns3:LoanRoleType
+SubjectLoan
+Parent Node: ns3:LoanApplications
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer
+Parent Node: ns3:LoanApplicationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication
+Parent Node: ns3:LoanApplication
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication
+
+									
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:BorrowerPropertyPurchasePriceAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanApplicationIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanIdentifier
+Parent Node: ns3:BorrowerPropertyPurchasePriceAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:BorrowerPropertyPurchasePriceAmount
+100000.00
+									
+Parent Node: ns3:LoanApplicationIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanApplicationIdentifier
+288053386
+									
+Parent Node: ns3:LoanIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanDetailContainer/ns3:LoanApplications/ns3:LoanApplicationContainer/ns3:LoanApplication/ns3:LoanIdentifier
+288053386
+Parent Node: ns3:LoanState
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateDate
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateType
+Parent Node: ns3:LoanStateDate
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateDate
+2018-09-19-04:00
+Parent Node: ns3:LoanStateType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:LoanStates/ns3:LoanStateContainer/ns3:LoanState/ns3:LoanStateType
+AtClosing
+Parent Node: ns3:Properties
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties
+
+				
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer
+Parent Node: ns3:PropertyContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer
+
+					
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:Property
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyTitles
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations
+Parent Node: ns3:AddressContainers
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer
+Parent Node: ns3:AddressContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address
+Parent Node: ns3:Address
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:AddressLineText
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:CityName
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:FIPSStateAlphaCode
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:PostalCode
+Parent Node: ns3:AddressLineText
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:AddressLineText
+2300 GRAND CYPRESS DR
+Parent Node: ns3:CityName
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:CityName
+LUTZ
+Parent Node: ns3:FIPSStateAlphaCode
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:FIPSStateAlphaCode
+FL
+Parent Node: ns3:PostalCode
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:AddressContainers/ns3:AddressContainer/ns3:Address/ns3:PostalCode
+33559
+Parent Node: ns3:Property
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:Property
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:Property/ns3:PropertyIdentifier
+Parent Node: ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:Property/ns3:PropertyIdentifier
+1
+Parent Node: ns3:PropertyTitles
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyTitles
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyTitles/ns3:PropertyTitle
+Parent Node: ns3:PropertyTitle
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyTitles/ns3:PropertyTitle
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyTitles/ns3:PropertyTitle/ns3:PropertyIdentifier
+Parent Node: ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyTitles/ns3:PropertyTitle/ns3:PropertyIdentifier
+1
+Parent Node: ns3:PropertyValuations
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer
+Parent Node: ns3:PropertyValuationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation
+Parent Node: ns3:PropertyValuation
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation/ns3:PropertyValuationMethodType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation/ns3:PropertyValuationSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation/ns3:PropertyValuationType
+Parent Node: ns3:PropertyValuationMethodType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation/ns3:PropertyValuationMethodType
+PropertyPresentValuation
+								
+Parent Node: ns3:PropertyValuationSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation/ns3:PropertyValuationSequenceNumber
+288053386
+								
+Parent Node: ns3:PropertyValuationType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyValuationContainer/ns3:PropertyValuation/ns3:PropertyValuationType
+Original
+Parent Node: ns3:PropertyAppraiserValuationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment
+Parent Node: ns3:PropertyAssessment
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSourceType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyIdentifier
+Parent Node: ns3:PropertyAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSequenceNumber
+1
+								
+Parent Node: ns3:PropertyAssessmentSourceType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSourceType
+HomeValueService
+								
+Parent Node: ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyIdentifier
+1
+Parent Node: ns3:PropertyValuationAssessment
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerAssessmenntDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerConfidenceLevelType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerForecastStandardDeviationRate
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMaximumValueAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMidPointValueEstimateAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMinimumValueAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerOptionType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationEffectiveDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationSequenceNumber
+Parent Node: ns3:HomeValueExplorerAssessmenntDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerAssessmenntDateTime
+2018-09-19T14:26:16.282-04:00
+								
+Parent Node: ns3:HomeValueExplorerConfidenceLevelType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerConfidenceLevelType
+MediumConfidence
+								
+Parent Node: ns3:HomeValueExplorerForecastStandardDeviationRate
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerForecastStandardDeviationRate
+0.18
+								
+Parent Node: ns3:HomeValueExplorerMaximumValueAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMaximumValueAmount
+108029
+								
+Parent Node: ns3:HomeValueExplorerMidPointValueEstimateAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMidPointValueEstimateAmount
+88000
+								
+Parent Node: ns3:HomeValueExplorerMinimumValueAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMinimumValueAmount
+75369
+								
+Parent Node: ns3:HomeValueExplorerOptionType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerOptionType
+HVEFeedback
+								
+Parent Node: ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyIdentifier
+1
+Parent Node: ns3:PropertyValuationAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationAssessmentSequenceNumber
+1
+								
+Parent Node: ns3:PropertyValuationEffectiveDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationEffectiveDateTime
+2018-09-19T14:26:16.282-04:00
+								
+Parent Node: ns3:PropertyValuationSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationSequenceNumber
+288053386
+								
+Parent Node: ns3:PropertyAppraiserValuationContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment
+Parent Node: ns3:PropertyAssessment
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSourceType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyIdentifier
+Parent Node: ns3:PropertyAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSequenceNumber
+1
+								
+Parent Node: ns3:PropertyAssessmentSourceType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyAssessmentSourceType
+HomeValueService
+								
+Parent Node: ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyAssessment/ns3:PropertyIdentifier
+1
+Parent Node: ns3:PropertyValuationAssessment
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerAssessmenntDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMidPointValueEstimateAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerOptionType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationEffectiveDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationSequenceNumber
+Parent Node: ns3:HomeValueExplorerAssessmenntDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerAssessmenntDateTime
+2018-09-19T14:26:16.282-04:00
+								
+Parent Node: ns3:HomeValueExplorerMidPointValueEstimateAmount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerMidPointValueEstimateAmount
+88000
+								
+Parent Node: ns3:HomeValueExplorerOptionType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:HomeValueExplorerOptionType
+HVEFeedback
+								
+Parent Node: ns3:PropertyIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyIdentifier
+1
+Parent Node: ns3:PropertyValuationAssessmentSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationAssessmentSequenceNumber
+1
+								
+Parent Node: ns3:PropertyValuationEffectiveDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationEffectiveDateTime
+2018-09-19T14:26:16.282-04:00
+								
+Parent Node: ns3:PropertyValuationSequenceNumber
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:Properties/ns3:PropertyContainer/ns3:PropertyValuations/ns3:PropertyAppraiserValuationContainer/ns3:PropertyValuationAssessment/ns3:PropertyValuationSequenceNumber
+288053386
+								
+Parent Node: ns3:BusinessDecisions
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions
+
+				
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer
+Parent Node: ns3:BusinessDecisionContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer
+
+					
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecision
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer
+Parent Node: ns3:BusinessDecision
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecision
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecision/ns3:BusinessDecisionIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecision/ns3:BusinessDecisionEvaluationType
+Parent Node: ns3:BusinessDecisionIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecision/ns3:BusinessDecisionIdentifier
+288053386
+									
+Parent Node: ns3:BusinessDecisionEvaluationType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecision/ns3:BusinessDecisionEvaluationType
+AppraisalAlternativeEvaluation
+						
+Parent Node: ns3:BusinessDecisionResultContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer
+
+						
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails
+Parent Node: ns3:BusinessDecisionResult
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultSourceType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultType
+Parent Node: ns3:BusinessDecisionResultIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultIdentifier
+1
+									
+Parent Node: ns3:BusinessDecisionIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionIdentifier
+288053386
+									
+Parent Node: ns3:BusinessDecisionResultDateTime
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultDateTime
+2018-09-19T14:26:16.282-04:00
+							
+Parent Node: ns3:BusinessDecisionResultSourceType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultSourceType
+EnterpriseDecisionService
+							
+Parent Node: ns3:BusinessDecisionResultType
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResult/ns3:BusinessDecisionResultType
+AppraisalAlternative
+							
+Parent Node: ns3:BusinessDecisionResultDetails
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails
+
+							
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer
+Parent Node: ns3:BusinessDecisionResultDetailContainer
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer
+
+								
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult
+Parent Node: ns3:PropertyInspectionWaiverResult
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult
+
+									
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:ActiveMLSListingIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:AppraisalCompletionAsIsIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:AppraisalExistenceIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:ARMsLengthContractIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:BusinessDecisionResultIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:DaysOnMarketIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:DistressedIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:HighestBestUseIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:LegalityIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:MissingDataIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:MultipleListingIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:NeighborhoodConformityIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PhysicalDeficiencyIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PropertyAgeCount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PropertyConditionIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PublicRecordExistenceIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:QualityAgeIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:QualityIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:BusinessDecisionIdentifier
+Parent Node: ns3:ActiveMLSListingIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:ActiveMLSListingIndicator
+true
+									
+Parent Node: ns3:AppraisalCompletionAsIsIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:AppraisalCompletionAsIsIndicator
+true
+									
+Parent Node: ns3:AppraisalExistenceIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:AppraisalExistenceIndicator
+true
+									
+Parent Node: ns3:ARMsLengthContractIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:ARMsLengthContractIndicator
+true
+									
+Parent Node: ns3:BusinessDecisionResultIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:BusinessDecisionResultIdentifier
+1
+									
+Parent Node: ns3:DaysOnMarketIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:DaysOnMarketIndicator
+true
+Parent Node: ns3:DistressedIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:DistressedIndicator
+true
+Parent Node: ns3:HighestBestUseIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:HighestBestUseIndicator
+true
+Parent Node: ns3:LegalityIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:LegalityIndicator
+true
+Parent Node: ns3:MissingDataIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:MissingDataIndicator
+true
+Parent Node: ns3:MultipleListingIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:MultipleListingIndicator
+true
+									
+Parent Node: ns3:NeighborhoodConformityIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:NeighborhoodConformityIndicator
+true
+									
+Parent Node: ns3:PhysicalDeficiencyIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PhysicalDeficiencyIndicator
+true
+									
+Parent Node: ns3:PropertyAgeCount
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PropertyAgeCount
+52
+Parent Node: ns3:PropertyConditionIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PropertyConditionIndicator
+true
+									
+Parent Node: ns3:PublicRecordExistenceIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:PublicRecordExistenceIndicator
+true
+									
+Parent Node: ns3:QualityAgeIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:QualityAgeIndicator
+true
+Parent Node: ns3:QualityIndicator
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:QualityIndicator
+true
+Parent Node: ns3:BusinessDecisionIdentifier
+//EnterpriseDecisionService/ns3:LoanDeliveryStructure/ns3:LoanContainer/ns3:BusinessDecisions/ns3:BusinessDecisionContainer/ns3:BusinessDecisionResultContainer/ns3:BusinessDecisionResultDetails/ns3:BusinessDecisionResultDetailContainer/ns3:PropertyInspectionWaiverResult/ns3:BusinessDecisionIdentifier
+288053386
+									

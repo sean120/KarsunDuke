@@ -1,0 +1,125 @@
+{
+  "_id" : {
+    "$oid" : "5cf9767724790e045e5a23d1"
+  },
+  "createdDate" : {
+    "$date" : 1559852663295
+  },
+  "lpKey" : "1559852657-1001",
+  "customerId" : "000601",
+  "sourceApplicationName" : "LPAv2",
+  "transactionContext" : {
+    "_id" : {
+      "$oid" : "5cf9767724790e045e5a23d1"
+    },
+    "sourceType" : "LPAv2",
+    "syntheticTransaction" : "false"
+  },
+  "aceData" : {
+    "alternateAppraisalDecisionData" : {
+      "alternateAppraisalDecisionStatusType" : "Reuse",
+      "alternateAppraisalEligibilityDecision" : "Eligible",
+      "alternateAppraisalDecisionEffectiveDatetime" : "2019-06-06T16:24:23.018",
+      "alternateAppraisalDecisionExpirationDatetime" : "2019-10-03 11:59:59 PM"
+    },
+    "homeValueExplorerDataContainer" : {
+      "homeValueExplorerData" : [ {
+        "propertyAppraiserValuationContainer" : {
+          "homeValueExplorerAssessmentDateTime" : "2019-06-05T16:29:05.634-04:00",
+          "homeValueExplorerConfidenceLevelType" : "H",
+          "homeValueExplorerForecastStandardDeviationRate" : 0.06,
+          "homeValueExplorerMaximumValueAmount" : 368753.0,
+          "homeValueExplorerMidPointValueEstimateAmount" : 346585.0,
+          "homeValueExplorerMinimumValueAmount" : 325749.0,
+          "propertyValuationEffectiveDateTime" : "2019-06-05T16:29:05.724-04:00"
+        },
+        "propertyInspectionWaiverResult" : {
+          "activeMLSListingIndicator" : false,
+          "appraisalCompletionAsIsIndicator" : true,
+          "appraisalExistenceIndicator" : true,
+          "armsLengthContractIndicator" : true,
+          "daysOnMarketIndicator" : true,
+          "distressedIndicator" : true,
+          "highestBestUseIndicator" : true,
+          "legalityIndicator" : true,
+          "missingDataIndicator" : false,
+          "multipleListingIndicator" : true,
+          "neighborhoodConformityIndicator" : true,
+          "physicalDeficiencyIndicator" : true,
+          "priceGrowthThresholdAmount" : 274359.0,
+          "propertyAgeCount" : 8.0,
+          "propertyConditionIndicator" : true,
+          "propertyLandUseIndicator" : true,
+          "propertyPurchaseLotSizeOneAcreIndicator" : true,
+          "propertyRefinanceLotSizeTwoAcreIndicator" : true,
+          "propertyUnitIndicator" : true,
+          "publicRecordExistenceIndicator" : true,
+          "qualityAgeIndicator" : true,
+          "qualityIndicator" : true
+        }
+      }, {
+        "propertyAppraiserValuationContainer" : {
+          "homeValueExplorerAssessmentDateTime" : "2019-06-06T16:24:22.969-04:00",
+          "homeValueExplorerConfidenceLevelType" : "H",
+          "homeValueExplorerForecastStandardDeviationRate" : 0.06,
+          "homeValueExplorerMaximumValueAmount" : 368753.0,
+          "homeValueExplorerMidPointValueEstimateAmount" : 346585.0,
+          "homeValueExplorerMinimumValueAmount" : 325749.0,
+          "propertyValuationEffectiveDateTime" : "2019-06-06T16:24:22.969-04:00"
+        },
+        "propertyInspectionWaiverResult" : {
+          "activeMLSListingIndicator" : false,
+          "appraisalCompletionAsIsIndicator" : true,
+          "appraisalExistenceIndicator" : true,
+          "armsLengthContractIndicator" : true,
+          "daysOnMarketIndicator" : true,
+          "distressedIndicator" : true,
+          "highestBestUseIndicator" : true,
+          "legalityIndicator" : true,
+          "missingDataIndicator" : false,
+          "multipleListingIndicator" : true,
+          "neighborhoodConformityIndicator" : true,
+          "physicalDeficiencyIndicator" : true,
+          "priceGrowthThresholdAmount" : 274359.0,
+          "propertyAgeCount" : 8.0,
+          "propertyConditionIndicator" : true,
+          "propertyLandUseIndicator" : true,
+          "propertyPurchaseLotSizeOneAcreIndicator" : true,
+          "propertyRefinanceLotSizeTwoAcreIndicator" : true,
+          "propertyUnitIndicator" : true,
+          "publicRecordExistenceIndicator" : true,
+          "qualityAgeIndicator" : true,
+          "qualityIndicator" : true
+        }
+      } ]
+    }
+  },
+  "loanData" : {
+    "loanIdentifications" : {
+      "loanIdentification" : [ {
+        "loanIdentifier" : "1559852657-1001",
+        "loanIdentifierType" : "LoanProspectorKey"
+      }, {
+        "loanIdentifier" : "5752309",
+        "loanIdentifierType" : "LoanProspectorUniqueLoan"
+      }, {
+        "loanIdentifier" : "5010901709",
+        "loanIdentifierType" : "LoanProspectorTransaction"
+      } ]
+    },
+    "parties" : {
+      "party" : [ {
+        "partyIdentifier" : "000601",
+        "partyRoleType" : "SELLER"
+      } ]
+    },
+    "address" : {
+      "addressLineText" : "11931 BENTON LAKE RD",
+      "addressSourceType" : "GeocodingService",
+      "addressMatchLevelType" : "ExactMatch",
+      "cityName" : "BRISTOW",
+      "postalCode" : "20136",
+      "stateCode" : "VA"
+    }
+  }
+}

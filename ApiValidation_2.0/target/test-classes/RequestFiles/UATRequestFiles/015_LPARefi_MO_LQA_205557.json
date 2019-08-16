@@ -1,0 +1,211 @@
+{
+	"loanDeliveryStructure": {
+		"loanDetails": {
+			"loanDetailInfo": {
+				"insurancePolicyDetails": {
+					"loanMI": {
+						"miPremiumFinancedAmount": "1200.00",
+						"miPremiumFinancedIndicator": "false"
+					}
+				},
+				"loan": {
+					"constructionLoanIndicator": "false",
+					"grandfatheringIndicator": "No",
+					"loanPurposeType": "Refinance",
+					"loanRefinanceCashOutDeterminationType": "NoCashOut",
+					"mortgageType": "Conventional"
+				},
+				"loanAcquisitionDetails": {
+					"loanAcquisition": {
+						"loanConformityType": "ConformingMortgage",
+						"sellerAccountIdentifier": "000601",
+						"sellerLoanIdentifier": "B_16394_LPR_JW_"
+					}
+				},
+				"loanApplicationDetails": {
+					"loanApplication": {
+						"loanApplicationBaseLoanAmount": 50000.0,
+						"borrowerPropertyPurchasePriceAmount": 325010.0
+					}
+				},
+				"loanConversionRuleDetails": {
+					"loanConversionRule": {
+						"constructionLoanType": null
+					}
+				},
+				"loanOriginationDetails": {
+					"loanOrigination": {
+						"investorCollateralProgramType": "PropertyInspectionWaiver",
+						"loanPropertyUsageType": "SecondHome",
+						"noteAmount": 50000.0
+					},
+					"loanUnderwritingDecision": {
+						"automatedUnderwritingSystemType": "DesktopUnderwriter",
+						"loanUnderwritingCaseIdentifier": "A0052795",
+						"loanUnderwritingDecisionDefaultProbabilityRate": "0.0007834900"
+					}
+				},
+				"loanRiskAssessments": {
+					"loanRiskAssessmentDetails": {
+						"creditRiskDerivation": [
+							{
+								"loanQualityAdvisorResultType": "HighLikelihoodofAccept"
+							}
+						],
+						"loanCollateralRiskAssessments": {
+							"loanCollateralRiskAssessmentDetails": [
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "Combined",
+										"ltvRatioPercent": 47.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								},
+								{
+									"loanCollateralRiskAssessment": {
+										"loanScopeType": "SubjectLoan",
+										"ltvRatioPercent": 47.0,
+										"ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				"programs": [
+					{
+						"program": {
+							"programType": null,
+							"refinanceProgramType": null
+						}
+					}
+				]
+			},
+			"loanIdentifications": {
+				"loanIdentification": [
+					{
+						"loanIdentifier": "438628",
+						"loanIdentifierType": "LoanQualityAdvisor"
+					},
+					{
+						"loanIdentifier": "300438628",
+						"loanIdentifierType": "SubmissionLinkService"
+					}
+				]
+			},
+			"loanPropertyCollaterals": {
+				"loanPropertyCollateralDetails": {
+					"loanPropertyCollateral": {
+						"financedUnitCount": 1
+					}
+				}
+			},
+			"partyRoles": {
+				"partyRole": [
+					{
+						"partyRoleIdentifier": "000601",
+						"partyRoleType": "SELLER"
+					}
+				]
+			},
+			"propertyDetails": {
+				"addressDetails": {
+					"address": [
+						{
+							"FIPSCountyThreeDigitCode": "113",
+							"FIPSStateNumericCode": "48",
+							"addressLineText": "1 COLUMBUS SQUARE DR",
+							"addressMatchLevelType": "ExactMatch",
+							"addressSourceType": "GeocodingService",
+							"addressUnitDesignatorType": null,
+							"addressUnitIdentifier": null,
+							"carrierRouteType": "CityRoute",
+							"censusTractBaseIdentifier": "13726",
+							"cityName": "SAINT LOUIS",
+							"coreBasedStatisticalAreaCode": "19100",
+							"geocodingIndicator": "true",
+							"highwayContractIdentifier": null,
+							"latitudeNumber": "32.944363",
+							"longitudeNumber": "-96.841969",
+							"postOfficeBoxIdentifier": null,
+							"postalCode": "63101",
+							"ruralRouteIdentifier": null,
+							"stateCode": "MO",
+							"streetName": "COLUMBUS SQUARE",
+							"streetPostDirectionalText": null,
+							"streetPreDirectionalText": null,
+							"streetPrimaryNumberText": "1",
+							"streetSuffixText": "DR",
+							"zipPlusFourCode": "2739"
+						},
+						{
+							"addressLineText": "1 COLUMBUS SQUARE DR",
+							"addressSourceType": "LoanQualityAdvisor",
+							"cityName": "SAINT LOUIS",
+							"postalCode": "63101",
+							"stateCode": "MO",
+							"zipPlusFourCode": "2739",
+							"geocodingIndicator": "false"
+						}
+					]
+				},
+				"property": {
+					"propertyCategoryType": "Attached"
+				},
+				"propertyRights": {
+					"propertyRightsType": "string"
+				},
+				"propertyTitles": {
+					"propertyEstateType": "FeeSimple"
+				},
+				"propertyValuations": {
+					"appraisal": {
+						"appraisalIdentifier": null
+					},
+					"propertyValuationDetails": {
+						"propertyValuation": [
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 108614.00,
+								"propertyValuationMethodType": "PropertyPresentValuation",
+								"propertyValuationSequenceNumber": "5",
+								"propertyValuationType": "Subsequent"
+							},
+							{
+								"propertyIdentifier": 1,
+								"propertyValuationAmount": 287672.0,
+								"propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+								"propertyValuationMethodType": "None",
+								"propertyValuationSequenceNumber": "7"
+							}
+						]
+					}
+				},
+				"realEstateProject": {
+					"projectAttachmentType": "Attached",
+					"projectClassificationType": "string",
+					"projectLegalStructureType": null
+				},
+				"structureDetails": {
+					"structure": {
+						"constructionMethodType": "Other"
+					}
+				}
+			},
+			"singleFamilyLoanBorrower": [
+				{
+					"borrowerClassificationType": null,
+					"borrowerIdentifier": null,
+					"intentToOccupyType": null,
+					"partyRoleType": "string"
+				}
+			]
+		}
+	},
+	"serviceRequestDetails": {
+		"serviceName": "ACEAPIRequest",
+		"serviceRequestOperationName": "evaluateAppraisalAlternative",
+		"subscriberIdentifier": "LQAACE",
+		"subscriberRequestCorrelationIdentifier": "438628"
+	}
+}

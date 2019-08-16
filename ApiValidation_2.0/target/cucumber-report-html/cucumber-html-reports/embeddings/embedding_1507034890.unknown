@@ -1,0 +1,112 @@
+{
+  "_id" : {
+    "$numberLong" : "604484633520"
+  },
+  "lastModifiedDate" : {
+    "$date" : 1559852669520
+  },
+  "transactionContext" : {
+    "_id" : {
+      "$numberLong" : "604484633520"
+    },
+    "syntheticTransaction" : "false"
+  },
+  "automatedCollateralEvaluationRequest" : {
+    "serviceRequestDetails" : {
+      "serviceName" : "ACEAPIRequest",
+      "serviceRequestOperationName" : "evaluateAppraisalAlternative",
+      "subscriberRequestCorrelationIdentifier" : "5010901709",
+      "subscriberIdentifier" : "LPAv2"
+    },
+    "loanDeliveryStructure" : {
+      "loanDetails" : {
+        "loanIdentifications" : {
+          "loanIdentification" : [ {
+            "loanIdentifier" : "1559852657-1002",
+            "loanIdentifierType" : "LoanProspectorKey"
+          }, {
+            "loanIdentifier" : "5752309",
+            "loanIdentifierType" : "LoanProspectorUniqueLoan"
+          }, {
+            "loanIdentifier" : "5010901709",
+            "loanIdentifierType" : "LoanProspectorTransaction"
+          } ]
+        },
+        "loanPropertyCollaterals" : {
+          "loanPropertyCollateralDetails" : {
+            "loanPropertyCollateral" : {
+              "financedUnitCount" : {
+                "$numberLong" : "1"
+              }
+            }
+          }
+        },
+        "loanDetailInfo" : {
+          "loan" : {
+            "constructionLoanIndicator" : "false",
+            "loanPurposeType" : "Purchase",
+            "loanProcessingStageType" : "ApplicationProcessing",
+            "loanRefinanceCashOutDeterminationType" : "NoCashOut",
+            "mortgageType" : "Conventional",
+            "grandfatheringIndicator" : "Yes"
+          },
+          "loanAcquisitionDetails" : {
+            "loanAcquisition" : {
+              "sellerAccountIdentifier" : "000601"
+            }
+          },
+          "loanApplicationDetails" : {
+            "loanApplication" : {
+              "borrowerPropertyPurchasePriceAmount" : 325010.0
+            }
+          },
+          "loanRiskAssessments" : {
+            "loanRiskAssessmentDetails" : {
+              "loanCollateralRiskAssessments" : {
+                "loanCollateralRiskAssessmentDetails" : [ {
+                  "loanCollateralRiskAssessment" : {
+                    "loanScopeType" : "Combined",
+                    "ltvRatioPercent" : 45.0,
+                    "ltvSourceType" : "FreddieMacCalculated"
+                  }
+                } ]
+              },
+              "creditRiskDerivation" : [ {
+                "derivedCalculationSourceType" : "HP",
+                "strategicOfferingCreditRiskType" : "Accept",
+                "derivationRiskClassType" : "FinalCreditRiskClass"
+              } ]
+            }
+          },
+          "programs" : [ ]
+        },
+        "propertyDetails" : {
+          "addressDetails" : {
+            "address" : [ {
+              "addressLineText" : "11931 BENTON LAKE RD",
+              "addressMatchLevelType" : "ExactMatch",
+              "cityName" : "BRISTOW",
+              "postalCode" : "20136",
+              "stateCode" : "VA",
+              "geocodingIndicator" : "true"
+            } ]
+          },
+          "propertyValuations" : {
+            "propertyValuationDetails" : {
+              "propertyValuation" : [ {
+                "propertyIdentifier" : {
+                  "$numberLong" : "1"
+                },
+                "propertyValuationAmount" : 324260.0,
+                "propertyValuationMethodType" : "PropertyPresentValuation",
+                "propertyValuationType" : "Subsequent",
+                "propertyValuationSequenceNumber" : "5"
+              } ]
+            }
+          }
+        },
+        "singleFamilyLoanBorrower" : [ ]
+      }
+    }
+  }
+}

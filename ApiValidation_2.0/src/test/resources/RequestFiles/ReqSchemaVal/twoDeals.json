@@ -1,0 +1,34 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+      "addressLineText": "2300 GRAND CYPRESS DR",
+        "cityName": "DALLAS",
+        "postalCode": "33559",
+        "stateCode": "CO"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 200000.00,
+        "salesContractAmount": 100000.00
+      }
+    },
+    {
+      "address": {
+      	"addressLineText": "420 CLEVELAND ST",
+        "cityName": "ENDERLIN",
+        "stateCode": "ND",
+        "postalCode": "58027"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 200000.00,
+        "salesContractAmount": 100000.00
+      }
+    }
+  ]
+}

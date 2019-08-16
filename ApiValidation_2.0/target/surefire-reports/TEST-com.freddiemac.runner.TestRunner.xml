@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.freddiemac.runner.TestRunner" time="28.932" tests="224" errors="0" skipped="8" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\c48461\git\las_gf_validation_ba0262\ACEAPI2.0_Validation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\c48461\git\las_gf_validation_ba0262\ACEAPI2.0_Validation"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\c48461\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3695451598963854587.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Java/jdk1.8.0_121/bin/../jre/bin;C:/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Sybase\DataAccess\ADONET\dll;C:\Sybase\DataAccess\ODBC\dll;C:\Sybase\DataAccess\OLEDB\dll;C:\Sybase\OCS-15_0\lib3p;C:\Sybase\OCS-15_0\dll;C:\Sybase\OCS-15_0\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\PROGRA~2\IBM\SQLLIB\BIN;C:\PROGRA~2\IBM\SQLLIB\FUNCTION;C:\PROGRA~2\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\Citrix\system32\;C:\Program Files (x86)\IBM\Lotus\Notes;C:\Program Files (x86)\Microsoft Application Virtualization Client;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PolicyPak\;C:\Program Files (x86)\nodejs\;C:\Users\c48461\AppData\Local\Continuum\Anaconda2_1;C:\Users\c48461\AppData\Local\Continuum\Anaconda2_1\Scripts;C:\Users\c48461\AppData\Local\Continuum\Anaconda2_1\Library\bin;C:\Java\jdk1.8.0_121\bin;C:\libs\apache-maven-3.5.2\bin;C:\libs\apache-maven-3.5.2\bin;C:\Users\c48461\AppData\Roaming\npm;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\c48461"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="c48461"/>
+    <property name="java.class.path" value="C:\libs\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs C:\libs\apache-maven-3.5.2\conf\settings.xml -s C:\libs\apache-maven-3.5.2\conf\settings.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\libs\apache-maven-3.5.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;28644404358&quot;" classname="| 28644404358 |" time="0.001"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 28644404358 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 28644404358 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 28644404358 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 28644404358 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 28644404358 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 28644404358 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 28644404358 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 28644404358 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 28644404358 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 28644404358 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 28644404358 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 28644404358 |" time="0"/>
+  <testcase name="| 28644404358 |" classname="| 28644404358 |" time="0.146"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;167611783765&quot;" classname="| 167611783765 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 167611783765 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 167611783765 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 167611783765 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 167611783765 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 167611783765 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 167611783765 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 167611783765 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 167611783765 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 167611783765 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 167611783765 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 167611783765 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 167611783765 |" time="0"/>
+  <testcase name="| 167611783765 |" classname="| 167611783765 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;739609776662&quot;" classname="| 739609776662 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 739609776662 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 739609776662 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 739609776662 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 739609776662 |" time="0.014"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 739609776662 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 739609776662 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 739609776662 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 739609776662 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 739609776662 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 739609776662 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 739609776662 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 739609776662 |" time="0"/>
+  <testcase name="| 739609776662 |" classname="| 739609776662 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;217616711082&quot;" classname="| 217616711082 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 217616711082 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 217616711082 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 217616711082 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 217616711082 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 217616711082 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 217616711082 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 217616711082 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 217616711082 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 217616711082 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 217616711082 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 217616711082 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 217616711082 |" time="0.001"/>
+  <testcase name="| 217616711082 |" classname="| 217616711082 |" time="0.001"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;501379254201&quot;" classname="| 501379254201 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 501379254201 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 501379254201 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 501379254201 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 501379254201 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 501379254201 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 501379254201 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 501379254201 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 501379254201 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 501379254201 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 501379254201 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 501379254201 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 501379254201 |" time="0"/>
+  <testcase name="| 501379254201 |" classname="| 501379254201 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;46460303461&quot;" classname="| 46460303461 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 46460303461 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 46460303461 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 46460303461 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 46460303461 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 46460303461 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 46460303461 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 46460303461 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 46460303461 |" time="0.011">
+    <failure message="GFSPOST Verification failed" type="java.lang.AssertionError">java.lang.AssertionError: GFSPOST Verification failed
+</failure>
+    <system-out><![CDATA[&amp#27;[34mRetrieving documents by query:{loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1001}&amp#27;[0m
+2019-06-26 15:58:50 INFO  GFSDB:326 - Error: grandFatheringAceData docuemnt for Qry {loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1001} not found
+&amp#27;[34mCould not get GFS ACE data; retrying after 2 sec...&amp#27;[0m
+&amp#27;[34mRetrieving documents by query:{loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1001}&amp#27;[0m
+2019-06-26 15:58:52 INFO  GFSDB:326 - Error: grandFatheringAceData docuemnt for Qry {loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1001} not found
+&amp#27;[34mERROR: GFS POST Request is null&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="| 46460303461 |" classname="| 46460303461 |" time="0.011">
+    <failure message="GFSPOST Verification failed" type="java.lang.AssertionError">java.lang.AssertionError: GFSPOST Verification failed
+</failure>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 46460303461 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 46460303461 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 46460303461 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 46460303461 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;126371165327&quot;" classname="| 126371165327 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 126371165327 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 126371165327 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 126371165327 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 126371165327 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 126371165327 |" time="0.001"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 126371165327 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 126371165327 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 126371165327 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 126371165327 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 126371165327 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 126371165327 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 126371165327 |" time="0"/>
+  <testcase name="| 126371165327 |" classname="| 126371165327 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;301773394576&quot;" classname="| 301773394576 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 301773394576 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 301773394576 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 301773394576 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 301773394576 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 301773394576 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 301773394576 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 301773394576 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 301773394576 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 301773394576 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 301773394576 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 301773394576 |" time="0.001"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 301773394576 |" time="0"/>
+  <testcase name="| 301773394576 |" classname="| 301773394576 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;340369032907&quot;" classname="| 340369032907 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 340369032907 |" time="0.002"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 340369032907 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 340369032907 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 340369032907 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 340369032907 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 340369032907 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 340369032907 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 340369032907 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 340369032907 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 340369032907 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 340369032907 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 340369032907 |" time="0"/>
+  <testcase name="| 340369032907 |" classname="| 340369032907 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;927204975081&quot;" classname="| 927204975081 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 927204975081 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 927204975081 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 927204975081 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 927204975081 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 927204975081 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 927204975081 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 927204975081 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 927204975081 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 927204975081 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 927204975081 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 927204975081 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 927204975081 |" time="0"/>
+  <testcase name="| 927204975081 |" classname="| 927204975081 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;784622984545&quot;" classname="| 784622984545 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 784622984545 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 784622984545 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 784622984545 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 784622984545 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 784622984545 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 784622984545 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 784622984545 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 784622984545 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 784622984545 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 784622984545 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 784622984545 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 784622984545 |" time="0"/>
+  <testcase name="| 784622984545 |" classname="| 784622984545 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;500533301979&quot;" classname="| 500533301979 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 500533301979 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 500533301979 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 500533301979 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 500533301979 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 500533301979 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 500533301979 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 500533301979 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 500533301979 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 500533301979 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 500533301979 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 500533301979 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 500533301979 |" time="0"/>
+  <testcase name="| 500533301979 |" classname="| 500533301979 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;980955710156&quot;" classname="| 980955710156 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 980955710156 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 980955710156 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 980955710156 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 980955710156 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 980955710156 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 980955710156 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 980955710156 |" time="0.001"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 980955710156 |" time="0.002">
+    <failure message="GFSPOST Verification failed" type="java.lang.AssertionError">java.lang.AssertionError: GFSPOST Verification failed
+</failure>
+    <system-out><![CDATA[&amp#27;[34mRetrieving documents by query:{loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1002}&amp#27;[0m
+2019-06-26 15:59:00 INFO  GFSDB:326 - Error: grandFatheringAceData docuemnt for Qry {loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1002} not found
+&amp#27;[34mCould not get GFS ACE data; retrying after 2 sec...&amp#27;[0m
+&amp#27;[34mRetrieving documents by query:{loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1002}&amp#27;[0m
+2019-06-26 15:59:03 INFO  GFSDB:326 - Error: grandFatheringAceData docuemnt for Qry {loanData.address.addressLineText=14576 BERKLEE DR, loanData.loanIdentifications.loanIdentification.loanIdentifier=1559852657-1002} not found
+&amp#27;[34mERROR: GFS POST Request is null&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="| 980955710156 |" classname="| 980955710156 |" time="0.002">
+    <failure message="GFSPOST Verification failed" type="java.lang.AssertionError">java.lang.AssertionError: GFSPOST Verification failed
+</failure>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 980955710156 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 980955710156 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 980955710156 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 980955710156 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;604484633520&quot;" classname="| 604484633520 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 604484633520 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 604484633520 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 604484633520 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 604484633520 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 604484633520 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 604484633520 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 604484633520 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 604484633520 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 604484633520 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 604484633520 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 604484633520 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 604484633520 |" time="0"/>
+  <testcase name="| 604484633520 |" classname="| 604484633520 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;454716461895&quot;" classname="| 454716461895 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 454716461895 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 454716461895 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 454716461895 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 454716461895 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 454716461895 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 454716461895 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 454716461895 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 454716461895 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 454716461895 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 454716461895 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 454716461895 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 454716461895 |" time="0"/>
+  <testcase name="| 454716461895 |" classname="| 454716461895 |" time="0"/>
+  <testcase name="Given The ACEAPI2.0 RequestID is &quot;363929888359&quot;" classname="| 363929888359 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Request&quot; from ACEAPI2.0 Database" classname="| 363929888359 |" time="0"/>
+  <testcase name="And User creates the &quot;ACEAPI2.0Request&quot; using the ACEAPI2.0 DB document" classname="| 363929888359 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;ACEAPI2.0Response&quot; from ACEAPI2.0 Database" classname="| 363929888359 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;HVEResponse&quot; from ACEAPI2.0 Database" classname="| 363929888359 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AARequest&quot; from ACEAPI2.0 Database" classname="| 363929888359 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding &quot;AAResponse&quot; from ACEAPI2.0 Database" classname="| 363929888359 |" time="0"/>
+  <testcase name="Then User retrieves the corresponding ACEAPI2.0 &quot;GFSPostData&quot; from GFS Database" classname="| 363929888359 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;Address&quot; data matches &quot;HVEResponse&quot; &quot;Address&quot; data" classname="| 363929888359 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE2&quot; data matches &quot;HVEResponse&quot; &quot;HVE&quot; data" classname="| 363929888359 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;AA&quot; data matches &quot;AAResponse&quot; &quot;AA&quot; data" classname="| 363929888359 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;HVE&quot; data matches &quot;AARequest&quot; &quot;HVE&quot; data" classname="| 363929888359 |" time="0"/>
+  <testcase name="And User verifies GFS &quot;GFSPostData&quot; &quot;PV&quot; data matches &quot;AARequest&quot; &quot;Subsequent PV&quot; data" classname="| 363929888359 |" time="0"/>
+  <testcase name="| 363929888359 |" classname="| 363929888359 |" time="0"/>
+</testsuite>

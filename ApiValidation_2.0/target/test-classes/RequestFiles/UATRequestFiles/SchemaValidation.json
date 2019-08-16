@@ -1,0 +1,210 @@
+{
+  "loanDeliveryStructure": {
+    "loanDetails": {
+      "communicationFailureDerivedDetails": {
+        "rdsCommunicationFailureDerivation": {
+          "rdsCommunicationFailureType": "rdsCommunicationFailureType"
+        }
+      },
+      "loanIdentifications": {
+        "loanIdentification": [
+          {
+            "loanIdentifier": "LoanQualityAdvisor",
+            "loanIdentifierType": "LoanQualityAdvisor"
+          }
+          
+        ]
+      },
+      "loanPropertyCollaterals": {
+        "loanPropertyCollateralDetails": {
+          "loanPropertyCollateral": {
+            "financedUnitCount": "financedUnitCount"
+          }
+        }
+      },
+      "loanStates": {
+        "loanStateDetails": [
+          {
+            "loanDetailInfo": {
+              "insurancePolicyDetails": {
+                "loanMI": {
+                  "miPremiumFinancedIndicator": "miPremiumFinancedIndicator"
+                }
+              },
+              "loan": {
+                "constructionLoanIndicator": "constructionLoanIndicator",
+                "grandfatheringIndicator": "grandfatheringIndicator",
+                "loanProcessingStageType": "loanProcessingStageType",
+                "loanPurposeType": "loanPurposeType",
+                "loanRefinanceCashOutDeterminationType": "loanRefinanceCashOutDeterminationType",
+                "mortgageType": "mortgageType"
+              },
+              "loanAcquisitionDetails": {
+                "loanAcquisition": {
+                  "loanConformityType": "loanConformityType",
+                  "sellerAccountIdentifier": "sellerAccountIdentifier",
+                  "sellerLoanIdentifier": "sellerLoanIdentifier"
+                }
+              },
+              "loanApplicationDetails": {
+                "loanApplication": {
+                  "borrowerPropertyPurchasePriceAmount": "borrowerPropertyPurchasePriceAmount",
+                  "loanApplicationBaseLoanAmount": "loanApplicationBaseLoanAmount",
+                  "loanApplicationIdentifier": "loanApplicationIdentifier",
+                  "miAndFundingFeeFinancedAmount": "loanApplicationIdentifier"
+                }
+              },
+              "loanConversionRuleDetails": {
+                "loanConversionRule": {
+                  "constructionLoanType": "constructionLoanType"
+                }
+              },
+              "loanOriginationDetails": {
+                "loanOrigination": {
+                  "investorCollateralProgramType": "investorCollateralProgramType",
+                  "loanOriginationSystemVersionIdentifier": "loanOriginationSystemVersionIdentifier",
+                  "loanPropertyUsageType": "loanPropertyUsageType",
+                  "noteAmount": "noteAmount"
+                },
+                "loanUnderwritingDecision": {
+                  "automatedUnderwritingSystemType": "automatedUnderwritingSystemType",
+                  "loanUnderwritingCaseIdentifier": "loanUnderwritingCaseIdentifier",
+                  "loanUnderwritingDecisionDefaultProbabilityRate": "loanUnderwritingDecisionDefaultProbabilityRate"
+                }
+              },
+              "loanRiskAssessments": {
+                "loanRiskAssessmentDetails": {
+                  "creditRiskDerivation": [
+                    {
+                      "derivationRiskClassType": "derivationRiskClassType",
+                      "derivedCalculationSourceType": "derivedCalculationSourceType",
+                      "strategicOfferingCreditRiskType": "strategicOfferingCreditRiskType"
+                    }
+                  ],
+                  "loanCollateralRiskAssessments": {
+                    "loanCollateralRiskAssessmentDetails": [
+                      {
+                        "loanCollateralRiskAssessment": {
+                          "loanScopeType": "loanScopeType",
+                          "ltvRatioPercent": "ltvRatioPercent",
+                          "ltvSourceType": "ltvSourceType"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "programs": [
+                {
+                  "program": {
+                    "programType": "programType",
+                    "refinanceProgramType": "refinanceProgramType"
+                  }
+                }
+              ]
+            },
+            "loanState": {
+              "loanStateDate": "loanStateDate0",
+              "loanStateType": "loanStateType"
+            }
+          }
+        ]
+      },
+      "partyRoles": {
+        "partyRole": [
+          {
+            "partyRoleIdentifier": "partyRoleIdentifier",
+            "partyRoleType": "partyRoleType"
+          }
+        ]
+      },
+      "productDetails": {
+        "productDefinition": {
+          "productDescription": "productDescription",
+          "productIdentifier": "productIdentifier",
+          "productType": "productType"
+        }
+      },
+      "propertyDetails": {
+        "addressDetails": [
+          {
+            "address": {
+              "FIPSCountyThreeDigitCode": "FIPSCountyThreeDigitCode",
+              "FIPSStateNumericCode": "FIPSStateNumericCode",
+              "addressLineText": "addressLineText",
+              "addressMatchLevelType": "addressMatchLevelType",
+              "addressSourceType": "addressSourceType",
+              "addressUnitDesignatorType": "addressUnitDesignatorType",
+              "addressUnitIdentifier": "addressUnitIdentifier",
+              "carrierRouteType": "carrierRouteType",
+              "censusTractBaseIdentifier": "censusTractBaseIdentifier",
+              "cityName": "cityNameS",
+              "coreBasedStatisticalAreaCode": "coreBasedStatisticalAreaCode",
+              "highwayContractIdentifier": "highwayContractIdentifier",
+              "latitudeNumber": "latitudeNumber",
+              "longitudeNumber": "longitudeNumber",
+              "postOfficeBoxIdentifier": "postOfficeBoxIdentifier",
+              "postalCode": "postalCode",
+              "ruralRouteIdentifier": "ruralRouteIdentifier",
+              "stateCode": "stateCode",
+              "streetName": "streetName",
+              "streetPostDirectionalText": "streetPostDirectionalText",
+              "streetPreDirectionalText": "streetPreDirectionalText",
+              "streetPrimaryNumberText": "streetPrimaryNumberText",
+              "streetSuffixText": "streetSuffixText",
+              "zipPlusFourCode": "4975"
+            }
+          }
+        ],
+        "property": {
+          "propertyCategoryType": "propertyCategoryType",
+          "propertyOccupancyType": "propertyOccupancyType"
+        },
+        "propertyAssessment": {
+          "propertyAssessmentSourceType": "propertyAssessmentSourceType"
+        },
+        "propertyRights": {
+          "propertyRightsType": "propertyRightsType"
+        },
+        "propertyTitles": {
+          "propertyEstateType": "propertyEstateType"
+        },
+        "propertyValuations": {
+          "appraisal": {
+            "appraisalIdentifier": "appraisalIdentifier"
+          },
+          "propertyValuationDetails": [
+            {
+              "propertyValuation": [
+                {
+                  "propertyIdentifier": "propertyIdentifier",
+                  "propertyValuationAmount": "propertyValuationAmount",
+                  "propertyValuationEffectiveDateTime": "propertyValuationEffectiveDateTime",
+                  "propertyValuationMethodType": "propertyValuationMethodType",
+                  "propertyValuationSequenceNumber": "propertyValuationSequenceNumber",
+                  "propertyValuationType": "propertyValuationType"
+                }
+              ]
+            }
+          ]
+        },
+        "realEstateProject": {
+          "projectAttachmentType": "projectAttachmentType",
+          "projectClassificationType": "projectClassificationType",
+          "projectLegalStructureType": "projectLegalStructureType"
+        },
+        "structureDetails": {
+          "structure": {
+            "constructionMethodType": "constructionMethodType"
+          }
+        }
+      }
+    }
+  },
+  "serviceRequestDetails": {
+    "serviceName": "serviceName",
+    "serviceRequestOperationName": "serviceRequestOperationName",
+    "subscriberIdentifier": "subscriberIdentifier",
+    "subscriberRequestCorrelationIdentifier": "LoanQualityAdvisor"
+  }
+}

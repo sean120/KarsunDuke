@@ -1,0 +1,21 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "10 N 100 E",
+        "cityName": "cedar valley",
+        "postalCode": "84013",
+        "stateCode": "UT"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 5533.00,
+        "salesContractAmount": 300000
+      }
+    }
+  ]
+}

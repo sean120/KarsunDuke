@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "2668 way Drive",
+        "cityName": "Dallas",
+        "postalCode": "20874",
+        "stateCode": "TX"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "salesContractAmount": 100000.12
+      }
+    }
+  ]
+}

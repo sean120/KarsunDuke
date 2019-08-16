@@ -1,0 +1,21 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "420 bleveland st",
+        "cityName": "Enderliin",
+        "postalCode": "67891",
+        "stateCode": "MD"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 5533.00,
+        "salesContractAmount": 100000.12
+      }
+    }
+  ]
+}

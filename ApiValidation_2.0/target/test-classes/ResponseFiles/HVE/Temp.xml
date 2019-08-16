@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:HVSResponse xmlns="http://www.freddiemac.com/cdm"
+	xmlns:ns2="http://las.hvs.freddiemac.com/HVSWebService">
+	<ns2:ResponseDateTime>2018-09-26T10:35:49.137-04:00
+	</ns2:ResponseDateTime>
+	<ns2:ServiceRequestContainer>
+		<ServiceRequest>
+			<ClientSchemaVersionIdentifier>1.0</ClientSchemaVersionIdentifier>
+			<SchemaVersionIdentifier>1.0</SchemaVersionIdentifier>
+			<RequestorIdentifier>ACEAPI</RequestorIdentifier>
+			<ServiceName>HVSWS</ServiceName>
+			<ServiceRequestDateTime>2018-09-26T10:35:48.870-04:00
+			</ServiceRequestDateTime>
+			<ServiceRequestOperationName>GetHVSData</ServiceRequestOperationName>
+			<SubscriberRequestCorrelationIdentifier>rrt-009049d0ec8b7cf56-b-ea-27711-4314288-1
+			</SubscriberRequestCorrelationIdentifier>
+		</ServiceRequest>
+	</ns2:ServiceRequestContainer>
+	<ns2:HVSResponseContainers>
+		<ns2:HVSResponseContainer>
+			<ns2:AlternativeLoanIdentifications />
+			<ns2:HVSTransactionIdentifier>9596879</ns2:HVSTransactionIdentifier>
+			<ns2:BillingType>NotApplicable</ns2:BillingType>
+			<ns2:FDRVersion>2018.02</ns2:FDRVersion>
+			<ns2:Messages>
+				<ns2:Message SequenceNumber="1">
+					<ns2:MessageCode>2320</ns2:MessageCode>
+					<ns2:MessageText>Unable to determine the market value for the
+						submitted address.</ns2:MessageText>
+					<ns2:MessageType>Informational</ns2:MessageType>
+				</ns2:Message>
+			</ns2:Messages>
+		</ns2:HVSResponseContainer>
+	</ns2:HVSResponseContainers>
+</ns2:HVSResponse>

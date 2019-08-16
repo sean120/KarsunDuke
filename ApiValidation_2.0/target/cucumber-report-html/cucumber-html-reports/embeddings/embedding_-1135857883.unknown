@@ -1,0 +1,112 @@
+{
+  "_id" : {
+    "$numberLong" : "126371165327"
+  },
+  "lastModifiedDate" : {
+    "$date" : 1559852662267
+  },
+  "transactionContext" : {
+    "_id" : {
+      "$numberLong" : "126371165327"
+    },
+    "syntheticTransaction" : "false"
+  },
+  "automatedCollateralEvaluationRequest" : {
+    "serviceRequestDetails" : {
+      "serviceName" : "ACEAPIRequest",
+      "serviceRequestOperationName" : "evaluateAppraisalAlternative",
+      "subscriberRequestCorrelationIdentifier" : "5010901712",
+      "subscriberIdentifier" : "LPAv2"
+    },
+    "loanDeliveryStructure" : {
+      "loanDetails" : {
+        "loanIdentifications" : {
+          "loanIdentification" : [ {
+            "loanIdentifier" : "1559852657-1001",
+            "loanIdentifierType" : "LoanProspectorKey"
+          }, {
+            "loanIdentifier" : "5752312",
+            "loanIdentifierType" : "LoanProspectorUniqueLoan"
+          }, {
+            "loanIdentifier" : "5010901712",
+            "loanIdentifierType" : "LoanProspectorTransaction"
+          } ]
+        },
+        "loanPropertyCollaterals" : {
+          "loanPropertyCollateralDetails" : {
+            "loanPropertyCollateral" : {
+              "financedUnitCount" : {
+                "$numberLong" : "1"
+              }
+            }
+          }
+        },
+        "loanDetailInfo" : {
+          "loan" : {
+            "constructionLoanIndicator" : "false",
+            "loanPurposeType" : "Purchase",
+            "loanProcessingStageType" : "ApplicationProcessing",
+            "loanRefinanceCashOutDeterminationType" : "NoCashOut",
+            "mortgageType" : "Conventional",
+            "grandfatheringIndicator" : "Yes"
+          },
+          "loanAcquisitionDetails" : {
+            "loanAcquisition" : {
+              "sellerAccountIdentifier" : "000601"
+            }
+          },
+          "loanApplicationDetails" : {
+            "loanApplication" : {
+              "borrowerPropertyPurchasePriceAmount" : 447246.0
+            }
+          },
+          "loanRiskAssessments" : {
+            "loanRiskAssessmentDetails" : {
+              "loanCollateralRiskAssessments" : {
+                "loanCollateralRiskAssessmentDetails" : [ {
+                  "loanCollateralRiskAssessment" : {
+                    "loanScopeType" : "Combined",
+                    "ltvRatioPercent" : 45.0,
+                    "ltvSourceType" : "FreddieMacCalculated"
+                  }
+                } ]
+              },
+              "creditRiskDerivation" : [ {
+                "derivedCalculationSourceType" : "HP",
+                "strategicOfferingCreditRiskType" : "Accept",
+                "derivationRiskClassType" : "FinalCreditRiskClass"
+              } ]
+            }
+          },
+          "programs" : [ ]
+        },
+        "propertyDetails" : {
+          "addressDetails" : {
+            "address" : [ {
+              "addressLineText" : "25264 WINDY BLUFF LN",
+              "addressMatchLevelType" : "ExactMatch",
+              "cityName" : "ARLINGTON",
+              "postalCode" : "68002",
+              "stateCode" : "NE",
+              "geocodingIndicator" : "true"
+            } ]
+          },
+          "propertyValuations" : {
+            "propertyValuationDetails" : {
+              "propertyValuation" : [ {
+                "propertyIdentifier" : {
+                  "$numberLong" : "1"
+                },
+                "propertyValuationAmount" : 447246.0,
+                "propertyValuationMethodType" : "PropertyPresentValuation",
+                "propertyValuationType" : "Subsequent",
+                "propertyValuationSequenceNumber" : "5"
+              } ]
+            }
+          }
+        },
+        "singleFamilyLoanBorrower" : [ ]
+      }
+    }
+  }
+}

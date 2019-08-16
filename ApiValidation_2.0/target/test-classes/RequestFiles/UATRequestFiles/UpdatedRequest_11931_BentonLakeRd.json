@@ -1,0 +1,220 @@
+{
+	 "loanDeliveryStructure": {
+		 "loanDetails": {
+			 "loanDetailInfo": {
+				 "insurancePolicyDetails": {
+					 "loanMI": {
+						 "miPremiumFinancedAmount": 1200.00,
+						 "miPremiumFinancedIndicator": true
+					}
+				},
+				 "loan": {
+					 "constructionLoanIndicator": null,
+					 "grandfatheringIndicator": true,
+					 "loanProcessingStageType": "ApplicationProcessing",
+					 "loanPurposeType": "Purchase",
+					 "loanRefinanceCashOutDeterminationType": "NoCashOut",
+					 "mortgageType": "Conventional"
+				},
+				 "loanAcquisitionDetails": {
+					 "loanAcquisition": {
+						 "loanConformityType": "ConformingMortgage",
+						 "sellerAccountIdentifier": "000601",
+						 "sellerLoanIdentifier": "INC_VER_TST_007"
+					}
+				},
+				 "loanApplicationDetails": {
+					 "loanApplication": {
+						 "borrowerPropertyPurchasePriceAmount": 325010.0,
+						 "loanApplicationBaseLoanAmount": 142000.0,
+						 "miAndFundingFeeFinancedAmount": 1200.0
+					}
+				},
+				 "loanConversionRuleDetails": {
+					 "loanConversionRule": {
+						 "constructionLoanType": null
+					}
+				},
+				 "loanOriginationDetails": {
+					 "loanOrigination": {
+						 "loanOriginationSystemVersionIdentifier": "WW4.8.00",
+						 "loanPropertyUsageType": "PrimaryResidence",
+						 "noteAmount": 143200.0
+					},
+					 "loanUnderwritingDecision": {
+						 "loanUnderwritingCaseIdentifier": "B0012685",
+						 "loanUnderwritingDecisionDefaultProbabilityRate": 0.0030204290
+					}
+				},
+				 "loanRiskAssessments": {
+					 "loanRiskAssessmentDetails": {
+						 "creditRiskDerivation": [
+							{
+								 "derivationRiskClassType": "FinalCreditRiskClass",
+								 "derivedCalculationSourceType": "HP",
+								 "strategicOfferingCreditRiskType": "Accept"
+							}
+						],
+						 "loanCollateralRiskAssessments": {
+							 "loanCollateralRiskAssessmentDetails": [
+								{
+									 "loanCollateralRiskAssessment": {
+										 "loanScopeType": "Combined",
+										 "ltvRatioPercent": 50.0,
+										 "ltvSourceType": "FreddieMacCalculated"
+									}
+								}
+							]
+						}
+					}
+				},
+				 "programs": [
+					{
+						 "program": {
+							 "programType": null,
+							 "refinanceProgramType": null
+						}
+					}
+				]
+			},
+			 "loanIdentifications": {
+				 "loanIdentification": [
+					{
+						 "loanIdentifier": "B0012685",
+						 "loanIdentifierType": "LoanProspectorKey"
+					},
+					{
+						 "loanIdentifier": 57524,
+						 "loanIdentifierType": "LoanProspectorUniqueLoan"
+					},
+					{
+						 "loanIdentifier": 50109018,
+						 "loanIdentifierType": "LoanProspectorTransaction"
+					},
+					{
+						 "loanIdentifier": 512420,
+						 "loanIdentifierType": "HewlettPackardLoanProspectorTransaction"
+					}
+				]
+			},
+			 "loanPropertyCollaterals": {
+				 "loanPropertyCollateralDetails": {
+					 "loanPropertyCollateral": {
+						 "financedUnitCount": 1
+					}
+				}
+			},
+			 "partyRoles": {
+				 "partyRole": [
+					{
+						 "partyRoleIdentifier": "000601",
+						 "partyRoleType": "SELLER"
+					}
+				]
+			},
+			 "productDetails": {
+				 "productDefinition": {
+					 "productDescription": null,
+					 "productIdentifier": null,
+					 "productType": null
+				}
+			},
+			 "propertyDetails": {
+				 "addressDetails": {
+					 "address": [
+						{
+							 "FIPSCountyThreeDigitCode": 113,
+							 "FIPSStateNumericCode": 123,
+							 "addressLineText": "11931 BENTON LAKE RD",
+							 "addressMatchLevelType": "EXACT_MATCH",
+							 "addressSourceType": "GeocodingService",
+							 "addressUnitDesignatorType": null,
+							 "addressUnitIdentifier": null,
+							 "carrierRouteType": "CITY_ROUTE",
+							 "censusTractBaseIdentifier": 12345678,
+							 "cityName": "BRISTOW",
+							 "coreBasedStatisticalAreaCode": 123,
+							 "geocodingIndicator": true,
+							 "highwayContractIdentifier": null,
+							 "latitudeNumber": 1234,
+							 "longitudeNumber": 5678,
+							 "postOfficeBoxIdentifier": null,
+							 "postalCode": 20136,
+							 "ruralRouteIdentifier": null,
+							 "stateCode": "VA",
+							 "streetName": "BERKLEE",
+							 "streetPostDirectionalText": null,
+							 "streetPreDirectionalText": null,
+							 "streetPrimaryNumberText": 14576,
+							 "streetSuffixText": "DR",
+							 "zipPlusFourCode": 6156
+						}
+					]
+				},
+				 "property": {
+					 "propertyCategoryType": "Attached"
+				},
+				 "propertyAssessment": {
+					 "propertyAssessmentSourceType": "LoanSeller"
+				},
+				 "propertyRights": {
+					 "propertyRightsType": "string"
+				},
+				 "propertyTitles": {
+					 "propertyEstateType": "FeeSimple"
+				},
+				 "propertyValuations": {
+					 "appraisal": {
+						 "appraisalIdentifier": null
+					},
+					 "propertyValuationDetails": 
+						{
+							 "propertyValuation": [
+								{
+									 "propertyIdentifier": 1,
+									 "propertyValuationAmount": 287671.0,
+									 "propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+									 "propertyValuationMethodType": "PropertyPresentValuation",
+									 "propertyValuationSequenceNumber": 1,
+									 "propertyValuationType": "Original"
+								},
+																{
+									 "propertyIdentifier": 1,
+									 "propertyValuationAmount": 287671.0,
+									 "propertyValuationEffectiveDateTime": "2019-02-28T16:31:04.029-05:00",
+									 "propertyValuationMethodType": "PropertyPresentValuation",
+									 "propertyValuationSequenceNumber": 1,
+									 "propertyValuationType": "Original"
+								}
+							]
+						}
+					
+				},
+				 "realEstateProject": {
+					 "projectAttachmentType": "Attached",
+					 "projectClassificationType": "string",
+					 "projectLegalStructureType": null
+				},
+				 "structureDetails": {
+					 "structure": {
+						 "constructionMethodType": "Other"
+					}
+				}
+			},
+			 "singleFamilyLoanBorrower": [
+				{
+					 "borrowerClassificationType": null,
+					 "borrowerIdentifier": null,
+					 "intentToOccupyType": null,
+					 "partyRoleType": "string"
+				}
+			]
+		}
+	},
+	 "serviceRequestDetails": {
+		 "serviceName": "ACEAPIRequest",
+		 "serviceRequestOperationName": "evaluateAppraisalAlternative",
+		 "subscriberIdentifier": "LPAv2",
+		 "subscriberRequestCorrelationIdentifier": 50109112
+	}
+}

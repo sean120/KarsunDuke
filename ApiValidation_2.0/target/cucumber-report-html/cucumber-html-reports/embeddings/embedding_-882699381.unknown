@@ -1,0 +1,77 @@
+{
+  "_id" : {
+    "$numberLong" : "739609776662"
+  },
+  "lastModifiedDate" : {
+    "$date" : 1559852662759
+  },
+  "transactionContext" : {
+    "_id" : {
+      "$numberLong" : "739609776662"
+    },
+    "syntheticTransaction" : "false"
+  },
+  "automatedCollateralEvaluationResponse" : {
+    "loanIdentifications" : {
+      "loanIdentification" : [ {
+        "loanIdentifier" : "1559852657-1001",
+        "loanIdentifierType" : "LoanProspectorKey"
+      }, {
+        "loanIdentifier" : "5753305",
+        "loanIdentifierType" : "LoanProspectorUniqueLoan"
+      }, {
+        "loanIdentifier" : "5010902705",
+        "loanIdentifierType" : "LoanProspectorTransaction"
+      } ]
+    },
+    "aceAssessmentDecision" : {
+      "alternateAppraisalDecisionExpirationDatetime" : "2019-10-03 11:59:59 PM",
+      "alternateAppraisalDecisionStatusType" : "Reuse",
+      "alternateAppraisalEligibilityDecision" : "Eligible",
+      "alternateAppraisalReasonList" : [ {
+        "listText" : "Eligible"
+      } ],
+      "minimumLoanAssessmentFormType" : "No Appraisal",
+      "propertyValuationEffectiveDateTime" : "2019-06-06T16:24:22.699"
+    },
+    "aceDecisionMessages" : {
+      "messages" : [ {
+        "messageCategory" : "COW",
+        "messageCodeList" : [ {
+          "listText" : "B1"
+        } ],
+        "messageDisplayFlag" : "YES",
+        "messageGroup1List" : [ {
+          "listText" : "Property & Appraisal"
+        } ],
+        "messageGroup2List" : [ {
+          "listText" : "90"
+        } ],
+        "messageId" : "26691",
+        "messageHeaderList" : [ {
+          "listText" : "This loan is eligible for an appraisal waiver. If the waiver is not accepted an appraisal is required."
+        } ],
+        "messageType" : "LP",
+        "sequenceNumber" : "5753305"
+      }, {
+        "messageCategory" : "WEB",
+        "messageCodeList" : [ {
+          "listText" : "WH"
+        } ],
+        "messageDisplayFlag" : "YES",
+        "messageGroup1List" : [ {
+          "listText" : "Property & Appraisal"
+        } ],
+        "messageGroup2List" : [ {
+          "listText" : "90"
+        } ],
+        "messageId" : "26691",
+        "messageHeaderList" : [ {
+          "listText" : "MAF: No Appraisal"
+        } ],
+        "messageType" : "LP",
+        "sequenceNumber" : "5753305"
+      } ]
+    }
+  }
+}

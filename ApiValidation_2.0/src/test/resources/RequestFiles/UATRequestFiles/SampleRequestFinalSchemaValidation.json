@@ -1,0 +1,214 @@
+{
+  "loanDeliveryStructure": {
+    "loanDetails": {
+      "communicationFailureDerivedDetails": {
+        "craCommunicationFailureDerivation": {
+          "craCommunicationFailureType": "craCommunicationFailureType"
+        },
+        "rdsCommunicationFailureDerivation": {
+          "rdsCommunicationFailureType": "rdsCommunicationFailureType"
+        }
+      },
+      "loanDetailInfo": {
+        "insurancePolicyDetails": {
+          "loanMI": {
+            "miPremiumFinancedAmount": "miPremiumFinancedAmount",
+            "miPremiumFinancedIndicator": "miPremiumFinancedIndicator"
+          }
+        },
+        "loan": {
+          "constructionLoanIndicator": "constructionLoanIndicator",
+          "grandfatheringIndicator": "grandfatheringIndicator",
+          "loanProcessingStageType": "PreQualification",
+          "loanPurposeType": "loanPurposeType",
+          "loanRefinanceCashOutDeterminationType": "loanRefinanceCashOutDeterminationType",
+          "mortgageType": "mortgageType"
+        },
+        "loanAcquisitionDetails": {
+          "loanAcquisition": {
+            "loanConformityType": "loanConformityType",
+            "sellerAccountIdentifier": "sellerAccountIdentifier",
+            "sellerLoanIdentifier": "sellerLoanIdentifier"
+          }
+        },
+        "loanApplicationDetails": {
+          "loanApplication": {
+            "borrowerPropertyPurchasePriceAmount": 239,
+            "loanApplicationBaseLoanAmount": 122,
+            "miAndFundingFeeFinancedAmount": 235
+          }
+        },
+        "loanConversionRuleDetails": {
+          "loanConversionRule": {
+            "constructionLoanType": "constructionLoanType"
+          }
+        },
+        "loanOriginationDetails": {
+          "loanOrigination": {
+            "investorCollateralProgramType": "investorCollateralProgramType",
+            "loanOriginationSystemVersionIdentifier": "loanOriginationSystemVersionIdentifier",
+            "loanPropertyUsageType": "loanPropertyUsageType",
+            "noteAmount": 0
+          },
+          "loanUnderwritingDecision": {
+            "automatedUnderwritingSystemType": "automatedUnderwritingSystemType",
+            "loanUnderwritingCaseIdentifier": "loanUnderwritingCaseIdentifier",
+            "loanUnderwritingDecisionDefaultProbabilityRate": "loanUnderwritingDecisionDefaultProbabilityRate"
+          }
+        },
+        "loanRiskAssessments": {
+          "loanRiskAssessmentDetails": {
+            "creditRiskDerivation": [
+              {
+                "derivationRiskClassType": "derivationRiskClassType",
+                "derivedCalculationSourceType": "derivedCalculationSourceType",
+                "loanQualityAdvisorResultType": "loanQualityAdvisorResultType",
+                "messageCode": "messageCode",
+                "messageText": "messageText",
+                "strategicOfferingCreditRiskType": "strategicOfferingCreditRiskType"
+              }
+            ],
+            "loanCollateralRiskAssessments": {
+              "loanCollateralRiskAssessmentDetails": [
+                {
+                  "loanCollateralRiskAssessment": {
+                    "loanScopeType": "loanScopeType",
+                    "ltvRatioPercent": 346,
+                    "ltvSourceType": "ltvSourceType"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "programs": [
+          {
+            "program": {
+              "programType": "programType",
+              "refinanceProgramType": "refinanceProgramType"
+            }
+          }
+        ]
+      },
+      "loanIdentifications": {
+        "loanIdentification": [
+          {
+            "loanIdentifier": "loanIdentifier",
+            "loanIdentifierType": "LoanProspectorTransaction"
+          }
+        ]
+      },
+      "loanPropertyCollaterals": {
+        "loanPropertyCollateralDetails": {
+          "loanPropertyCollateral": {
+            "financedUnitCount": 0
+          }
+        }
+      },
+      "partyRoles": {
+        "partyRole": [
+          {
+            "partyRoleIdentifier": "partyRoleIdentifier",
+            "partyRoleType": "partyRoleType"
+          }
+        ]
+      },
+      "productDetails": {
+        "productDefinition": {
+          "productDescription": "productDescription",
+          "productIdentifier": "productIdentifier",
+          "productType": "productType"
+        }
+      },
+      "propertyDetails": {
+        "addressDetails": 
+          {
+            "address": [
+              {
+                "FIPSCountyThreeDigitCode": "FIPSCountyThreeDigitCode",
+                "FIPSStateNumericCode": "123",
+                "addressLineText": "11931 BENTON LAKE RD",
+                "addressMatchLevelType": "Tight Match(T)",
+                "addressSourceType": "GeocodingService",
+                "addressUnitDesignatorType": "addressUnitDesignatorType",
+                "addressUnitIdentifier": "addressUnitIdentifier",
+                "carrierRouteType": "carrierRouteType",
+                "censusTractBaseIdentifier": "12345678",
+                "cityName": "BRISTOW",
+                "coreBasedStatisticalAreaCode": "123",
+                "geocodingIndicator": "true",
+                "highwayContractIdentifier": "highwayContractIdentifier",
+                "latitudeNumber": "1234",
+                "longitudeNumber": "5678",
+                "postOfficeBoxIdentifier": "postOfficeBoxIdentifier",
+                "postalCode": 20136,
+                "ruralRouteIdentifier": "ruralRouteIdentifier",
+                "stateCode": "VA",
+                "streetName": "streetName",
+                "streetPostDirectionalText": "streetPostDirectionalText",
+                "streetPreDirectionalText": "streetPreDirectionalText",
+                "streetPrimaryNumberText": "streetPrimaryNumberText",
+                "streetSuffixText": "streetSuffixText",
+                "zipPlusFourCode": "6156"
+              }
+            ]
+          },
+        "property": {
+          "propertyCategoryType": "propertyCategoryType"
+        },
+        "propertyAssessment": {
+          "propertyAssessmentSourceType": "propertyAssessmentSourceType"
+        },
+        "propertyRights": {
+          "propertyRightsType": "propertyRightsType"
+        },
+        "propertyTitles": {
+          "propertyEstateType": "propertyEstateType"
+        },
+        "propertyValuations": {
+          "appraisal": {
+            "appraisalIdentifier": "appraisalIdentifier"
+          },
+          "propertyValuationDetails": [
+            {
+              "propertyValuation": [
+                {
+                  "propertyIdentifier": 124,
+                  "propertyValuationAmount": 1223,
+                  "propertyValuationEffectiveDateTime": "propertyValuationEffectiveDateTime",
+                  "propertyValuationMethodType": "propertyValuationMethodType",
+                  "propertyValuationSequenceNumber": "propertyValuationSequenceNumber",
+                  "propertyValuationType": "propertyValuationType"
+                }
+              ]
+            }
+          ]
+        },
+        "realEstateProject": {
+          "projectAttachmentType": "projectAttachmentType",
+          "projectClassificationType": "projectClassificationType",
+          "projectLegalStructureType": "projectLegalStructureType"
+        },
+        "structureDetails": {
+          "structure": {
+            "constructionMethodType": "constructionMethodType"
+          }
+        }
+      },
+      "singleFamilyLoanBorrower": [
+        {
+          "borrowerClassificationType": "borrowerClassificationType",
+          "borrowerIdentifier": "borrowerIdentifier",
+          "intentToOccupyType": "intentToOccupyType",
+          "partyRoleType": "partyRoleType"
+        }
+      ]
+    }
+  },
+  "serviceRequestDetails": {
+    "serviceName": "serviceName",
+    "serviceRequestOperationName": "serviceRequestOperationName",
+    "subscriberIdentifier": "subscriberIdentifier",
+    "subscriberRequestCorrelationIdentifier": "subscriberRequestCorrelationIdentifier"
+  }
+}

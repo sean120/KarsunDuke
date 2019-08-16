@@ -1,0 +1,112 @@
+{
+  "_id" : {
+    "$numberLong" : "980955710156"
+  },
+  "lastModifiedDate" : {
+    "$date" : 1559852669293
+  },
+  "transactionContext" : {
+    "_id" : {
+      "$numberLong" : "980955710156"
+    },
+    "syntheticTransaction" : "false"
+  },
+  "automatedCollateralEvaluationRequest" : {
+    "serviceRequestDetails" : {
+      "serviceName" : "ACEAPIRequest",
+      "serviceRequestOperationName" : "evaluateAppraisalAlternative",
+      "subscriberRequestCorrelationIdentifier" : "5010901810",
+      "subscriberIdentifier" : "LPAv2"
+    },
+    "loanDeliveryStructure" : {
+      "loanDetails" : {
+        "loanIdentifications" : {
+          "loanIdentification" : [ {
+            "loanIdentifier" : "1559852657-1002",
+            "loanIdentifierType" : "LoanProspectorKey"
+          }, {
+            "loanIdentifier" : "5752410",
+            "loanIdentifierType" : "LoanProspectorUniqueLoan"
+          }, {
+            "loanIdentifier" : "5010901810",
+            "loanIdentifierType" : "LoanProspectorTransaction"
+          } ]
+        },
+        "loanPropertyCollaterals" : {
+          "loanPropertyCollateralDetails" : {
+            "loanPropertyCollateral" : {
+              "financedUnitCount" : {
+                "$numberLong" : "1"
+              }
+            }
+          }
+        },
+        "loanDetailInfo" : {
+          "loan" : {
+            "constructionLoanIndicator" : "false",
+            "loanPurposeType" : "Purchase",
+            "loanProcessingStageType" : "ApplicationProcessing",
+            "loanRefinanceCashOutDeterminationType" : "NoCashOut",
+            "mortgageType" : "Conventional",
+            "grandfatheringIndicator" : "Yes"
+          },
+          "loanAcquisitionDetails" : {
+            "loanAcquisition" : {
+              "sellerAccountIdentifier" : "000601"
+            }
+          },
+          "loanApplicationDetails" : {
+            "loanApplication" : {
+              "borrowerPropertyPurchasePriceAmount" : 325010.0
+            }
+          },
+          "loanRiskAssessments" : {
+            "loanRiskAssessmentDetails" : {
+              "loanCollateralRiskAssessments" : {
+                "loanCollateralRiskAssessmentDetails" : [ {
+                  "loanCollateralRiskAssessment" : {
+                    "loanScopeType" : "Combined",
+                    "ltvRatioPercent" : 50.0,
+                    "ltvSourceType" : "FreddieMacCalculated"
+                  }
+                } ]
+              },
+              "creditRiskDerivation" : [ {
+                "derivedCalculationSourceType" : "HP",
+                "strategicOfferingCreditRiskType" : "Accept",
+                "derivationRiskClassType" : "FinalCreditRiskClass"
+              } ]
+            }
+          },
+          "programs" : [ ]
+        },
+        "propertyDetails" : {
+          "addressDetails" : {
+            "address" : [ {
+              "addressLineText" : "14576 BERKLEE DR",
+              "addressMatchLevelType" : "ExactMatch",
+              "cityName" : "ADDISON",
+              "postalCode" : "75001",
+              "stateCode" : "TX",
+              "geocodingIndicator" : "true"
+            } ]
+          },
+          "propertyValuations" : {
+            "propertyValuationDetails" : {
+              "propertyValuation" : [ {
+                "propertyIdentifier" : {
+                  "$numberLong" : "1"
+                },
+                "propertyValuationAmount" : 287671.0,
+                "propertyValuationMethodType" : "PropertyPresentValuation",
+                "propertyValuationType" : "Subsequent",
+                "propertyValuationSequenceNumber" : "5"
+              } ]
+            }
+          }
+        },
+        "singleFamilyLoanBorrower" : [ ]
+      }
+    }
+  }
+}

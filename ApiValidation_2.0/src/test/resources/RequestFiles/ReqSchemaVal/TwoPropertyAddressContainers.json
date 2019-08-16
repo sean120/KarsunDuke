@@ -1,0 +1,10 @@
+{
+       "addresses": [
+       ],
+       "parties": [
+              {
+                     "partyRoleIdentifier": "000601",
+                     "partyRoleType": "LoanSeller"
+              }
+       ]
+}

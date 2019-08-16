@@ -1,0 +1,8 @@
+selenium_testing:
+
+- name: integrationRunner
+  suiteName: IntegrationRunner.java
+  browser: chrome
+  version:
+  platform:
+  duns: 666666666

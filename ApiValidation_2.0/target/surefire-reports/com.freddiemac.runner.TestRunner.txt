@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.freddiemac.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 224, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 28.932 sec <<< FAILURE! - in com.freddiemac.runner.TestRunner
+And User verifies GFS "GFSPostData" "Address" data matches "HVEResponse" "Address" data(| 46460303461 |)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: GFSPOST Verification failed
+
+| 46460303461 |  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: GFSPOST Verification failed
+
+And User verifies GFS "GFSPostData" "Address" data matches "HVEResponse" "Address" data(| 980955710156 |)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: GFSPOST Verification failed
+
+| 980955710156 |  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: GFSPOST Verification failed
+

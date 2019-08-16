@@ -1,0 +1,112 @@
+{
+  "_id" : {
+    "$numberLong" : "739609776662"
+  },
+  "lastModifiedDate" : {
+    "$date" : 1559852661678
+  },
+  "transactionContext" : {
+    "_id" : {
+      "$numberLong" : "739609776662"
+    },
+    "syntheticTransaction" : "false"
+  },
+  "automatedCollateralEvaluationRequest" : {
+    "serviceRequestDetails" : {
+      "serviceName" : "ACEAPIRequest",
+      "serviceRequestOperationName" : "evaluateAppraisalAlternative",
+      "subscriberRequestCorrelationIdentifier" : "5010902705",
+      "subscriberIdentifier" : "LPAv2"
+    },
+    "loanDeliveryStructure" : {
+      "loanDetails" : {
+        "loanIdentifications" : {
+          "loanIdentification" : [ {
+            "loanIdentifier" : "1559852657-1001",
+            "loanIdentifierType" : "LoanProspectorKey"
+          }, {
+            "loanIdentifier" : "5753305",
+            "loanIdentifierType" : "LoanProspectorUniqueLoan"
+          }, {
+            "loanIdentifier" : "5010902705",
+            "loanIdentifierType" : "LoanProspectorTransaction"
+          } ]
+        },
+        "loanPropertyCollaterals" : {
+          "loanPropertyCollateralDetails" : {
+            "loanPropertyCollateral" : {
+              "financedUnitCount" : {
+                "$numberLong" : "1"
+              }
+            }
+          }
+        },
+        "loanDetailInfo" : {
+          "loan" : {
+            "constructionLoanIndicator" : "false",
+            "loanPurposeType" : "Refinance",
+            "loanProcessingStageType" : "ApplicationProcessing",
+            "loanRefinanceCashOutDeterminationType" : "NoCashOut",
+            "mortgageType" : "Conventional",
+            "grandfatheringIndicator" : "Yes"
+          },
+          "loanAcquisitionDetails" : {
+            "loanAcquisition" : {
+              "sellerAccountIdentifier" : "000601"
+            }
+          },
+          "loanApplicationDetails" : {
+            "loanApplication" : {
+              "borrowerPropertyPurchasePriceAmount" : 325010.0
+            }
+          },
+          "loanRiskAssessments" : {
+            "loanRiskAssessmentDetails" : {
+              "loanCollateralRiskAssessments" : {
+                "loanCollateralRiskAssessmentDetails" : [ {
+                  "loanCollateralRiskAssessment" : {
+                    "loanScopeType" : "Combined",
+                    "ltvRatioPercent" : 45.0,
+                    "ltvSourceType" : "FreddieMacCalculated"
+                  }
+                } ]
+              },
+              "creditRiskDerivation" : [ {
+                "derivedCalculationSourceType" : "HP",
+                "strategicOfferingCreditRiskType" : "Accept",
+                "derivationRiskClassType" : "FinalCreditRiskClass"
+              } ]
+            }
+          },
+          "programs" : [ ]
+        },
+        "propertyDetails" : {
+          "addressDetails" : {
+            "address" : [ {
+              "addressLineText" : "2140 DEMETRIUS WAY",
+              "addressMatchLevelType" : "ExactMatch",
+              "cityName" : "ROSEVILLE",
+              "postalCode" : "95661",
+              "stateCode" : "CA",
+              "geocodingIndicator" : "true"
+            } ]
+          },
+          "propertyValuations" : {
+            "propertyValuationDetails" : {
+              "propertyValuation" : [ {
+                "propertyIdentifier" : {
+                  "$numberLong" : "1"
+                },
+                "propertyValuationAmount" : 561410.0,
+                "propertyValuationMethodType" : "PropertyPresentValuation",
+                "propertyValuationType" : "Subsequent",
+                "propertyValuationSequenceNumber" : "5"
+              } ]
+            }
+          }
+        },
+        "singleFamilyLoanBorrower" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE LOAN_APPLICATION SYSTEM "Rules/LOANPROSPECTOR_REQUEST_4.2.DTD">
+<LOAN_APPLICATION MISMOVersionID="2.4">
+
+	<_DATA_INFORMATION>
+		
+		<DATA_VERSION _Number="WW4.7.00"/>
+	
+	</_DATA_INFORMATION>
+	<ADDITIONAL_CASE_DATA>
+		<!--	ACE LPA UAT LOAN	-->
+		<TRANSMITTAL_DATA CaseStateType = "Application"  PropertyEstimatedValueAmount = "140000.00"/>  
+	</ADDITIONAL_CASE_DATA>
+	<ASSET BorrowerID = "B1" _AccountIdentifier = "123456789" _CashOrMarketValueAmount = "105000.00" _Type = "CheckingAccount" _HolderName = "ABC Bank" _HolderStreetAddress = "123 Sesame St." _HolderCity = "New York" _HolderState = "NY" _HolderPostalCode = "12345"/>
+	<ASSET BorrowerID = "B1" _CashOrMarketValueAmount = "80000.00" _Type = "GiftsTotal"/>
+	<ASSET BorrowerID = "B1" _Type = "MoneyMarketFund" _HolderName = "DEF BANK" _HolderStreetAddress = "MONEY LANE" _HolderCity = "MEMPHIS" _HolderState = "TN" _HolderPostalCode = "222016759" _AccountIdentifier = "100" _CashOrMarketValueAmount = "1000000.06" StockBondMutualFundShareCount = "2234567"/>      
+	<ASSET BorrowerID = "B1" _Type = "SavingsAccount" _HolderName = "GHI BANK" _HolderStreetAddress = "MONEY LANE" _HolderCity = "RICHMOND" _HolderState = "VA" _HolderPostalCode = "222016757" _AccountIdentifier = "101" _CashOrMarketValueAmount = "100000.07" StockBondMutualFundShareCount = "1234567"/>     
+	<DOWN_PAYMENT _Type="GiftFunds" _Amount="1200.00" _SourceDescription="03"/>
+	<INTERVIEWER_INFORMATION ApplicationTakenMethodType = "Internet"/>
+		
+	<LOAN_PRODUCT_DATA>
+		<LOAN_FEATURES LienPriorityType = "FirstLien" FREOfferingIdentifier = ""/>
+	</LOAN_PRODUCT_DATA>
+	<LOAN_PURPOSE GSETitleMannerHeldDescription = "Single" _Type = "Purchase" PropertyUsageType = "PrimaryResidence" PropertyRightsType = "FeeSimple">
+		<CONSTRUCTION_REFINANCE_DATA GSERefinancePurposeType = "NoCashOutOther"  PropertyAcquiredYear = "1995" PropertyExistingLienAmount = "100000.00" PropertyOriginalCostAmount = "100000.00" RefinanceImprovementCostsAmount = "5000.00" RefinanceImprovementsType = "ToBeMade"/>
+	</LOAN_PURPOSE>
+	<MORTGAGE_TERMS AgencyCaseIdentifier = "2812883060" BaseLoanAmount = "78000.00" LenderCaseIdentifier = "FREDDIE072501" LoanAmortizationTermMonths = "360" LoanAmortizationType = "Fixed" MortgageType = "Conventional" RequestedInterestRatePercent = "4.250"/>
+	<PROPERTY _StreetAddress = "9204 MARSH MOUNTAIN RD" _City = "PINSON" _State = "AL" _County = "Cook" _PostalCode = "35126" BuildingStatusType = "Existing" _FinancedNumberOfUnits = "1" _StructureBuiltYear = "1955" PlannedUnitDevelopmentIndicator = "N">
+	<_VALUATION>
+			<APPRAISER _CompanyName="ABC Appraisal Services" _Name="Joe Appraiser"/>
+			<EXTENSION_VALUATION AppraisalIdentifier=""></EXTENSION_VALUATION>
+		</_VALUATION>
+		<_CATEGORY _Type = "Detached"/>
+	</PROPERTY>
+	<PROPOSED_HOUSING_EXPENSE HousingExpenseType = "FirstMortgagePrincipalAndInterest" _PaymentAmount = "706.59"/>
+		<TRANSACTION_DETAIL EstimatedClosingCostsAmount = "4213.00" PrepaidItemsEstimatedAmount = "462.06" PurchasePriceAmount = "86000" SalesConcessionAmount = "0.00" FREReservesAmount = "27274.94" MIAndFundingFeeFinancedAmount = "" SubordinateLienAmount = "0" SubordinateLienHELOCAmount = "" >
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "3500.00"/>        
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "78.00"/>        
+			<PURCHASE_CREDIT _SourceType = "PropertySeller" _Amount = "100.01"/>        
+			<PURCHASE_CREDIT _SourceType = "Lender" _Amount = "120.00"/>        
+			<PURCHASE_CREDIT _Type = "RelocationFunds" _Amount = "130.00"/>        
+			<PURCHASE_CREDIT _Type = "EmployerAssistedHousing" _Amount = "150.00"/>        
+			<PURCHASE_CREDIT _Type = "LeasePurchaseFund" _Amount = "175.00"/>        
+			<PURCHASE_CREDIT _Type = "Other" _Amount = "201.00"/>        
+			<PURCHASE_CREDIT _SourceType = "BorrowerPaidOutsideClosing" _Amount = "250.00"/>        
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "3501.01"/>        
+			<PURCHASE_CREDIT _Type = "EarnestMoney" _Amount = "79.00"/>        
+			<PURCHASE_CREDIT _SourceType = "PropertySeller" _Amount = "101.00"/>        
+			<PURCHASE_CREDIT _SourceType = "Lender" _Amount = "121.00"/>        
+			<PURCHASE_CREDIT _Type = "RelocationFunds" _Amount = "131.00"/>        
+			<PURCHASE_CREDIT _Type = "EmployerAssistedHousing" _Amount = "151.00"/>        
+			<PURCHASE_CREDIT _Type = "LeasePurchaseFund" _Amount = "176.00"/>        
+			<PURCHASE_CREDIT _Type = "Other" _Amount = "201.00"/>        
+			<PURCHASE_CREDIT _SourceType = "BorrowerPaidOutsideClosing" _Amount = "251.00"/>      
+		</TRANSACTION_DETAIL>  
+	<BORROWER _LastName = "MORRIS" _SSN = "148253001" BorrowerID = "B1" _FirstName = "CHARLES" _HomeTelephoneNumber = "7032731234" _PrintPositionType = "Borrower" JointAssetLiabilityReportingType = "NotJointly" MaritalStatusType = "Unmarried" SchoolingYears = "16" _BirthDate = "19770101" _MiddleName = "C">
+		<_RESIDENCE _StreetAddress = "14262 Wittington Court" _City = "Orland Park" _State = "NC" _PostalCode = "28311" BorrowerResidencyBasisType = "Own" BorrowerResidencyDurationYears = "1" BorrowerResidencyType = "Current"/>
+		<_RESIDENCE _StreetAddress = "5561 Openridge" _City = "Fayetteville" _State = "IL" _PostalCode = "60462" BorrowerResidencyBasisType = "Own" BorrowerResidencyDurationYears = "1" BorrowerResidencyType = "Prior"/>
+		<CURRENT_INCOME IncomeType = "Base" _MonthlyTotalAmount = "5800.00"/>
+        <CURRENT_INCOME IncomeType = "Commissions" _MonthlyTotalAmount = "250.00"/> 
+        <CURRENT_INCOME IncomeType = "Bonus" _MonthlyTotalAmount = "250.00"/> 
+        <CURRENT_INCOME IncomeType = "Overtime" _MonthlyTotalAmount = "250.00"/>        
+		<DECLARATION AlimonyChildSupportObligationIndicator = "N" BankruptcyIndicator = "N" BorrowedDownPaymentIndicator = "N" CitizenshipResidencyType = "USCitizen" CoMakerEndorserOfNoteIndicator = "N" HomeownerPastThreeYearsType = "Yes" IntentToOccupyType = "Yes" LoanForeclosureOrJudgementIndicator = "N" OutstandingJudgementsIndicator = "N" PartyToLawsuitIndicator = "N" PresentlyDelinquentIndicator = "Y" PriorPropertyTitleType = "Sole" PriorPropertyUsageType = "PrimaryResidence" PropertyForeclosedPastSevenYearsIndicator = "N"/>
+		<EMPLOYER _Name = "Georgetown University" _StreetAddress = "1000 Georgetown University" _City = "Washington" _State = "DC" _PostalCode = "20008" _TelephoneNumber = "2025554563" CurrentEmploymentMonthsOnJob = "2" CurrentEmploymentTimeInLineOfWorkYears = "2" CurrentEmploymentYearsOnJob = "2" EmploymentBorrowerSelfEmployedIndicator = "N" EmploymentCurrentIndicator = "Y" EmploymentPositionDescription = "Admissions Officer" EmploymentPrimaryIndicator = "Y"/>
+		<EMPLOYER CurrentEmploymentMonthsOnJob="6" CurrentEmploymentTimeInLineOfWorkYears="5" CurrentEmploymentYearsOnJob="1" EmploymentBorrowerSelfEmployedIndicator="N" EmploymentCurrentIndicator="Y" EmploymentPositionDescription="Manager" EmploymentPrimaryIndicator="N" _City="Sterling" _Name="The Big Company" _PostalCode="20165" _State="VA" _StreetAddress="1000 Maple Avenue" _TelephoneNumber="7035553698" IncomeEmploymentMonthlyAmount=""/>
+		<FHA_VA_BORROWER/>
+		<GOVERNMENT_MONITORING GenderType = "Female" HMDAEthnicityType = "HispanicOrLatino" RaceNationalOriginRefusalIndicator = "N">
+			<HMDA_RACE _Type = "White"/>
+		</GOVERNMENT_MONITORING>
+		<PRESENT_HOUSING_EXPENSE HousingExpenseType = "FirstMortgagePrincipalAndInterest" _PaymentAmount = "1000.00"/>
+	</BORROWER>
+	<LOAN_ORIGINATION_SYSTEM _VendorIdentifier = "444444" _VersionIdentifier = "TEST CASE 6"/>
+	<EXTENSION_LOAN_APPLICATION FRELoanProspectorVersionIdentifier = "4.2">
+		<FUNCTION_REQUEST _Type = "ServiceRequest"/>
+		<SERVICE_REQUEST _Description = "OrderAUS"/>
+		<FRE_REQUESTING_PARTY SellerServicerNumber = "000601" Password = "20R39H11"/>
+	</EXTENSION_LOAN_APPLICATION>
+</LOAN_APPLICATION>

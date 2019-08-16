@@ -1,0 +1,50 @@
+{
+	"sourceApplicationName": "LPA",
+	"loanIdentifications": {
+		"loanIdentification": [
+			{
+				"loanIdentifier": "1234",
+				"loanIdentifierType": "LoanProspectorKey"
+			},
+			{
+				"loanIdentifier": "001",
+				"loanIdentifierType": "LoanProspectorTransaction"
+			}
+		]
+	},
+	"parties": {
+		"party": [
+			{
+				"partyIdentifier": "123456",
+				"partyRoleType": "SELLER"
+			}
+		]
+	},
+	"address": {
+		"addressLineText": "1 FRED AVE",
+		"postalCode": "44444"
+	},
+	"alternateAppraisalDecisionData": {
+		"alternateAppraisalDecisionStatusType": "Current",
+		"alternateAppraisalEligibilityDecision": "Eligible"
+	},
+	"propertyValuationData": {
+		"propertyValuationAmount": 175,
+		"loanProcessingStageType": "ApplicationProcessing"
+	},
+	"homeValueExplorerDataContainer": {
+		"homeValueExplorerData": [
+			{
+				"propertyAppraiserValuationContainer": {
+					"homeValueExplorerMidPointValueEstimateAmount": 150
+				}
+			},
+			{
+				"propertyAppraiserValuationContainer": {
+					"homeValueExplorerMidPointValueEstimateAmount": 150,
+					"homeValueExplorerOptionType": "HVEFeedback"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,5 @@
+2019-08-15 20:47:19 INFO  ClassPathXmlApplicationContext:581 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@44c8afef: startup date [Thu Aug 15 20:47:19 EDT 2019]; root of context hierarchy
+2019-08-15 20:47:19 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2019-08-15 20:47:20 INFO  PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [driver.properties]
+2019-08-15 20:47:20 INFO  WebDriverFactory:44 - Initiating driver factory - 1
+2019-08-15 20:47:20 INFO  ClassPathXmlApplicationContext:982 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@44c8afef: startup date [Thu Aug 15 20:47:19 EDT 2019]; root of context hierarchy

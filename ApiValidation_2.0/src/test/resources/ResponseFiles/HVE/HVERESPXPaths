@@ -1,0 +1,284 @@
+Parent Node: ns2:HVSResponse
+//ns2:HVSResponse
+
+	
+//ns2:HVSResponse/ns2:ResponseDateTime
+//ns2:HVSResponse/ns2:ServiceRequestContainer
+//ns2:HVSResponse/ns2:HVSResponseContainers
+Parent Node: ns2:ResponseDateTime
+//ns2:HVSResponse/ns2:ResponseDateTime
+2018-09-19T13:23:10.312-04:00
+	
+Parent Node: ns2:ServiceRequestContainer
+//ns2:HVSResponse/ns2:ServiceRequestContainer
+
+		
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest
+Parent Node: ServiceRequest
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest
+
+			
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ClientSchemaVersionIdentifier
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/SchemaVersionIdentifier
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/RequestorIdentifier
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ServiceName
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestDateTime
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestOperationName
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/SubscriberRequestCorrelationIdentifier
+Parent Node: ClientSchemaVersionIdentifier
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ClientSchemaVersionIdentifier
+1.0
+Parent Node: SchemaVersionIdentifier
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/SchemaVersionIdentifier
+1.0
+Parent Node: RequestorIdentifier
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/RequestorIdentifier
+ACEAPI
+Parent Node: ServiceName
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ServiceName
+HVSWS
+Parent Node: ServiceRequestDateTime
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestDateTime
+2018-09-19T13:23:10.088-04:00
+			
+Parent Node: ServiceRequestOperationName
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/ServiceRequestOperationName
+GetHVSData
+Parent Node: SubscriberRequestCorrelationIdentifier
+//ns2:HVSResponse/ns2:ServiceRequestContainer/ServiceRequest/SubscriberRequestCorrelationIdentifier
+rrt-0ab826674287c65c8-d-ea-20031-3326242-5
+			
+Parent Node: ns2:HVSResponseContainers
+//ns2:HVSResponse/ns2:HVSResponseContainers
+
+		
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer
+Parent Node: ns2:HVSResponseContainer
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer
+
+			
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSTransactionIdentifier
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:BillingType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:FDRVersion
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation
+Parent Node: ns2:AlternativeLoanIdentifications
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:AlternativeLoanIdentifications
+null
+Parent Node: ns2:HVSTransactionIdentifier
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSTransactionIdentifier
+9590487
+Parent Node: ns2:BillingType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:BillingType
+NotApplicable
+Parent Node: ns2:FDRVersion
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:FDRVersion
+2018.02
+Parent Node: ns2:HVSValuation
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation
+
+				
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer
+Parent Node: ns2:Address
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address
+
+					
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:AddressLineText
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:CityName
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:FIPSStateAlphaCode
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:PostalCode
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:ZIPPlusFourCode
+Parent Node: ns2:AddressLineText
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:AddressLineText
+14576 BERKLEE DR
+Parent Node: ns2:CityName
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:CityName
+ADDISON
+Parent Node: ns2:FIPSStateAlphaCode
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:FIPSStateAlphaCode
+TX
+Parent Node: ns2:PostalCode
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:PostalCode
+75001
+Parent Node: ns2:ZIPPlusFourCode
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:Address/ns2:ZIPPlusFourCode
+3532
+Parent Node: ns2:AVMValuations
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations
+
+					
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation
+Parent Node: ns2:AVMValuation
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation
+
+						
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMConfidenceScoreValue
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMHighValueRangeAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMIndexType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMLowValueRangeAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMModelNameType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMMethodType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMValueAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:HVEStandardDeviationNumber
+Parent Node: ns2:AVMConfidenceScoreValue
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMConfidenceScoreValue
+H
+Parent Node: ns2:AVMHighValueRangeAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMHighValueRangeAmount
+306991
+Parent Node: ns2:AVMIndexType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMIndexType
+WeightedRepeatSalesIndex
+Parent Node: ns2:AVMLowValueRangeAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMLowValueRangeAmount
+269567
+Parent Node: ns2:AVMModelNameType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMModelNameType
+HomeValueExplorer
+Parent Node: ns2:AVMMethodType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMMethodType
+RepeatSalesModel
+Parent Node: ns2:AVMValueAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMValueAmount
+283396
+Parent Node: ns2:HVEStandardDeviationNumber
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:HVEStandardDeviationNumber
+0.06
+						
+Parent Node: ns2:AVMValuation
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation
+
+						
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMIndexType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMModelNameType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMMethodType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMValueAmount
+Parent Node: ns2:AVMIndexType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMIndexType
+WeightedRepeatSalesIndex
+Parent Node: ns2:AVMModelNameType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMModelNameType
+HomeValueExplorer
+Parent Node: ns2:AVMMethodType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMMethodType
+RepeatSalesModel
+Parent Node: ns2:AVMValueAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:AVMValuations/ns2:AVMValuation/ns2:AVMValueAmount
+283396
+Parent Node: ns2:PropertyInspectionWaiverContainer
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer
+
+					
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer
+Parent Node: ns2:PropertyInspectionWaiverResult
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult
+
+						
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:ActiveMLSListingIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:AppraisalCompletionAsIsIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:AppraisalExistenceIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:ARMsLengthContractIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:DaysOnMarketIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:DistressedIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:HighestBestUseIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:LegalityIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:MissingDataIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:MultipleListingIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:NeighborhoodConformityIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PhysicalDeficiencyIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PriceGrowthThresholdAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PropertyAgeCount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PropertyConditionIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PublicRecordExistenceIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:QualityAgeIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:QualityIndicator
+Parent Node: ns2:ActiveMLSListingIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:ActiveMLSListingIndicator
+true
+						
+Parent Node: ns2:AppraisalCompletionAsIsIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:AppraisalCompletionAsIsIndicator
+true
+						
+Parent Node: ns2:AppraisalExistenceIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:AppraisalExistenceIndicator
+true
+						
+Parent Node: ns2:ARMsLengthContractIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:ARMsLengthContractIndicator
+true
+						
+Parent Node: ns2:DaysOnMarketIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:DaysOnMarketIndicator
+true
+Parent Node: ns2:DistressedIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:DistressedIndicator
+true
+Parent Node: ns2:HighestBestUseIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:HighestBestUseIndicator
+true
+Parent Node: ns2:LegalityIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:LegalityIndicator
+true
+Parent Node: ns2:MissingDataIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:MissingDataIndicator
+true
+Parent Node: ns2:MultipleListingIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:MultipleListingIndicator
+true
+Parent Node: ns2:NeighborhoodConformityIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:NeighborhoodConformityIndicator
+true
+						
+Parent Node: ns2:PhysicalDeficiencyIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PhysicalDeficiencyIndicator
+true
+						
+Parent Node: ns2:PriceGrowthThresholdAmount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PriceGrowthThresholdAmount
+287671
+						
+Parent Node: ns2:PropertyAgeCount
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PropertyAgeCount
+10
+Parent Node: ns2:PropertyConditionIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PropertyConditionIndicator
+true
+						
+Parent Node: ns2:PublicRecordExistenceIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:PublicRecordExistenceIndicator
+true
+						
+Parent Node: ns2:QualityAgeIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:QualityAgeIndicator
+true
+Parent Node: ns2:QualityIndicator
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyInspectionWaiverResult/ns2:QualityIndicator
+true
+Parent Node: ns2:PropertyStructureAnalysisContainer
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer
+
+						
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysis
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysisDerivation
+Parent Node: PropertyStructureAnalysis
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysis
+
+							
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysis/StructureBuildingMaterialQualityRatingType
+Parent Node: StructureBuildingMaterialQualityRatingType
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysis/StructureBuildingMaterialQualityRatingType
+CustomExceptionalQualityDetailArchitecturePlans
+							
+Parent Node: PropertyStructureAnalysisDerivation
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysisDerivation
+
+							
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysisDerivation/StructureBuildingMaterialQualityRatingIdentifier
+Parent Node: StructureBuildingMaterialQualityRatingIdentifier
+//ns2:HVSResponse/ns2:HVSResponseContainers/ns2:HVSResponseContainer/ns2:HVSValuation/ns2:PropertyInspectionWaiverContainer/ns2:PropertyStructureAnalysisContainer/PropertyStructureAnalysisDerivation/StructureBuildingMaterialQualityRatingIdentifier
+1
+							

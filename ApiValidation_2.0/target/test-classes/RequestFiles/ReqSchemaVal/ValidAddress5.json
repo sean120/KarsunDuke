@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "2956 cashhel Le",
+        "cityName": "Viennaa",
+        "postalCode": "22181",
+        "stateCode": "DC"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 480000.00
+      }
+    }
+  ]
+}

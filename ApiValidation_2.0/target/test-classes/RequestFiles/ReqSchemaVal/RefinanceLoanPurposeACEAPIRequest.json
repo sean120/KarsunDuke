@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121898"
+  },
+  "deals": [
+    {
+      "address": {
+      "addressLineText": "2300 GRAND CYPRESS DR",
+        "cityName": "DALLAS",
+        "postalCode": "33559",
+        "stateCode": "CO"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 200000.00
+        }
+    }
+  ]
+}

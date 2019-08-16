@@ -1,0 +1,15 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "loanInformation": {
+        "loanPurposeType": "Purchase",
+        "propertyEstimatedValueAmount": 5533.00,
+        "salesContractAmount": 100000.12
+      }
+    }
+  ]
+}

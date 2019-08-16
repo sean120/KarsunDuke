@@ -1,0 +1,20 @@
+{
+  "party": {
+    "partyRoleType": "LoanSeller",
+    "partyRoleIdentifier": "121895"
+  },
+  "deals": [
+    {
+      "address": {
+        "addressLineText": "420 cleveland",
+        "cityName": "Enderliin",
+        "postalCode": "58027",
+        "stateCode": "MD"
+      },
+      "loanInformation": {
+        "loanPurposeType": "Refinance",
+        "propertyEstimatedValueAmount": 480000.00
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "loanDeliveryStructure": {
+    "loanDetails": {
+      "communicationFailureDerivedDetails": {
+        "rdsCommunicationFailureDerivation": {
+          "rdsCommunicationFailureType": "string"
+        }
+      },
+      "loanIdentifications": {
+        "loanIdentification": [
+          {
+            "loanIdentifier": "string",
+            "loanIdentifierType": "string"
+          }
+        ]
+      },
+      "loanPropertyCollaterals": {
+        "loanPropertyCollateralDetails": {
+          "loanPropertyCollateral": {
+            "financedUnitCount": 0
+          }
+        }
+      },
+      "loanStates": {
+        "loanStateDetails": [
+          {
+            "loanDetailInfo": {
+              "insurancePolicyDetails": {
+                "loanMI": {
+                  "miPremiumFinancedIndicator": "string"
+                }
+              },
+              "loan": {
+                "constructionLoanIndicator": "string",
+                "grandfatheringIndicator": "string",
+                "loanProcessingStageType": "PreQualification",
+                "loanPurposeType": "string",
+                "loanRefinanceCashOutDeterminationType": "string",
+                "mortgageType": "string"
+              },
+              "loanAcquisitionDetails": {
+                "loanAcquisition": {
+                  "loanConformityType": "string",
+                  "sellerAccountIdentifier": "string",
+                  "sellerLoanIdentifier": "string"
+                }
+              },
+              "loanApplicationDetails": {
+                "loanApplication": {
+                  "borrowerPropertyPurchasePriceAmount": 0,
+                  "loanApplicationBaseLoanAmount": 0,
+                  "loanApplicationIdentifier": "string",
+                  "miAndFundingFeeFinancedAmount": 0
+                }
+              },
+              "loanConversionRuleDetails": {
+                "loanConversionRule": {
+                  "constructionLoanType": "string"
+                }
+              },
+              "loanOriginationDetails": {
+                "loanOrigination": {
+                  "investorCollateralProgramType": "string",
+                  "loanOriginationSystemVersionIdentifier": "string",
+                  "loanPropertyUsageType": "string",
+                  "noteAmount": 0
+                },
+                "loanUnderwritingDecision": {
+                  "automatedUnderwritingSystemType": "string",
+                  "loanUnderwritingCaseIdentifier": "string",
+                  "loanUnderwritingDecisionDefaultProbabilityRate": "string"
+                }
+              },
+              "loanRiskAssessments": {
+                "loanRiskAssessmentDetails": {
+                  "creditRiskDerivation": [
+                    {
+                      "derivationRiskClassType": "string",
+                      "derivedCalculationSourceType": "string",
+                      "strategicOfferingCreditRiskType": "string"
+                    }
+                  ],
+                  "loanCollateralRiskAssessments": {
+                    "loanCollateralRiskAssessmentDetails": [
+                      {
+                        "loanCollateralRiskAssessment": {
+                          "loanScopeType": "string",
+                          "ltvRatioPercent": 0,
+                          "ltvSourceType": "string"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "programs": [
+                {
+                  "program": {
+                    "programType": "string",
+                    "refinanceProgramType": "string"
+                  }
+                }
+              ]
+            },
+            "loanState": {
+              "loanStateDate": "string",
+              "loanStateType": "string"
+            }
+          }
+        ]
+      },
+      "partyRoles": {
+        "partyRole": [
+          {
+            "partyRoleIdentifier": "string",
+            "partyRoleType": "string"
+          }
+        ]
+      },
+      "productDetails": {
+        "productDefinition": {
+          "productDescription": "string",
+          "productIdentifier": "string",
+          "productType": "string"
+        }
+      },
+      "propertyDetails": {
+        "addressDetails": [
+          {
+            "address": {
+              "FIPSCountyThreeDigitCode": "string",
+              "FIPSStateNumericCode": "string",
+              "addressLineText": "123 Main Street",
+              "addressMatchLevelType": "string",
+              "addressSourceType": "string",
+              "addressUnitDesignatorType": "string",
+              "addressUnitIdentifier": "string",
+              "carrierRouteType": "string",
+              "censusTractBaseIdentifier": "string",
+              "cityName": "LalaLand",
+              "coreBasedStatisticalAreaCode": "string",
+              "highwayContractIdentifier": "string",
+              "latitudeNumber": "string",
+              "longitudeNumber": "string",
+              "postOfficeBoxIdentifier": "string",
+              "postalCode": 12345,
+              "ruralRouteIdentifier": "string",
+              "stateCode": "VA",
+              "streetName": "string",
+              "streetPostDirectionalText": "string",
+              "streetPreDirectionalText": "string",
+              "streetPrimaryNumberText": "string",
+              "streetSuffixText": "string",
+              "zipPlusFourCode": "string"
+            }
+          }
+        ],
+        "property": {
+          "propertyCategoryType": "string",
+          "propertyOccupancyType": "string"
+        },
+        "propertyAssessment": {
+          "propertyAssessmentSourceType": "string"
+        },
+        "propertyRights": {
+          "propertyRightsType": "string"
+        },
+        "propertyTitles": {
+          "propertyEstateType": "string"
+        },
+        "propertyValuations": {
+          "appraisal": {
+            "appraisalIdentifier": "string"
+          },
+          "propertyValuationDetails": [
+            {
+              "propertyValuation": [
+                {
+                  "propertyIdentifier": 0,
+                  "propertyValuationAmount": 0,
+                  "propertyValuationEffectiveDateTime": "string",
+                  "propertyValuationMethodType": "string",
+                  "propertyValuationSequenceNumber": "string",
+                  "propertyValuationType": "string"
+                }
+              ]
+            }
+          ]
+        },
+        "realEstateProject": {
+        	
+          "projectAttachmentType": "string",
+          "projectClassificationType": "string",
+          "projectLegalStructureType": "string"
+        },
+        "structureDetails": {
+          "structure": {
+            "constructionMethodType": "string"
+          }
+        }
+      }
+    }
+  },
+  "serviceRequestDetails": {
+    "serviceName": "string",
+    "serviceRequestOperationName": "string",
+    "subscriberIdentifier": "string",
+    "subscriberRequestCorrelationIdentifier": "string"
+  }
+}

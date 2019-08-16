@@ -1,0 +1,112 @@
+{
+  "_id" : {
+    "$numberLong" : "927204975081"
+  },
+  "lastModifiedDate" : {
+    "$date" : 1559852668404
+  },
+  "transactionContext" : {
+    "_id" : {
+      "$numberLong" : "927204975081"
+    },
+    "syntheticTransaction" : "false"
+  },
+  "automatedCollateralEvaluationRequest" : {
+    "serviceRequestDetails" : {
+      "serviceName" : "ACEAPIRequest",
+      "serviceRequestOperationName" : "evaluateAppraisalAlternative",
+      "subscriberRequestCorrelationIdentifier" : "5010901702",
+      "subscriberIdentifier" : "LPAv2"
+    },
+    "loanDeliveryStructure" : {
+      "loanDetails" : {
+        "loanIdentifications" : {
+          "loanIdentification" : [ {
+            "loanIdentifier" : "1559852657-1002",
+            "loanIdentifierType" : "LoanProspectorKey"
+          }, {
+            "loanIdentifier" : "5752302",
+            "loanIdentifierType" : "LoanProspectorUniqueLoan"
+          }, {
+            "loanIdentifier" : "5010901702",
+            "loanIdentifierType" : "LoanProspectorTransaction"
+          } ]
+        },
+        "loanPropertyCollaterals" : {
+          "loanPropertyCollateralDetails" : {
+            "loanPropertyCollateral" : {
+              "financedUnitCount" : {
+                "$numberLong" : "1"
+              }
+            }
+          }
+        },
+        "loanDetailInfo" : {
+          "loan" : {
+            "constructionLoanIndicator" : "false",
+            "loanPurposeType" : "Purchase",
+            "loanProcessingStageType" : "ApplicationProcessing",
+            "loanRefinanceCashOutDeterminationType" : "NoCashOut",
+            "mortgageType" : "Conventional",
+            "grandfatheringIndicator" : "Yes"
+          },
+          "loanAcquisitionDetails" : {
+            "loanAcquisition" : {
+              "sellerAccountIdentifier" : "000601"
+            }
+          },
+          "loanApplicationDetails" : {
+            "loanApplication" : {
+              "borrowerPropertyPurchasePriceAmount" : 320000.0
+            }
+          },
+          "loanRiskAssessments" : {
+            "loanRiskAssessmentDetails" : {
+              "loanCollateralRiskAssessments" : {
+                "loanCollateralRiskAssessmentDetails" : [ {
+                  "loanCollateralRiskAssessment" : {
+                    "loanScopeType" : "Combined",
+                    "ltvRatioPercent" : 45.0,
+                    "ltvSourceType" : "FreddieMacCalculated"
+                  }
+                } ]
+              },
+              "creditRiskDerivation" : [ {
+                "derivedCalculationSourceType" : "HP",
+                "strategicOfferingCreditRiskType" : "Accept",
+                "derivationRiskClassType" : "FinalCreditRiskClass"
+              } ]
+            }
+          },
+          "programs" : [ ]
+        },
+        "propertyDetails" : {
+          "addressDetails" : {
+            "address" : [ {
+              "addressLineText" : "37 PARK AVE",
+              "addressMatchLevelType" : "ExactMatch",
+              "cityName" : "LAKE RONKONKOMA",
+              "postalCode" : "11779",
+              "stateCode" : "NY",
+              "geocodingIndicator" : "true"
+            } ]
+          },
+          "propertyValuations" : {
+            "propertyValuationDetails" : {
+              "propertyValuation" : [ {
+                "propertyIdentifier" : {
+                  "$numberLong" : "1"
+                },
+                "propertyValuationAmount" : 320000.0,
+                "propertyValuationMethodType" : "PropertyPresentValuation",
+                "propertyValuationType" : "Subsequent",
+                "propertyValuationSequenceNumber" : "5"
+              } ]
+            }
+          }
+        },
+        "singleFamilyLoanBorrower" : [ ]
+      }
+    }
+  }
+}
