@@ -15,7 +15,7 @@
 		<webdrivermanager.version>3.3.0</webdrivermanager.version>
 		<htmlunit.version>2.34.0</htmlunit.version>
 		<cuke.version>1.2.4</cuke.version>
-		<spring.version>4.3.2.RELEASE</spring.version>
+		<spring.version>5.2.7.RELEASE</spring.version>
 		<spring.batch.version>3.0.7.RELEASE</spring.batch.version>
 		<gson.version>2.7</gson.version>
 		<screenrecorder.version>0.7.7</screenrecorder.version>
