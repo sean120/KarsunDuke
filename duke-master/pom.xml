@@ -19,7 +19,7 @@
 		<spring.batch.version>3.0.7.RELEASE</spring.batch.version>
 		<gson.version>2.7</gson.version>
 		<screenrecorder.version>0.7.7</screenrecorder.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<commons.io.version>2.5</commons.io.version>
 		<aws.version>1.11.33</aws.version>
 		<axe.version>2.0</axe.version>
