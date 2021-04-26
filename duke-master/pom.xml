@@ -20,7 +20,7 @@
 		<gson.version>2.7</gson.version>
 		<screenrecorder.version>0.7.7</screenrecorder.version>
 		<junit.version>4.12</junit.version>
-		<commons.io.version>2.5</commons.io.version>
+		<commons.io.version>2.7</commons.io.version>
 		<aws.version>1.11.33</aws.version>
 		<axe.version>2.0</axe.version>
 		<pdfbox.version>2.0.4</pdfbox.version>
