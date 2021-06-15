@@ -23,7 +23,7 @@
 		<commons.io.version>2.5</commons.io.version>
 		<aws.version>1.11.33</aws.version>
 		<axe.version>2.0</axe.version>
-		<pdfbox.version>2.0.4</pdfbox.version>
+		<pdfbox.version>2.0.24</pdfbox.version>
 	</properties>
 	<dependencies>
 		<dependency>
